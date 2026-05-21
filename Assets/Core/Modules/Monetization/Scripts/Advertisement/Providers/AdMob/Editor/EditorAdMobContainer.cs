@@ -182,26 +182,26 @@ namespace ProjectP
         private void DrawAddUnitsSection()
         {
             EditorGUILayout.LabelField("Banner ID", groupStyle);
-            DrawIdProperty(androidBannerIdProperty, Watermelon.AdMobContainer.ANDROID_BANNER_TEST_ID);
-            DrawIdProperty(iOSBannerIdProperty, Watermelon.AdMobContainer.IOS_BANNER_TEST_ID);
+            DrawIdProperty(androidBannerIdProperty, ProjectP.AdMobContainer.ANDROID_BANNER_TEST_ID);
+            DrawIdProperty(iOSBannerIdProperty, ProjectP.AdMobContainer.IOS_BANNER_TEST_ID);
 
             EditorGUILayout.PropertyField(bannerTypeProperty);
             EditorGUILayout.PropertyField(bannerPositionProperty);
 
             EditorGUILayout.LabelField("Interstitial ID", groupStyle);
-            DrawIdProperty(androidInterstitialIdProperty, Watermelon.AdMobContainer.ANDROID_INTERSTITIAL_TEST_ID);
-            DrawIdProperty(iOSInterstitialIdProperty, Watermelon.AdMobContainer.IOS_INTERSTITIAL_TEST_ID);
+            DrawIdProperty(androidInterstitialIdProperty, ProjectP.AdMobContainer.ANDROID_INTERSTITIAL_TEST_ID);
+            DrawIdProperty(iOSInterstitialIdProperty, ProjectP.AdMobContainer.IOS_INTERSTITIAL_TEST_ID);
 
             EditorGUILayout.LabelField("Rewarded Video ID", groupStyle);
-            DrawIdProperty(androidRewardedVideoIdProperty, Watermelon.AdMobContainer.ANDROID_REWARDED_VIDEO_TEST_ID);
-            DrawIdProperty(iOSRewardedVideoIdProperty, Watermelon.AdMobContainer.IOS_REWARDED_VIDEO_TEST_ID);
+            DrawIdProperty(androidRewardedVideoIdProperty, ProjectP.AdMobContainer.ANDROID_REWARDED_VIDEO_TEST_ID);
+            DrawIdProperty(iOSRewardedVideoIdProperty, ProjectP.AdMobContainer.IOS_REWARDED_VIDEO_TEST_ID);
 
             EditorGUILayout.LabelField("App Open AD", groupStyle);
             EditorGUILayout.PropertyField(useAppOpenAdProperty);
             if (useAppOpenAdProperty.boolValue)
             {
-                DrawIdProperty(androidAppOpenAdIDProperty, Watermelon.AdMobContainer.ANDROID_OPEN_TEST_ID);
-                DrawIdProperty(iosAppOpenAdIDProperty, Watermelon.AdMobContainer.IOS_OPEN_TEST_ID);
+                DrawIdProperty(androidAppOpenAdIDProperty, ProjectP.AdMobContainer.ANDROID_OPEN_TEST_ID);
+                DrawIdProperty(iosAppOpenAdIDProperty, ProjectP.AdMobContainer.IOS_OPEN_TEST_ID);
             }
 
             EditorGUILayout.LabelField("Debug", EditorCustomStyles.labelMediumBold);
@@ -222,17 +222,17 @@ namespace ProjectP
 
             if (GUILayout.Button("Set test ids", EditorCustomStyles.button))
             {
-                androidBannerIdProperty.stringValue = Watermelon.AdMobContainer.ANDROID_BANNER_TEST_ID;
-                iOSBannerIdProperty.stringValue = Watermelon.AdMobContainer.IOS_BANNER_TEST_ID;
+                androidBannerIdProperty.stringValue = ProjectP.AdMobContainer.ANDROID_BANNER_TEST_ID;
+                iOSBannerIdProperty.stringValue = ProjectP.AdMobContainer.IOS_BANNER_TEST_ID;
 
-                androidInterstitialIdProperty.stringValue = Watermelon.AdMobContainer.ANDROID_INTERSTITIAL_TEST_ID;
-                iOSInterstitialIdProperty.stringValue = Watermelon.AdMobContainer.IOS_INTERSTITIAL_TEST_ID;
+                androidInterstitialIdProperty.stringValue = ProjectP.AdMobContainer.ANDROID_INTERSTITIAL_TEST_ID;
+                iOSInterstitialIdProperty.stringValue = ProjectP.AdMobContainer.IOS_INTERSTITIAL_TEST_ID;
 
-                androidRewardedVideoIdProperty.stringValue = Watermelon.AdMobContainer.ANDROID_REWARDED_VIDEO_TEST_ID;
-                iOSRewardedVideoIdProperty.stringValue = Watermelon.AdMobContainer.IOS_REWARDED_VIDEO_TEST_ID;
+                androidRewardedVideoIdProperty.stringValue = ProjectP.AdMobContainer.ANDROID_REWARDED_VIDEO_TEST_ID;
+                iOSRewardedVideoIdProperty.stringValue = ProjectP.AdMobContainer.IOS_REWARDED_VIDEO_TEST_ID;
 
-                androidAppOpenAdIDProperty.stringValue = Watermelon.AdMobContainer.ANDROID_OPEN_TEST_ID;
-                iosAppOpenAdIDProperty.stringValue = Watermelon.AdMobContainer.IOS_OPEN_TEST_ID;
+                androidAppOpenAdIDProperty.stringValue = ProjectP.AdMobContainer.ANDROID_OPEN_TEST_ID;
+                iosAppOpenAdIDProperty.stringValue = ProjectP.AdMobContainer.IOS_OPEN_TEST_ID;
             }
         }
 

@@ -140,7 +140,7 @@ namespace ProjectP
             IAPItem item = IAPManager.GetIAPItem(product.definition.id);
             if (item != null)
             {
-                IAPManager.OnPurchaseFailed(item.ProductKeyType, (Watermelon.PurchaseFailureReason)failureReason);
+                IAPManager.OnPurchaseFailed(item.ProductKeyType, (ProjectP.PurchaseFailureReason)failureReason);
             }
             else
             {
@@ -163,7 +163,7 @@ namespace ProjectP
             IAPItem item = IAPManager.GetIAPItem(product.definition.id);
             if (item != null)
             {
-                IAPManager.OnPurchaseFailed(item.ProductKeyType, (Watermelon.PurchaseFailureReason)failureDescription.reason);
+                IAPManager.OnPurchaseFailed(item.ProductKeyType, (ProjectP.PurchaseFailureReason)failureDescription.reason);
             }
             else
             {

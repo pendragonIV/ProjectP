@@ -25,11 +25,11 @@ namespace ProjectP
             new RegisteredDefine("MODULE_IDFA", "Unity.Advertisement.IosSupport.ATTrackingStatusBinding"),
 
             // Core
-            new RegisteredDefine("MODULE_MONETIZATION", "Watermelon.Monetization"),
+            new RegisteredDefine("MODULE_MONETIZATION", "ProjectP.Monetization"),
             new RegisteredDefine("MODULE_IAP", "UnityEngine.Purchasing.UnityPurchasing"),
-            new RegisteredDefine("MODULE_POWERUPS", "Watermelon.PUController"),
-            new RegisteredDefine("MODULE_HAPTIC", "Watermelon.Haptic"),
-            new RegisteredDefine("MODULE_CURVE", "Watermelon.CurvatureManager"),
+            new RegisteredDefine("MODULE_POWERUPS", "ProjectP.PUController"),
+            new RegisteredDefine("MODULE_HAPTIC", "ProjectP.Haptic"),
+            new RegisteredDefine("MODULE_CURVE", "ProjectP.CurvatureManager"),
 
             new RegisteredDefine("TEST", "NewBehaviourScript"),
         };

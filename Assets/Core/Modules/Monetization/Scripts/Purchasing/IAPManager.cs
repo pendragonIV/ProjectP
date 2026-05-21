@@ -176,7 +176,7 @@ namespace ProjectP
             OnPurchaseComplete?.Invoke(productKey);
         }
 
-        public static void OnPurchaseFailed(ProductKeyType productKey, Watermelon.PurchaseFailureReason failureReason)
+        public static void OnPurchaseFailed(ProductKeyType productKey, ProjectP.PurchaseFailureReason failureReason)
         {
             OnPurchaseFailded?.Invoke(productKey, failureReason);
         }
@@ -204,7 +204,7 @@ namespace ProjectP
         }
 
         public delegate void ProductCallback(ProductKeyType productKeyType);
-        public delegate void ProductFailCallback(ProductKeyType productKeyType, Watermelon.PurchaseFailureReason failureReason);
+        public delegate void ProductFailCallback(ProductKeyType productKeyType, ProjectP.PurchaseFailureReason failureReason);
     }
 }
 
