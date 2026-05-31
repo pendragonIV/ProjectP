@@ -1,0 +1,185 @@
+---
+id: "rule-unity-overview"
+name: "Tổng quan dự án Unity"
+description: "Tổng quan kiến trúc, cấu trúc thư mục và quy tắc Unity development"
+version: "1.0.0"
+alwaysApply: true
+enabled: true
+priority: 10
+tags: ["unity", "overview", "architecture"]
+globs: []
+excludeGlobs: []
+scope: "project"
+services: ["*"]
+appliesTo: ["code", "chat"]
+match: ""
+variables: {}
+rules: []
+examples: []
+references: []
+commands: []
+owners: ["devgo2003"]
+createdAt: "2025-01-06T00:00:00Z"
+updatedAt: "2025-01-06T00:00:00Z"
+notes: "Luôn nạp để định hướng tổng thể cho Unity development"
+language: vi
+---
+
+# Tổng quan dự án Unity
+
+Dự án Unity sử dụng kiến trúc component-based với các quy tắc chuẩn hóa để dễ quản lý và bảo trì.
+
+## 📋 Danh mục rule files
+
+### 1. Unity Script Standards (`unity-script-standards.md`)
+- Chuẩn hóa viết C# scripts cho Unity
+- Naming conventions, code structure
+- MonoBehaviour patterns và best practices
+- Performance optimization guidelines
+
+### 2. Unity Asset Standards (`unity-asset-standards.md`)
+- Quản lý assets (textures, models, audio)
+- Import settings và optimization
+- Asset organization và naming
+- Memory management
+
+### 3. Unity Performance Standards (`unity-performance-standards.md`)
+- Performance profiling và optimization
+- Memory management
+- Draw call optimization
+- Mobile performance guidelines
+
+### 4. Unity Testing Standards (`unity-testing-standards.md`)
+- Unit testing với Unity Test Framework
+- Integration testing
+- Performance testing
+- Automated testing workflows
+
+### 5. Unity Build Standards (`unity-build-standards.md`)
+- Build configuration cho các platforms
+- Build automation và CI/CD
+- Platform-specific optimizations
+- Distribution workflows
+
+### 6. Unity Debug Standards (`unity-debug-standards.md`)
+- Debug logging system với Interface pattern
+- Define symbols để control debug trong build
+- Tag format và naming conventions
+- Performance debugging guidelines
+
+### 7. Git Commit Standards (`git-commit-standards.md`)
+- Conventional Commits format
+- Commit types và usage guidelines
+- Best practices cho commit messages
+- Workflow và checklist
+
+### 8. MVP — Model View Presenter (`09_unity-mvp-pattern.mdc`)
+- Tách Model / View / Presenter cho UI và tính năng gameplay; View thụ động, Presenter điều phối.
+
+### 9. Đọc Docs trước khi làm tính năng (`10_feature-documentation-first.mdc`)
+- Bắt buộc đọc `Assets/Docs/PROJECT_STRUCTURE.md`, rồi đối chiếu doc feature tương ứng.
+
+### 10. Đồng bộ Docs khi làm/sửa tính năng (`11_feature-documentation-sync.mdc`)
+- Tạo/cập nhật tài liệu trong `Assets/Docs/`; nếu thiếu doc feature thì tạo mới folder feature + `FEATURE_SPEC.md`.
+
+## 📘 Chuẩn tài liệu dự án (bắt buộc)
+
+- Tài liệu cấu trúc tổng: `Assets/Docs/PROJECT_STRUCTURE.md`
+- Tài liệu theo tính năng: `Assets/Docs/Features/<FeatureName>/FEATURE_SPEC.md`
+- Mọi thay đổi code về sau đều phải dựa theo 2 lớp tài liệu trên.
+
+## 🎯 Mục tiêu chung
+- Chuẩn hóa code structure và naming conventions
+- Tối ưu hóa performance và memory usage
+- Đồng nhất cách viết scripts và quản lý assets
+- Tối ưu workflow phát triển và build
+- Đảm bảo code quality và maintainability
+
+## 🏗️ Cấu trúc Unity Project
+
+### Danh sách thư mục chuẩn
+
+| Thư mục | Mục đích | Quy tắc đặt tên |
+|---------|----------|-----------------|
+| **Scripts/** | C# scripts | PascalCase cho folders |
+| **Art/** | 2D/3D assets | PascalCase cho folders |
+| **Audio/** | Sound files | PascalCase cho folders |
+| **Scenes/** | Unity scenes | PascalCase cho files |
+| **Prefabs/** | Prefab assets | PascalCase cho files |
+| **Resources/** | Runtime assets | PascalCase cho folders |
+| **StreamingAssets/** | Platform assets | PascalCase cho folders |
+
+### Kiến trúc module (đề xuất)
+
+```
+Assets/
+├─ _Core/                 # Hạ tầng chung, feature-agnostic
+│  ├─ DI/                 # ServiceContainer, CompositionRoot
+│  ├─ Events/             # EventBus, event types
+│  ├─ TimeInput/          # TimeService, InputService
+│  ├─ SceneFlow/          # SceneLoader, Transition
+│  ├─ SaveData/           # SaveService, IDataStore
+│  ├─ Tick/               # TickManager, ITickable
+│  ├─ Pooling/            # ObjectPool<T>, AudioPool
+│  ├─ Audio/              # AudioService
+│  ├─ UI/                 # UI stack cơ bản
+│  └─ Utils/              # Extensions, Math, Collections
+├─ _Game/                 # Domain/gameplay cụ thể của dự án
+│  ├─ Scripts/
+│  ├─ Data/
+│  ├─ Prefabs/Scenes/...
+├─ _Features/             # Module tái sử dụng (Shop, Daily, Popup…)
+└─ Plugins/               # Bên thứ 3
+```
+
+### Biên giới phụ thuộc
+- `_Core` không phụ thuộc `_Game` hay `_Features`.
+- `_Features` chỉ phụ thuộc `_Core` (không phụ thuộc `_Game`).
+- `_Game` có thể dùng `_Core` và `_Features`.
+
+### Assembly Definitions (asmdef)
+- Tạo: `_Core/_Core.asmdef`, `_Features/_Features.asmdef`, `_Game/_Game.asmdef`.
+- Mỗi module con (vd `Events`, `Tick`) có thể có asmdef riêng nếu cần isolation.
+- Rule tham chiếu: `_Game` → `_Core`, `_Features`; `_Features` → `_Core`; `_Core` → không tham chiếu module khác.
+
+### Checklist migration khỏi Service Locator
+1. Khoanh vùng nơi gọi global (vd `Core.GameManager`).
+2. Tạo `CompositionRoot` đăng ký services qua `ServiceContainer`.
+3. Tiêm dependencies qua constructor/serialized reference thay vì truy cập global.
+4. Di chuyển Update rải rác sang `TickManager` tập trung.
+5. Viết test smoke, gỡ dần usage cũ rồi xóa hẳn global.
+
+### Quy tắc đặt tên
+
+#### C# Scripts
+- **Classes**: PascalCase (PlayerController, GameManager)
+- **Methods**: PascalCase (MovePlayer, UpdateHealth)
+- **Fields**: camelCase (có [SerializeField]) hoặc m_ prefix (không [SerializeField])
+- **Properties**: PascalCase (Health, IsAlive)
+- **Constants**: UPPER_CASE (MAX_HEALTH, DEFAULT_SPEED)
+- **Events**: PascalCase (OnPlayerDied, OnScoreChanged)
+
+#### Unity Assets
+- **Scenes**: PascalCase (MainMenu, GameLevel01)
+- **Prefabs**: PascalCase (Player, Enemy_Spider)
+- **Materials**: PascalCase (Player_Material, Ground_Texture)
+- **Textures**: snake_case (player_idle, enemy_walk)
+- **Audio**: snake_case (jump_sound, background_music)
+
+## 📚 Cách sử dụng
+1. Phát triển scripts: xem `unity-script-standards.md`
+2. Quản lý assets: xem `unity-asset-standards.md`
+3. Tối ưu performance: xem `unity-performance-standards.md`
+4. Testing: xem `unity-testing-standards.md`
+5. Build và deploy: xem `unity-build-standards.md`
+6. Debug và logging: xem `unity-debug-standards.md`
+7. Git commits: xem `git-commit-standards.md`
+
+## 🔄 Cập nhật quy tắc
+1. Sửa file rule tương ứng
+2. Cập nhật file này nếu thay đổi cấu trúc
+3. Commit và push theo workflow đã quy định
+
+---
+
+Lưu ý: Tất cả rule có `alwaysApply: true` để tự động áp dụng cho toàn bộ Unity project.

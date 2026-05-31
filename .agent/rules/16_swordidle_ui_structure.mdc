@@ -1,0 +1,62 @@
+---
+id: "rule-swordidle-ui-structure"
+name: "SwordIdle UI Structure & Implementation"
+description: "Cấu trúc hệ thống UI của SwordIdle (Top Bar, Inventory, Utility, Navigation) tuân thủ kiến trúc MVP và Zero GC."
+version: "1.0.0"
+alwaysApply: true
+enabled: true
+priority: 23
+tags: ["unity", "ui", "architecture", "swordidle"]
+globs: ["**/*View.cs", "**/*Presenter.cs", "**/UI/**/*.cs"]
+excludeGlobs: ["**/Plugins/**", "**/Editor/**"]
+scope: "project"
+services: ["*"]
+appliesTo: ["code", "chat"]
+match: ""
+variables: {}
+rules: []
+examples: []
+references: ["09_unity-mvp-pattern.mdc", "03_unity-performance-standards.mdc"]
+commands: []
+owners: ["devgo2003"]
+createdAt: "2026-05-21T00:00:00Z"
+updatedAt: "2026-05-21T00:00:00Z"
+notes: "Tài liệu cấu trúc UI cụ thể của SwordIdle, định nghĩa các Layer và cách bind data."
+language: vi
+---
+
+# Cấu trúc UI của SwordIdle
+
+## 1. Phân Lớp Canvas (Canvas Layers)
+SwordIdle UI được chia thành các Canvas riêng biệt để tránh rebuild toàn bộ màn hình khi một thành phần nhỏ thay đổi (Tối ưu Draw Call & Canvas Rebuild):
+- **GameHUDCanvas**: Chứa các thông tin hiển thị thay đổi liên tục (Gold, Level, Stage, HP).
+- **InventoryCanvas**: Chứa khung lưới vũ khí, nút Summon. Ít thay đổi hơn, chủ yếu khi merge/summon.
+- **UtilityCanvas** / **HUDCanvas**: Chứa các nút Auto (Auto Merge, Speed Potion) và các nút phụ (Dungeon).
+- **BottomNavCanvas**: Thanh điều hướng dưới đáy màn hình (ít khi thay đổi).
+
+## 2. Quy chuẩn MVP cho từng khối UI
+
+Mỗi khối UI phải tuân thủ chuẩn `09_unity-mvp-pattern.mdc` (Passive View):
+
+### Top Bar (Resource & Progression)
+- **Model/System**: `EconomyManager`, `LevelProgressionManager`.
+- **View**: `ResourceHUDView`, `StageHUDView`, `PlayerLevelHUDView`. Chỉ chứa hàm `UpdateText(string)` hoặc `UpdateFill(float)`. Không xử lý format string tại đây nếu tốn GC.
+- **Presenter**: `ResourceHUDPresenter`, `StageHUDPresenter`.
+  - Đăng ký `EventBus` (VD: `GoldChangedEvent`) và dùng `EventBindingGroup` để dọn dẹp.
+  - Lấy dữ liệu từ `GameServicesHost.Instance.GetService<IEconomyManager>()`.
+  - Format dữ liệu (dùng StringBuilder nếu cần) rồi đẩy xuống View.
+
+### Inventory Grid & Summon
+- **Model/System**: `WeaponInventorySystem` (chứa mảng SlotData).
+- **View**: `WeaponSlotView` (1 ô lưới), `WeaponInventoryView` (chứa lưới Main và Reserve).
+- **Presenter**: `WeaponInventoryPresenter`. Nhận event `InventoryChangedEvent`, vòng lặp cập nhật các `WeaponSlotView`.
+- **Summon**: `WeaponSummonPresenter` bắt sự kiện OnClick từ `WeaponSummonView`, check tiền từ `EconomyManager`, gọi `WeaponInventorySystem.Summon()`.
+
+### Bottom Navigation
+- **View**: `BottomNavView` (chứa các nút tab).
+- **Presenter**: `BottomNavPresenter`. Chuyển đổi trạng thái Active của các Panel (Swords, Skills, Pet...) khi View phát event.
+
+## 3. Ràng buộc Hiệu năng (Performance Constraints)
+- **Zero GC on Text Update**: Khi thanh HP của quái thay đổi liên tục, tuyệt đối không dùng `hp.ToString()` mỗi frame trong View. Sử dụng các thư viện Text tối ưu (nếu có) hoặc chỉ cập nhật khi số lượng thay đổi đáng kể.
+- **Sự kiện UI (OnClick)**: Khuyến khích dùng event của UniRx hoặc C# `event Action` cục bộ giữa View và Presenter thay vì gửi qua Global `EventBus` để tránh rác bộ nhớ.
+- **Quản lý EventBus Subscription**: Bắt buộc sử dụng `EventBindingGroup` trong Presenter để `.AddTo()` các subscription, sau đó gọi `Dispose()` ở `OnDisable()` để chống Memory Leak.

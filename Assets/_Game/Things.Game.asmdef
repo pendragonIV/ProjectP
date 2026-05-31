@@ -1,0 +1,19 @@
+{
+    "name": "Things.Game",
+    "rootNamespace": "Things.Game",
+    "references": [
+        "Things.Core",
+        "Unity.AI.Navigation",
+        "Unity.Netcode.Runtime",
+        "Unity.Netcode.Components"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

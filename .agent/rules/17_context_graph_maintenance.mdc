@@ -1,0 +1,21 @@
+---
+description: Rule to maintain the context graph and architecture documentation automatically.
+globs: *.cs, *.md
+---
+# Context Graph & Project Brain Maintenance
+
+## Why
+This project uses a Context Graph (`.agent/context_graph.js`) as the **Project's Brain** to maintain a high-level overview of the architecture, dependencies, and code complexity hotspots. It is CRITICAL that this graph is always up-to-date with the actual codebase, and that architectural documentation reflects this reality.
+
+## When
+- You create, modify, or delete ANY C# script (classes, interfaces, methods, fields).
+- You change the dependencies between systems.
+- You complete a coding task.
+
+## How (The Perpetual Brain Loop)
+1. **Regenerate the Graph:** IMMEDIATELY after any code changes are saved and successfully compiled, you MUST call the MCP Tool `context-graph-generate` (`ContextGraphModifierSkill.GenerateFullGraph`). This will invoke the C# reflection generator to scan the entire project and output a fresh `.agent/context_graph.js`.
+2. **Review the Impact:** You MUST read the generated `.agent/context_graph.js` to observe the newly updated architecture and complexity scores. Pay special attention to any class with high complexity (God Classes).
+3. **Update Documentation:** If you added a new system or significantly altered existing logic, you MUST update `ONBOARDING.md` (or `ARCHITECTURE.md` if it exists) to reflect the new architecture layers, key files, and complexity hotspots.
+4. **Notify the User:** Remind the user to press `F5` in their Context Graph Viewer (`.agent/graph-viewer/index.html`) to see the updated changes.
+
+By strictly following this loop, you ensure the AI never loses context and the project's technical debt is always monitored.

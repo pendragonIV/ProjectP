@@ -1,0 +1,103 @@
+---
+id: "rule-feature-documentation-first"
+name: "Ưu tiên đọc Docs trước khi làm tính năng"
+description: "Trước khi implement hoặc sửa bất kỳ phần nào: bắt buộc đọc tài liệu trong Assets/Docs, gồm PROJECT_STRUCTURE và doc feature tương ứng (nếu chưa có thì phải tạo mới)."
+version: "1.0.0"
+alwaysApply: true
+enabled: true
+priority: 23
+tags: ["docs", "workflow", "features", "onboarding"]
+globs: ["**/*"]
+excludeGlobs: []
+scope: "project"
+services: ["*"]
+appliesTo: ["code", "chat"]
+match: ""
+variables: {}
+rules: []
+examples: []
+references: []
+commands: []
+owners: ["devgo2003"]
+createdAt: "2026-04-04T00:00:00Z"
+updatedAt: "2026-04-14T00:00:00Z"
+notes: "Chuyển từ .cursor/skills/feature-documentation-first."
+language: vi
+---
+
+# Đọc Docs trước — bắt buộc theo chuẩn Assets/Docs
+
+## Khi áp dụng
+
+- Áp dụng khi nhận được yêu cầu **thêm**, **sửa**, **tối ưu** hoặc **gỡ lỗi (debug)** bất kỳ tính năng/component nào trong dự án.
+- Bắt buộc chạy quy trình kiểm tra tài liệu dưới đây TRƯỚC KHI thực hiện bất kỳ thay đổi nào trên mã nguồn hoặc scene.
+
+## Quy trình kiểm tra tài liệu bắt buộc
+
+1. **Đọc tài liệu cấu trúc tổng**: 
+   - Đọc `Assets/Docs/PROJECT_STRUCTURE.md` để hiểu kiến trúc tổng thể, sơ đồ thư mục và phân chia dependencies của dự án.
+   
+2. **Xác định Feature Scope**:
+   - Tìm kiếm thư mục tài liệu của tính năng đó tại: `Assets/Docs/Features/<FeatureName>/`.
+   
+3. **Trường hợp 1: Tính năng ĐÃ CÓ tài liệu**:
+   - Đọc kỹ `FEATURE_SPEC.md` và `SETUP.md` (nếu có).
+   - Kiểm tra xem cấu trúc mô tả trong tài liệu có khớp hoàn toàn với cấu trúc codebase hiện tại và Scene Hierarchy (sử dụng các công cụ tìm kiếm GameObject/Scene) hay không.
+   - **Nếu phát hiện sự sai lệch/lỗi thời**:
+     * Phải thông báo cho người dùng và cập nhật lại tài liệu (`FEATURE_SPEC.md` / `SETUP.md`) cho khớp thực tế trước khi code.
+     * Áp dụng quy tắc đồng bộ tài liệu theo `11_feature-documentation-sync.mdc`.
+   
+4. **Trường hợp 2: Tính năng CHƯA CÓ tài liệu**:
+   - **Dừng việc viết code lại ngay lập tức**.
+   - Tạo thư mục mới tại `Assets/Docs/Features/<FeatureName>/`.
+   - Tạo file `FEATURE_SPEC.md` mô tả thiết kế kỹ thuật của tính năng theo mẫu chuẩn dưới đây.
+   - Tạo file `SETUP.md` (nếu tính năng có liên quan đến cấu trúc Scene, Prefabs, hoặc các config cần setup thủ công trong Editor).
+   - Chỉ khi tài liệu đã được viết xong và người dùng đồng ý mới tiến hành code.
+
+## Mẫu tài liệu chuẩn cho tính năng mới (`FEATURE_SPEC.md`)
+
+```markdown
+# [Tên Tính Năng - Feature Name]
+
+## 1. Mục tiêu (Goal)
+- [Mô tả ngắn gọn tính năng làm gì, giải quyết bài toán nào]
+
+## 2. Thiết kế Kiến trúc & Luồng dữ liệu (Architecture & Data Flow)
+- [Mô tả mối quan hệ giữa Model, View, Presenter và Services]
+- [Luồng đi của dữ liệu từ EventBus hoặc User Input]
+
+## 3. Các Class & File chính (Key Files & Classes)
+- `[TênClass]View.cs`: [Mô tả nhiệm vụ]
+- `[TênClass]Presenter.cs`: [Mô tả nhiệm vụ]
+- `[TênClass]Service.cs` hoặc `[TênClass]Manager.cs`: [Mô tả nhiệm vụ]
+
+## 4. Tích hợp EventBus (Events)
+- [TênEvent]Event (struct): [Mô tả sự kiện và bên phát/bên nhận]
+```
+
+## Mẫu tài liệu setup Scene / Inspector (`SETUP.md`)
+
+```markdown
+# Setup [Tên Tính Năng]
+
+## 1. Cấu trúc Hierarchy mẫu
+- [Mô tả các GameObjects và Component đính kèm trong Scene]
+
+## 2. Hướng dẫn cấu hình Inspector
+- [Các ScriptableObject hoặc component cần gán link tham chiếu]
+```
+
+## Đường dẫn chuẩn (repo này)
+
+| Loại tài liệu | Đường dẫn |
+|---------------|-----------|
+| Cấu trúc tổng dự án | `Assets/Docs/PROJECT_STRUCTURE.md` |
+| Hướng dẫn thiết lập Scene | `Assets/Docs/SETUP.md` |
+| Tài liệu từng feature | `Assets/Docs/Features/<FeatureName>/FEATURE_SPEC.md` |
+| Hướng dẫn setup của feature | `Assets/Docs/Features/<FeatureName>/SETUP.md` |
+
+## Ràng buộc nghiêm ngặt
+
+- Không được bỏ qua bước đọc hoặc tạo tài liệu.
+- Trong trường hợp làm tính năng mà chưa có tài liệu, việc viết tài liệu thiết kế trước (Design First) giúp tránh sai hướng và cấu trúc sai chuẩn MVP/Service của dự án.
+- Luôn sử dụng đường dẫn đầy đủ từ root repo trong các câu trả lời.

@@ -1,0 +1,36 @@
+---
+id: "rule-knowledge-sync"
+name: "Chuẩn hóa đồng bộ Knowledge Items"
+description: "Quy tắc tự động đồng bộ rules thành Knowledge Items cho Agent"
+version: "1.0.0"
+alwaysApply: true
+enabled: true
+priority: 10
+tags: ["agent", "knowledge", "sync"]
+globs: [".agent/rules/*.mdc"]
+excludeGlobs: []
+scope: "project"
+services: ["*"]
+appliesTo: ["code", "chat"]
+createdAt: "2026-04-18T00:00:00Z"
+updatedAt: "2026-04-18T00:00:00Z"
+notes: "Tự động đồng bộ kiến thức từ dự án vào AI Assistant"
+language: vi
+---
+# Chuẩn hóa Đồng bộ Knowledge Items (KI)
+
+## Mục đích
+Đảm bảo trợ lý AI (Assistant) luôn có thông tin mới nhất và hiểu biết sâu sắc về các quy tắc (`rules`), tài liệu (`docs`) của dự án thông qua cơ chế bộ nhớ dài hạn.
+
+## Quy tắc
+1. Bất kể khi nào có thay đổi (Tạo mới, Sửa chữa, Xóa bỏ) liên quan đến các file cấu hình tại thư mục `.agent/rules/ *.mdc`.
+2. Trợ lý thao tác lệnh (AI Assistant) **BẮT BUỘC** phải tự động chạy script đồng bộ:
+   `c:\Dev\swordidle\.agent\tools\SyncKnowledgeItems.ps1`
+3. Quá trình này giúp convert trực tiếp các file MarkDownC (.mdc) vào AppData `<appDataDir>\knowledge` của mô hình AI, giúp AI luôn học được quy tắc mới.
+
+## Quy trình làm việc (Trợ lý tự động ghi nhớ điều này):
+1. **Lắng nghe Request**: User yêu cầu cập nhật hoặc định nghĩa thêm 1 rule mới cho dự án.
+2. **Thực thi Document**: AI tự động tạo / sửa file `.mdc` trong `.agent\rules\`.
+3. **Trigger Script**: Khi nhận thấy hành động liên quan đến file `.mdc`, tự động trigger tool `run_command` để chạy script đồng bộ:
+   `powershell.exe -ExecutionPolicy Bypass -File .\.agent\tools\SyncKnowledgeItems.ps1`
+4. **Báo cáo User**: Thông báo file quy tắc đã được cập nhật và hệ thống Knowledge (KI) đã được đồng bộ để phục vụ cho các Task sau.

@@ -1,0 +1,69 @@
+---
+id: "rule-feature-documentation-sync"
+name: "Đồng bộ Docs khi làm/sửa tính năng"
+description: "Tạo hoặc cập nhật tài liệu Markdown trong Assets/Docs sau khi implement hoặc sửa tính năng: luôn giữ đồng bộ giữa code, PROJECT_STRUCTURE và FEATURE_SPEC."
+version: "1.0.0"
+alwaysApply: true
+enabled: true
+priority: 24
+tags: ["docs", "maintenance", "changelog", "features"]
+globs: ["**/*"]
+excludeGlobs: []
+scope: "project"
+services: ["*"]
+appliesTo: ["code", "chat"]
+match: ""
+variables: {}
+rules: []
+examples: []
+references: []
+commands: []
+owners: ["devgo2003"]
+createdAt: "2026-04-04T00:00:00Z"
+updatedAt: "2026-04-14T00:00:00Z"
+notes: "Chuyển từ .cursor/skills/feature-documentation-sync."
+language: vi
+---
+
+# Đồng bộ Assets/Docs với code
+
+## Khi áp dụng
+
+- Sau khi **implement**, **refactor**, hoặc **sửa** bất kỳ hành vi nào ảnh hưởng đến kiến trúc, luồng logic, hoặc cấu trúc Scene/Components của feature.
+- Khi user yêu cầu **cập nhật doc** hoặc **giữ tài liệu đồng bộ**.
+
+## Quy trình đồng bộ hóa bắt buộc
+
+### Bước 1 — Kiểm tra tài liệu cấu trúc tổng
+- Đọc và đối chiếu `Assets/Docs/PROJECT_STRUCTURE.md`.
+- Nếu thay đổi của bạn làm thay đổi cấu trúc thư mục, bổ sung module lớn hoặc thay đổi luồng tương tác cơ bản của hệ thống: Cập nhật ngay sơ đồ cây thư mục và bảng mô tả trong file này.
+
+### Bước 2 — Xác định và phân loại Feature Doc
+- Phải xác định rõ thay đổi thuộc về Feature nào: `Assets/Docs/Features/<FeatureName>/`.
+- Nếu thay đổi liên quan đến UI/View: Cập nhật sơ đồ luồng MVP trong `FEATURE_SPEC.md`.
+- Nếu thay đổi liên quan đến cấu trúc phân cấp GameObject, Prefabs, Scene setup: Cập nhật cấu trúc Hierarchy mẫu trong `SETUP.md` của feature đó và file `Assets/Docs/SETUP.md` ở root nếu là cấu trúc cha.
+
+### Bước 3 — Cập nhật chi tiết tài liệu Feature (`FEATURE_SPEC.md` / `SETUP.md`)
+- **Tập tin `FEATURE_SPEC.md`**:
+  * Cập nhật danh sách các Class/Interface tham gia.
+  * Bổ sung/sửa đổi các Sự kiện (Events) mới đăng ký trên EventBus.
+  * Đảm bảo thuật ngữ sử dụng trong tài liệu khớp 100% với tên class, enum, property trong code.
+- **Tập tin `SETUP.md`**:
+  * Cập nhật sơ đồ phân cấp GameObject thực tế trong Scene.
+  * Ghi rõ các điều kiện tiên quyết (Prerequisites) khi setup trong Inspector (ví dụ: các reference bắt buộc, Component nào đi kèm).
+
+### Bước 4 — Đồng bộ các tài liệu liên quan chéo (Cross-reference Sync)
+- Đảm bảo các liên kết Markdown giữa các file tài liệu (`PROJECT_STRUCTURE.md` -> `FEATURE_SPEC.md`, `SETUP.md` -> Feature `SETUP.md`) không bị hỏng.
+- Nếu gộp hoặc đổi tên thư mục tính năng: Phải tìm và cập nhật tất cả các reference link trong toàn bộ thư mục `Assets/Docs/`.
+
+## Tiêu chuẩn định dạng tài liệu
+
+- Sử dụng tiếng Việt chuẩn để viết giải thích nghiệp vụ, mục tiêu, và hướng dẫn thiết lập.
+- Sử dụng tiếng Anh cho các danh từ riêng như Class Name, Variable Name, Event Name, Method Name để khớp chính xác với mã nguồn.
+- Sử dụng bảng (table) cho các danh sách dài và danh sách đánh dấu (bullet points) ngắn gọn để tăng tính trực quan.
+
+## Ràng buộc cam kết
+
+- **Mọi thay đổi code đều phải được đồng bộ hóa với tài liệu đi kèm trong cùng một Commit/Pull Request**.
+- Không cho phép cập nhật code mà bỏ quên cập nhật tài liệu tương ứng.
+- Trước khi bắt đầu bất kỳ task nào, luôn đọc và tuân theo **`10_feature-documentation-first.mdc`**.

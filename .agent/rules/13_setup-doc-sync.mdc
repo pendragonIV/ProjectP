@@ -1,0 +1,66 @@
+---
+id: "rule-setup-doc-sync"
+name: "Đồng bộ SETUP.md khi thay đổi setup"
+description: >
+  Mọi thay đổi ảnh hưởng cách setup scene, prefab, ScriptableObject, Script Execution Order, 
+  hoặc tích hợp Inspector của bất kỳ hệ thống nào phải cập nhật Assets/Docs/SETUP.md ngay cùng 
+  lần commit.
+version: "1.0.0"
+alwaysApply: true
+enabled: true
+priority: 22
+tags: ["unity", "documentation", "setup", "scene", "prefab", "scriptableobject"]
+globs: ["**/*.cs", "Assets/Docs/SETUP.md"]
+excludeGlobs: ["**/Plugins/**", "**/Spine/**"]
+scope: "project"
+appliesTo: ["code", "chat"]
+language: vi
+---
+
+# Đồng bộ SETUP.md khi thay đổi setup
+
+## Khi áp dụng
+
+Cập nhật `Assets/Docs/SETUP.md` **ngay trong cùng commit** khi:
+
+- Thêm MonoBehaviour mới có `[SerializeField]` cần gán trong Inspector.
+- Thêm hoặc xóa bước setup scene/prefab/ScriptableObject.
+- Thêm asset type mới (SO menu path, tên field, giá trị gợi ý).
+- Thay đổi Script Execution Order của bất kỳ script nào.
+- Phát hiện lỗi/gotcha khi setup — thêm vào bảng mục 12 (Gỡ lỗi thường gặp).
+- Thêm tính năng mới hoàn chỉnh — thêm section mới hoặc cập nhật section liên quan.
+
+## Quy trình
+
+1. Implement xong code.
+2. Mở `Assets/Docs/SETUP.md`.
+3. Cập nhật đúng section liên quan:
+   - Section mới nếu là tính năng hoàn toàn mới.
+   - Cập nhật bảng field Inspector nếu thêm/xóa/đổi tên field.
+   - Cập nhật "Kiểm tra nhanh" nếu có hành vi mới cần test.
+   - Cập nhật "Gỡ lỗi thường gặp" nếu có lỗi hoặc gotcha mới.
+4. Cập nhật bảng **Phiên bản tài liệu** ở cuối file.
+
+## Ràng buộc
+
+- **Không commit tính năng mới hoàn chỉnh mà không cập nhật SETUP.md.**
+- SETUP.md mô tả **trạng thái hiện tại**, không phải kế hoạch tương lai.
+- Mô tả tất cả field `[SerializeField]` bắt buộc — reviewer không nên phải đọc code để biết cần gán gì.
+- Không viết "TODO" hay "sẽ thêm sau" trong SETUP.md — nếu chưa implement thì đừng đưa vào.
+
+## Ví dụ cần cập nhật SETUP.md
+
+```
+Thêm EnemySpawner.cs với [SerializeField] spawnInterval
+  → Thêm "Setup EnemySpawner" vào mục tương ứng trong SETUP.md
+
+Thêm ScriptableObject EnemyWaveConfigSO
+  → Thêm vào mục 3 (ScriptableObjects): menu path, field, giá trị gợi ý
+
+Thêm WaveManager vào scene
+  → Thêm vào mục 4 (Setup Scene) và vào bảng hierarchy
+  → Thêm Script Execution Order nếu cần
+
+Phát hiện lỗi: enemy không spawn khi SpawnPoint null
+  → Thêm vào bảng Gỡ lỗi thường gặp (mục 12)
+```

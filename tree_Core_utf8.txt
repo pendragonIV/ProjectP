@@ -1,0 +1,1334 @@
+﻿Folder PATH listing
+Volume serial number is 0CE3-A046
+C:\DEV\PROJECTP\ASSETS\CORE
+ª   Core Changelog.txt
+ª   Core Changelog.txt.meta
+ª   Core Documenation.txt
+ª   Core Documenation.txt.meta
+ª   Core Resources.meta
+ª   Core Settings.asset
+ª   Core Settings.asset.meta
+ª   Examples.meta
+ª   Modules.meta
+ª   Scripts.meta
+ª   Utils & Extensions.meta
+ª   
++---Core Resources
+ª   ª   Animations.meta
+ª   ª   Images.meta
+ª   ª   Prefabs.meta
+ª   ª   
+ª   +---Animations
+ª   ª       Simple Loading.anim
+ª   ª       Simple Loading.anim.meta
+ª   ª       
+ª   +---Images
+ª   ª       core_loading.png
+ª   ª       core_loading.png.meta
+ª   ª       core_promotion.png
+ª   ª       core_promotion.png.meta
+ª   ª       core_square.png
+ª   ª       core_square.png.meta
+ª   ª       core_universal_back.png
+ª   ª       core_universal_back.png.meta
+ª   ª       
+ª   +---Prefabs
+ª           Core System Messages Canvas.prefab
+ª           Core System Messages Canvas.prefab.meta
+ª           Simple Loading.prefab
+ª           Simple Loading.prefab.meta
+ª           UI Fade Overlay Canvas.prefab
+ª           UI Fade Overlay Canvas.prefab.meta
+ª           UI Swap Overlay Canvas.prefab
+ª           UI Swap Overlay Canvas.prefab.meta
+ª           
++---Examples
+ª   ª   Example 03 - Haptic.meta
+ª   ª   Example 04 - Ads.meta
+ª   ª   Example 05 - IAP.meta
+ª   ª   
+ª   +---Example 03 - Haptic
+ª   ª   ª   Scenes.meta
+ª   ª   ª   Scripts.meta
+ª   ª   ª   
+ª   ª   +---Scenes
+ª   ª   ª       Haptic Example Scene.unity
+ª   ª   ª       Haptic Example Scene.unity.meta
+ª   ª   ª       
+ª   ª   +---Scripts
+ª   ª           HapticTestController.cs
+ª   ª           HapticTestController.cs.meta
+ª   ª           
+ª   +---Example 04 - Ads
+ª   ª   ª   Scenes.meta
+ª   ª   ª   Scripts.meta
+ª   ª   ª   
+ª   ª   +---Scenes
+ª   ª   ª       Ads Example Scene.unity
+ª   ª   ª       Ads Example Scene.unity.meta
+ª   ª   ª       
+ª   ª   +---Scripts
+ª   ª           AdsManagerExampleScript.cs
+ª   ª           AdsManagerExampleScript.cs.meta
+ª   ª           
+ª   +---Example 05 - IAP
+ª       ª   Prefabs.meta
+ª       ª   Scenes.meta
+ª       ª   Scripts.meta
+ª       ª   
+ª       +---Prefabs
+ª       ª       IAP Item Panel.prefab
+ª       ª       IAP Item Panel.prefab.meta
+ª       ª       
+ª       +---Scenes
+ª       ª       IAP Example Scene.unity
+ª       ª       IAP Example Scene.unity.meta
+ª       ª       
+ª       +---Scripts
+ª               IAPExampleScript.cs
+ª               IAPExampleScript.cs.meta
+ª               ItemPanelScript.cs
+ª               ItemPanelScript.cs.meta
+ª               
++---Modules
+ª   ª   Audio.meta
+ª   ª   Currency.meta
+ª   ª   Defines.meta
+ª   ª   Haptic.meta
+ª   ª   Initializer.meta
+ª   ª   Inspector.meta
+ª   ª   Monetization.meta
+ª   ª   Pool.meta
+ª   ª   Reward.meta
+ª   ª   Save.meta
+ª   ª   Skins.meta
+ª   ª   Tween.meta
+ª   ª   UI.meta
+ª   ª   
+ª   +---Audio
+ª   ª   ª   Scripts.meta
+ª   ª   ª   
+ª   ª   +---Scripts
+ª   ª       ª   AudioCase.cs
+ª   ª       ª   AudioCase.cs.meta
+ª   ª       ª   AudioClipHandler.cs
+ª   ª       ª   AudioClipHandler.cs.meta
+ª   ª       ª   AudioController.cs
+ª   ª       ª   AudioController.cs.meta
+ª   ª       ª   AudioInitModule.cs
+ª   ª       ª   AudioInitModule.cs.meta
+ª   ª       ª   AudioSave.cs
+ª   ª       ª   AudioSave.cs.meta
+ª   ª       ª   AudioSourceCase.cs
+ª   ª       ª   AudioSourceCase.cs.meta
+ª   ª       ª   Editor.meta
+ª   ª       ª   MD_AudioClips.cs
+ª   ª       ª   MD_AudioClips.cs.meta
+ª   ª       ª   MusicSource.cs
+ª   ª       ª   MusicSource.cs.meta
+ª   ª       ª   
+ª   ª       +---Editor
+ª   ª               AudioInitModuleEditor.cs
+ª   ª               AudioInitModuleEditor.cs.meta
+ª   ª               
+ª   +---Currency
+ª   ª   ª   Scripts.meta
+ª   ª   ª   
+ª   ª   +---Scripts
+ª   ª       ª   Currency.cs
+ª   ª       ª   Currency.cs.meta
+ª   ª       ª   CurrencyController.cs
+ª   ª       ª   CurrencyController.cs.meta
+ª   ª       ª   CurrencyDatabase.cs
+ª   ª       ª   CurrencyDatabase.cs.meta
+ª   ª       ª   CurrencyHelper.cs
+ª   ª       ª   CurrencyHelper.cs.meta
+ª   ª       ª   CurrencyInitModule.cs
+ª   ª       ª   CurrencyInitModule.cs.meta
+ª   ª       ª   CurrencyPrice.cs
+ª   ª       ª   CurrencyPrice.cs.meta
+ª   ª       ª   CurrencyReward.cs
+ª   ª       ª   CurrencyReward.cs.meta
+ª   ª       ª   CurrencyRewardHolder.cs
+ª   ª       ª   CurrencyRewardHolder.cs.meta
+ª   ª       ª   Editor.meta
+ª   ª       ª   MD_CurrencyData.cs
+ª   ª       ª   MD_CurrencyData.cs.meta
+ª   ª       ª   MD_CurrencyType.cs
+ª   ª       ª   MD_CurrencyType.cs.meta
+ª   ª       ª   UI.meta
+ª   ª       ª   
+ª   ª       +---Editor
+ª   ª       ª       CurrencyDatabaseEditor.cs
+ª   ª       ª       CurrencyDatabaseEditor.cs.meta
+ª   ª       ª       CurrencyInitModuleEditor.cs
+ª   ª       ª       CurrencyInitModuleEditor.cs.meta
+ª   ª       ª       CurrencyPricePropertyDrawer.cs
+ª   ª       ª       CurrencyPricePropertyDrawer.cs.meta
+ª   ª       ª       MD_CurrencyActionsMenu.cs
+ª   ª       ª       MD_CurrencyActionsMenu.cs.meta
+ª   ª       ª       
+ª   ª       +---UI
+ª   ª               CurrencyUI.cs
+ª   ª               CurrencyUI.cs.meta
+ª   ª               CurrencyUIController.cs
+ª   ª               CurrencyUIController.cs.meta
+ª   ª               CurrencyUIHelper.cs
+ª   ª               CurrencyUIHelper.cs.meta
+ª   ª               CurrencyUIPanelSimple.cs
+ª   ª               CurrencyUIPanelSimple.cs.meta
+ª   ª               UICurrencyButton.cs
+ª   ª               UICurrencyButton.cs.meta
+ª   ª               
+ª   +---Defines
+ª   ª   ª   Scripts.meta
+ª   ª   ª   
+ª   ª   +---Scripts
+ª   ª       ª   DefineAttribute.cs
+ª   ª       ª   DefineAttribute.cs.meta
+ª   ª       ª   Editor.meta
+ª   ª       ª   
+ª   ª       +---Editor
+ª   ª               DefineManager.cs
+ª   ª               DefineManager.cs.meta
+ª   ª               DefineManagerWindow.cs
+ª   ª               DefineManagerWindow.cs.meta
+ª   ª               DefinePostprocessor.cs
+ª   ª               DefinePostprocessor.cs.meta
+ª   ª               DefineSettings.cs
+ª   ª               DefineSettings.cs.meta
+ª   ª               DefineState.cs
+ª   ª               DefineState.cs.meta
+ª   ª               DefineString.cs
+ª   ª               DefineString.cs.meta
+ª   ª               RegisteredDefine.cs
+ª   ª               RegisteredDefine.cs.meta
+ª   ª               
+ª   +---Haptic
+ª   ª   ª   Scripts.meta
+ª   ª   ª   
+ª   ª   +---Scripts
+ª   ª       ª   Behaviors.meta
+ª   ª       ª   Editor.meta
+ª   ª       ª   Haptic.cs
+ª   ª       ª   Haptic.cs.meta
+ª   ª       ª   HapticData.cs
+ª   ª       ª   HapticData.cs.meta
+ª   ª       ª   HapticEvent.cs
+ª   ª       ª   HapticEvent.cs.meta
+ª   ª       ª   HapticInitModule.cs
+ª   ª       ª   HapticInitModule.cs.meta
+ª   ª       ª   HapticPattern.cs
+ª   ª       ª   HapticPattern.cs.meta
+ª   ª       ª   HapticSave.cs
+ª   ª       ª   HapticSave.cs.meta
+ª   ª       ª   Plugins.meta
+ª   ª       ª   Wrapper.meta
+ª   ª       ª   
+ª   ª       +---Behaviors
+ª   ª       ª       HapticHandler.cs
+ª   ª       ª       HapticHandler.cs.meta
+ª   ª       ª       
+ª   ª       +---Editor
+ª   ª       ª       HapticiOSPostProcessor.cs
+ª   ª       ª       HapticiOSPostProcessor.cs.meta
+ª   ª       ª       
+ª   ª       +---Plugins
+ª   ª       ª   ª   iOS.meta
+ª   ª       ª   ª   WebGL.meta
+ª   ª       ª   ª   
+ª   ª       ª   +---iOS
+ª   ª       ª   ª       Haptic.h
+ª   ª       ª   ª       Haptic.h.meta
+ª   ª       ª   ª       Haptic.mm
+ª   ª       ª   ª       Haptic.mm.meta
+ª   ª       ª   ª       
+ª   ª       ª   +---WebGL
+ª   ª       ª           Haptic.jslib
+ª   ª       ª           Haptic.jslib.meta
+ª   ª       ª           
+ª   ª       +---Wrapper
+ª   ª               AndroidHapticWrapper.cs
+ª   ª               AndroidHapticWrapper.cs.meta
+ª   ª               BaseHapticWrapper.cs
+ª   ª               BaseHapticWrapper.cs.meta
+ª   ª               EditorHapticWrapper.cs
+ª   ª               EditorHapticWrapper.cs.meta
+ª   ª               IOSHapticWrapper.cs
+ª   ª               IOSHapticWrapper.cs.meta
+ª   ª               WebGLHapticWrapper.cs
+ª   ª               WebGLHapticWrapper.cs.meta
+ª   ª               
+ª   +---Initializer
+ª   ª   ª   Scripts.meta
+ª   ª   ª   
+ª   ª   +---Scripts
+ª   ª       ª   Editor.meta
+ª   ª       ª   GameLoading.cs
+ª   ª       ª   GameLoading.cs.meta
+ª   ª       ª   Initializer.cs
+ª   ª       ª   Initializer.cs.meta
+ª   ª       ª   InitializerInitModule.cs
+ª   ª       ª   InitializerInitModule.cs.meta
+ª   ª       ª   InitModule.cs
+ª   ª       ª   InitModule.cs.meta
+ª   ª       ª   LoadingGraphics.cs
+ª   ª       ª   LoadingGraphics.cs.meta
+ª   ª       ª   LoadingTask.cs
+ª   ª       ª   LoadingTask.cs.meta
+ª   ª       ª   ProjectInitSettings.cs
+ª   ª       ª   ProjectInitSettings.cs.meta
+ª   ª       ª   RegisterModuleAttribute.cs
+ª   ª       ª   RegisterModuleAttribute.cs.meta
+ª   ª       ª   SystemMessage.cs
+ª   ª       ª   SystemMessage.cs.meta
+ª   ª       ª   
+ª   ª       +---Editor
+ª   ª               AutoInitializerLoader.cs
+ª   ª               AutoInitializerLoader.cs.meta
+ª   ª               InitializerInitModuleEditor.cs
+ª   ª               InitializerInitModuleEditor.cs.meta
+ª   ª               InitModuleEditor.cs
+ª   ª               InitModuleEditor.cs.meta
+ª   ª               ProjectInitSettingsEditor.cs
+ª   ª               ProjectInitSettingsEditor.cs.meta
+ª   ª               
+ª   +---Inspector
+ª   ª   ª   Editor Custom Styles.asset
+ª   ª   ª   Editor Custom Styles.asset.meta
+ª   ª   ª   Editor.meta
+ª   ª   ª   Icons.meta
+ª   ª   ª   Runtime.meta
+ª   ª   ª   Themes.meta
+ª   ª   ª   
+ª   ª   +---Editor
+ª   ª   ª   ª   Core.Inspector.Editor.asmdef
+ª   ª   ª   ª   Core.Inspector.Editor.asmdef.meta
+ª   ª   ª   ª   CustomAttributesDatabase.cs
+ª   ª   ª   ª   CustomAttributesDatabase.cs.meta
+ª   ª   ª   ª   CustomInspector.cs
+ª   ª   ª   ª   CustomInspector.cs.meta
+ª   ª   ª   ª   Drawers.meta
+ª   ª   ª   ª   EditorColor.cs
+ª   ª   ª   ª   EditorColor.cs.meta
+ª   ª   ª   ª   EditorCoroutines.cs
+ª   ª   ª   ª   EditorCoroutines.cs.meta
+ª   ª   ª   ª   EditorCustomStyles.cs
+ª   ª   ª   ª   EditorCustomStyles.cs.meta
+ª   ª   ª   ª   EditorData.cs
+ª   ª   ª   ª   EditorData.cs.meta
+ª   ª   ª   ª   EditorFoldoutBool.cs
+ª   ª   ª   ª   EditorFoldoutBool.cs.meta
+ª   ª   ª   ª   EditorGUILayoutCustom.cs
+ª   ª   ª   ª   EditorGUILayoutCustom.cs.meta
+ª   ª   ª   ª   Hierarchy.meta
+ª   ª   ª   ª   Renderers.meta
+ª   ª   ª   ª   Scopes.meta
+ª   ª   ª   ª   Unique ID.meta
+ª   ª   ª   ª   Utils.meta
+ª   ª   ª   ª   
+ª   ª   ª   +---Drawers
+ª   ª   ª   ª   ª   Conditions.meta
+ª   ª   ª   ª   ª   Groups.meta
+ª   ª   ª   ª   ª   LineSpacerDrawer.cs
+ª   ª   ª   ª   ª   LineSpacerDrawer.cs.meta
+ª   ª   ª   ª   ª   Properties.meta
+ª   ª   ª   ª   ª   
+ª   ª   ª   ª   +---Conditions
+ª   ª   ª   ª   ª       HideIfPropertyDrawCondition.cs
+ª   ª   ª   ª   ª       HideIfPropertyDrawCondition.cs.meta
+ª   ª   ª   ª   ª       HidePropertyDrawCondition.cs
+ª   ª   ª   ª   ª       HidePropertyDrawCondition.cs.meta
+ª   ª   ª   ª   ª       PropertyCondition.cs
+ª   ª   ª   ª   ª       PropertyCondition.cs.meta
+ª   ª   ª   ª   ª       ShowIfPropertyDrawCondition.cs
+ª   ª   ª   ª   ª       ShowIfPropertyDrawCondition.cs.meta
+ª   ª   ª   ª   ª       
+ª   ª   ª   ª   +---Groups
+ª   ª   ª   ª   ª       BoxFoldoutPropertyGrouper.cs
+ª   ª   ª   ª   ª       BoxFoldoutPropertyGrouper.cs.meta
+ª   ª   ª   ª   ª       BoxGroupPropertyGrouper.cs
+ª   ª   ª   ª   ª       BoxGroupPropertyGrouper.cs.meta
+ª   ª   ª   ª   ª       FoldoutPropertyGrouper.cs
+ª   ª   ª   ª   ª       FoldoutPropertyGrouper.cs.meta
+ª   ª   ª   ª   ª       GroupPropertyGrouper.cs
+ª   ª   ª   ª   ª       GroupPropertyGrouper.cs.meta
+ª   ª   ª   ª   ª       HorizontalGroupPropertyGrouper.cs
+ª   ª   ª   ª   ª       HorizontalGroupPropertyGrouper.cs.meta
+ª   ª   ª   ª   ª       PropertyGrouper.cs
+ª   ª   ª   ª   ª       PropertyGrouper.cs.meta
+ª   ª   ª   ª   ª       
+ª   ª   ª   ª   +---Properties
+ª   ª   ª   ª           DrawReferenceDrawer.cs
+ª   ª   ª   ª           DrawReferenceDrawer.cs.meta
+ª   ª   ª   ª           EnumFlagsAttributeDrawer.cs
+ª   ª   ª   ª           EnumFlagsAttributeDrawer.cs.meta
+ª   ª   ª   ª           MinMaxSliderPropertyDrawer.cs
+ª   ª   ª   ª           MinMaxSliderPropertyDrawer.cs.meta
+ª   ª   ª   ª           OnOffPropertyDrawer.cs
+ª   ª   ª   ª           OnOffPropertyDrawer.cs.meta
+ª   ª   ª   ª           SliderPropertyDrawer.cs
+ª   ª   ª   ª           SliderPropertyDrawer.cs.meta
+ª   ª   ª   ª           TogglePropertyDrawer.cs
+ª   ª   ª   ª           TogglePropertyDrawer.cs.meta
+ª   ª   ª   ª           
+ª   ª   ª   +---Hierarchy
+ª   ª   ª   ª       EditorCustomHierarchy.cs
+ª   ª   ª   ª       EditorCustomHierarchy.cs.meta
+ª   ª   ª   ª       Hierarchy.cs
+ª   ª   ª   ª       Hierarchy.cs.meta
+ª   ª   ª   ª       
+ª   ª   ª   +---Renderers
+ª   ª   ª   ª       GroupGUIRenderer.cs
+ª   ª   ª   ª       GroupGUIRenderer.cs.meta
+ª   ª   ª   ª       GUIRenderer.cs
+ª   ª   ª   ª       GUIRenderer.cs.meta
+ª   ª   ª   ª       HelpButtonGUIRenderer.cs
+ª   ª   ª   ª       HelpButtonGUIRenderer.cs.meta
+ª   ª   ª   ª       MethodGUIRenderer.cs
+ª   ª   ª   ª       MethodGUIRenderer.cs.meta
+ª   ª   ª   ª       NonSerializedFieldGUIRenderer.cs
+ª   ª   ª   ª       NonSerializedFieldGUIRenderer.cs.meta
+ª   ª   ª   ª       PropertyGUIRenderer.cs
+ª   ª   ª   ª       PropertyGUIRenderer.cs.meta
+ª   ª   ª   ª       SerializedArrayGUIRenderer.cs
+ª   ª   ª   ª       SerializedArrayGUIRenderer.cs.meta
+ª   ª   ª   ª       SerializedPropertyGUIRenderer.cs
+ª   ª   ª   ª       SerializedPropertyGUIRenderer.cs.meta
+ª   ª   ª   ª       UnwrapNestedGUIRenderer.cs
+ª   ª   ª   ª       UnwrapNestedGUIRenderer.cs.meta
+ª   ª   ª   ª       
+ª   ª   ª   +---Scopes
+ª   ª   ª   ª       ColorScope.cs
+ª   ª   ª   ª       ColorScope.cs.meta
+ª   ª   ª   ª       LabelWidthScope.cs
+ª   ª   ª   ª       LabelWidthScope.cs.meta
+ª   ª   ª   ª       
+ª   ª   ª   +---Unique ID
+ª   ª   ª   ª       UniqueIDHandler.cs
+ª   ª   ª   ª       UniqueIDHandler.cs.meta
+ª   ª   ª   ª       UniqueIDPropertyDrawer.cs
+ª   ª   ª   ª       UniqueIDPropertyDrawer.cs.meta
+ª   ª   ª   ª       UniqueIDValidator.cs
+ª   ª   ª   ª       UniqueIDValidator.cs.meta
+ª   ª   ª   ª       
+ª   ª   ª   +---Utils
+ª   ª   ª           EditorStylesUtils.cs
+ª   ª   ª           EditorStylesUtils.cs.meta
+ª   ª   ª           PropertyUtility.cs
+ª   ª   ª           PropertyUtility.cs.meta
+ª   ª   ª           
+ª   ª   +---Icons
+ª   ª   ª   ª   Hierarchy.meta
+ª   ª   ª   ª   icon_add.png
+ª   ª   ª   ª   icon_add.png.meta
+ª   ª   ª   ª   icon_ads.png
+ª   ª   ª   ª   icon_ads.png.meta
+ª   ª   ª   ª   icon_arrow_down.png
+ª   ª   ª   ª   icon_arrow_down.png.meta
+ª   ª   ª   ª   icon_arrow_up.png
+ª   ª   ª   ª   icon_arrow_up.png.meta
+ª   ª   ª   ª   icon_audio.png
+ª   ª   ª   ª   icon_audio.png.meta
+ª   ª   ª   ª   icon_cart.png
+ª   ª   ª   ª   icon_cart.png.meta
+ª   ª   ª   ª   icon_check.png
+ª   ª   ª   ª   icon_check.png.meta
+ª   ª   ª   ª   icon_close.png
+ª   ª   ª   ª   icon_close.png.meta
+ª   ª   ª   ª   icon_copy.png
+ª   ª   ª   ª   icon_copy.png.meta
+ª   ª   ª   ª   icon_discord.png
+ª   ª   ª   ª   icon_discord.png.meta
+ª   ª   ª   ª   icon_documentation.png
+ª   ª   ª   ª   icon_documentation.png.meta
+ª   ª   ª   ª   icon_filter.png
+ª   ª   ª   ª   icon_filter.png.meta
+ª   ª   ª   ª   icon_folder.png
+ª   ª   ª   ª   icon_folder.png.meta
+ª   ª   ª   ª   icon_helpbox.png
+ª   ª   ª   ª   icon_helpbox.png.meta
+ª   ª   ª   ª   icon_iap.png
+ª   ª   ª   ª   icon_iap.png.meta
+ª   ª   ª   ª   icon_info.png
+ª   ª   ª   ª   icon_info.png.meta
+ª   ª   ª   ª   icon_link.png
+ª   ª   ª   ª   icon_link.png.meta
+ª   ª   ª   ª   icon_locked.png
+ª   ª   ª   ª   icon_locked.png.meta
+ª   ª   ª   ª   icon_mail.png
+ª   ª   ª   ª   icon_mail.png.meta
+ª   ª   ª   ª   icon_menu.png
+ª   ª   ª   ª   icon_menu.png.meta
+ª   ª   ª   ª   icon_music.png
+ª   ª   ª   ª   icon_music.png.meta
+ª   ª   ª   ª   icon_preferences.png
+ª   ª   ª   ª   icon_preferences.png.meta
+ª   ª   ª   ª   icon_puzzle.png
+ª   ª   ª   ª   icon_puzzle.png.meta
+ª   ª   ª   ª   icon_reset.png
+ª   ª   ª   ª   icon_reset.png.meta
+ª   ª   ª   ª   icon_select.png
+ª   ª   ª   ª   icon_select.png.meta
+ª   ª   ª   ª   icon_settings.png
+ª   ª   ª   ª   icon_settings.png.meta
+ª   ª   ª   ª   icon_share.png
+ª   ª   ª   ª   icon_share.png.meta
+ª   ª   ª   ª   icon_title.png
+ª   ª   ª   ª   icon_title.png.meta
+ª   ª   ª   ª   icon_unknown.png
+ª   ª   ª   ª   icon_unknown.png.meta
+ª   ª   ª   ª   icon_unlocked.png
+ª   ª   ª   ª   icon_unlocked.png.meta
+ª   ª   ª   ª   logo.png
+ª   ª   ª   ª   logo.png.meta
+ª   ª   ª   ª   System.meta
+ª   ª   ª   ª   
+ª   ª   ª   +---Hierarchy
+ª   ª   ª   ª       hierarchy_camera.png
+ª   ª   ª   ª       hierarchy_camera.png.meta
+ª   ª   ª   ª       hierarchy_canvas.png
+ª   ª   ª   ª       hierarchy_canvas.png.meta
+ª   ª   ª   ª       hierarchy_directionallight.png
+ª   ª   ª   ª       hierarchy_directionallight.png.meta
+ª   ª   ª   ª       hierarchy_light.png
+ª   ª   ª   ª       hierarchy_light.png.meta
+ª   ª   ª   ª       hierarchy_music.png
+ª   ª   ª   ª       hierarchy_music.png.meta
+ª   ª   ª   ª       hierarchy_scriptsholder.png
+ª   ª   ª   ª       hierarchy_scriptsholder.png.meta
+ª   ª   ª   ª       
+ª   ª   ª   +---System
+ª   ª   ª           foldout_arrow_down.png
+ª   ª   ª           foldout_arrow_down.png.meta
+ª   ª   ª           foldout_arrow_right.png
+ª   ª   ª           foldout_arrow_right.png.meta
+ª   ª   ª           foldout_arrow_up.png
+ª   ª   ª           foldout_arrow_up.png.meta
+ª   ª   ª           icon_warning.png
+ª   ª   ª           icon_warning.png.meta
+ª   ª   ª           
+ª   ª   +---Runtime
+ª   ª   ª   ª   Attributes.meta
+ª   ª   ª   ª   Core.Inspector.asmdef
+ª   ª   ª   ª   Core.Inspector.asmdef.meta
+ª   ª   ª   ª   Unique ID.meta
+ª   ª   ª   ª   
+ª   ª   ª   +---Attributes
+ª   ª   ª   ª   ª   BaseAttribute.cs
+ª   ª   ª   ª   ª   BaseAttribute.cs.meta
+ª   ª   ª   ª   ª   ButtonAttribute.cs
+ª   ª   ª   ª   ª   ButtonAttribute.cs.meta
+ª   ª   ª   ª   ª   Conditions.meta
+ª   ª   ª   ª   ª   Groups.meta
+ª   ª   ª   ª   ª   HelpButtonAttribute.cs
+ª   ª   ª   ª   ª   HelpButtonAttribute.cs.meta
+ª   ª   ª   ª   ª   HideScriptFieldAttribute.cs
+ª   ª   ª   ª   ª   HideScriptFieldAttribute.cs.meta
+ª   ª   ª   ª   ª   IndentAttribute.cs
+ª   ª   ª   ª   ª   IndentAttribute.cs.meta
+ª   ª   ª   ª   ª   InfoBoxAttribute.cs
+ª   ª   ª   ª   ª   InfoBoxAttribute.cs.meta
+ª   ª   ª   ª   ª   InlineButtonAttribute.cs
+ª   ª   ª   ª   ª   InlineButtonAttribute.cs.meta
+ª   ª   ª   ª   ª   LabelAttribute.cs
+ª   ª   ª   ª   ª   LabelAttribute.cs.meta
+ª   ª   ª   ª   ª   LabelWidthAttribute.cs
+ª   ª   ª   ª   ª   LabelWidthAttribute.cs.meta
+ª   ª   ª   ª   ª   LevelEditorSetting.cs
+ª   ª   ª   ª   ª   LevelEditorSetting.cs.meta
+ª   ª   ª   ª   ª   LineSpacerAttribute.cs
+ª   ª   ª   ª   ª   LineSpacerAttribute.cs.meta
+ª   ª   ª   ª   ª   OnValueChangedAttribute.cs
+ª   ª   ª   ª   ª   OnValueChangedAttribute.cs.meta
+ª   ª   ª   ª   ª   OrderAttribute.cs
+ª   ª   ª   ª   ª   OrderAttribute.cs.meta
+ª   ª   ª   ª   ª   Properties.meta
+ª   ª   ª   ª   ª   States.meta
+ª   ª   ª   ª   ª   UnpackNestedAttribute.cs
+ª   ª   ª   ª   ª   UnpackNestedAttribute.cs.meta
+ª   ª   ª   ª   ª   
+ª   ª   ª   ª   +---Conditions
+ª   ª   ª   ª   ª       ConditionAttribute.cs
+ª   ª   ª   ª   ª       ConditionAttribute.cs.meta
+ª   ª   ª   ª   ª       HideAttribute.cs
+ª   ª   ª   ª   ª       HideAttribute.cs.meta
+ª   ª   ª   ª   ª       HideIfAttribute.cs
+ª   ª   ª   ª   ª       HideIfAttribute.cs.meta
+ª   ª   ª   ª   ª       PropertyDrawConditionAttribute.cs
+ª   ª   ª   ª   ª       PropertyDrawConditionAttribute.cs.meta
+ª   ª   ª   ª   ª       ShowIfAttribute.cs
+ª   ª   ª   ª   ª       ShowIfAttribute.cs.meta
+ª   ª   ª   ª   ª       
+ª   ª   ª   ª   +---Groups
+ª   ª   ª   ª   ª       BaseFoldoutGroupAttribute.cs
+ª   ª   ª   ª   ª       BaseFoldoutGroupAttribute.cs.meta
+ª   ª   ª   ª   ª       BoxFoldoutAttribute.cs
+ª   ª   ª   ª   ª       BoxFoldoutAttribute.cs.meta
+ª   ª   ª   ª   ª       BoxGroupAttribute.cs
+ª   ª   ª   ª   ª       BoxGroupAttribute.cs.meta
+ª   ª   ª   ª   ª       FoldoutAttribute.cs
+ª   ª   ª   ª   ª       FoldoutAttribute.cs.meta
+ª   ª   ª   ª   ª       GroupAttribute.cs
+ª   ª   ª   ª   ª       GroupAttribute.cs.meta
+ª   ª   ª   ª   ª       HorizontalGroupAttribute.cs
+ª   ª   ª   ª   ª       HorizontalGroupAttribute.cs.meta
+ª   ª   ª   ª   ª       PropertyGrouperAttribute.cs
+ª   ª   ª   ª   ª       PropertyGrouperAttribute.cs.meta
+ª   ª   ª   ª   ª       TabAttribute.cs
+ª   ª   ª   ª   ª       TabAttribute.cs.meta
+ª   ª   ª   ª   ª       
+ª   ª   ª   ª   +---Properties
+ª   ª   ª   ª   ª       DrawReferenceAttribute.cs
+ª   ª   ª   ª   ª       DrawReferenceAttribute.cs.meta
+ª   ª   ª   ª   ª       EnumFlagsAttribute.cs
+ª   ª   ª   ª   ª       EnumFlagsAttribute.cs.meta
+ª   ª   ª   ª   ª       MinMaxSliderAttribute.cs
+ª   ª   ª   ª   ª       MinMaxSliderAttribute.cs.meta
+ª   ª   ª   ª   ª       OnOffAttribute.cs
+ª   ª   ª   ª   ª       OnOffAttribute.cs.meta
+ª   ª   ª   ª   ª       ReorderableListAttribute.cs
+ª   ª   ª   ª   ª       ReorderableListAttribute.cs.meta
+ª   ª   ª   ª   ª       ShowNonSerializedFieldAttribute.cs
+ª   ª   ª   ª   ª       ShowNonSerializedFieldAttribute.cs.meta
+ª   ª   ª   ª   ª       SliderAttribute.cs
+ª   ª   ª   ª   ª       SliderAttribute.cs.meta
+ª   ª   ª   ª   ª       ToggleAttribute.cs
+ª   ª   ª   ª   ª       ToggleAttribute.cs.meta
+ª   ª   ª   ª   ª       
+ª   ª   ª   ª   +---States
+ª   ª   ª   ª           DisableIfAttribute.cs
+ª   ª   ª   ª           DisableIfAttribute.cs.meta
+ª   ª   ª   ª           EnableIfAttribute.cs
+ª   ª   ª   ª           EnableIfAttribute.cs.meta
+ª   ª   ª   ª           ReadOnlyAttribute.cs
+ª   ª   ª   ª           ReadOnlyAttribute.cs.meta
+ª   ª   ª   ª           
+ª   ª   ª   +---Unique ID
+ª   ª   ª           UniqueIDAttribute.cs
+ª   ª   ª           UniqueIDAttribute.cs.meta
+ª   ª   ª           UniqueIDUtils.cs
+ª   ª   ª           UniqueIDUtils.cs.meta
+ª   ª   ª           
+ª   ª   +---Themes
+ª   ª       ª   Dark Theme.meta
+ª   ª       ª   Editor Custom Styles (Dark).guiskin
+ª   ª       ª   Editor Custom Styles (Dark).guiskin.meta
+ª   ª       ª   Editor Custom Styles (Light).guiskin
+ª   ª       ª   Editor Custom Styles (Light).guiskin.meta
+ª   ª       ª   Light Theme.meta
+ª   ª       ª   Universal Theme.meta
+ª   ª       ª   
+ª   ª       +---Dark Theme
+ª   ª       ª       bottom_panel.png
+ª   ª       ª       bottom_panel.png.meta
+ª   ª       ª       box.png
+ª   ª       ª       box.png.meta
+ª   ª       ª       box_header.png
+ª   ª       ª       box_header.png.meta
+ª   ª       ª       linespacer.png
+ª   ª       ª       linespacer.png.meta
+ª   ª       ª       tab_normal.png
+ª   ª       ª       tab_normal.png.meta
+ª   ª       ª       tab_selected.png
+ª   ª       ª       tab_selected.png.meta
+ª   ª       ª       
+ª   ª       +---Light Theme
+ª   ª       ª       bottom_panel.png
+ª   ª       ª       bottom_panel.png.meta
+ª   ª       ª       box.png
+ª   ª       ª       box.png.meta
+ª   ª       ª       box_header.png
+ª   ª       ª       box_header.png.meta
+ª   ª       ª       linespacer.png
+ª   ª       ª       linespacer.png.meta
+ª   ª       ª       tab_normal.png
+ª   ª       ª       tab_normal.png.meta
+ª   ª       ª       tab_selected.png
+ª   ª       ª       tab_selected.png.meta
+ª   ª       ª       
+ª   ª       +---Universal Theme
+ª   ª               box_compiling.png
+ª   ª               box_compiling.png.meta
+ª   ª               button_blue.png
+ª   ª               button_blue.png.meta
+ª   ª               button_blue_active.png
+ª   ª               button_blue_active.png.meta
+ª   ª               button_green.png
+ª   ª               button_green.png.meta
+ª   ª               button_green_active.png
+ª   ª               button_green_active.png.meta
+ª   ª               button_red.png
+ª   ª               button_red.png.meta
+ª   ª               button_red_active.png
+ª   ª               button_red_active.png.meta
+ª   ª               toggle.png
+ª   ª               toggle.png.meta
+ª   ª               toggle_active.png
+ª   ª               toggle_active.png.meta
+ª   ª               
+ª   +---Monetization
+ª   ª   ª   Scripts.meta
+ª   ª   ª   
+ª   ª   +---Scripts
+ª   ª       ª   Advertisement.meta
+ª   ª       ª   Editor.meta
+ª   ª       ª   Monetization.cs
+ª   ª       ª   Monetization.cs.meta
+ª   ª       ª   MonetizationInitModule.cs
+ª   ª       ª   MonetizationInitModule.cs.meta
+ª   ª       ª   MonetizationSettings.cs
+ª   ª       ª   MonetizationSettings.cs.meta
+ª   ª       ª   Purchasing.meta
+ª   ª       ª   
+ª   ª       +---Advertisement
+ª   ª       ª   ª   AdProvider.cs
+ª   ª       ª   ª   AdProvider.cs.meta
+ª   ª       ª   ª   AdProviderHandler.cs
+ª   ª       ª   ª   AdProviderHandler.cs.meta
+ª   ª       ª   ª   AdSave.cs
+ª   ª       ª   ª   AdSave.cs.meta
+ª   ª       ª   ª   AdsManager.cs
+ª   ª       ª   ª   AdsManager.cs.meta
+ª   ª       ª   ª   AdsRewardsHolder.cs
+ª   ª       ª   ª   AdsRewardsHolder.cs.meta
+ª   ª       ª   ª   AdsSettings.cs
+ª   ª       ª   ª   AdsSettings.cs.meta
+ª   ª       ª   ª   AdType.cs
+ª   ª       ª   ª   AdType.cs.meta
+ª   ª       ª   ª   AuthorizationTrackingStatus.cs
+ª   ª       ª   ª   AuthorizationTrackingStatus.cs.meta
+ª   ª       ª   ª   BannerPosition.cs
+ª   ª       ª   ª   BannerPosition.cs.meta
+ª   ª       ª   ª   ConsentRequirementStatus.cs
+ª   ª       ª   ª   ConsentRequirementStatus.cs.meta
+ª   ª       ª   ª   DebugGeography.cs
+ª   ª       ª   ª   DebugGeography.cs.meta
+ª   ª       ª   ª   Editor.meta
+ª   ª       ª   ª   IDFALoadingTask.cs
+ª   ª       ª   ª   IDFALoadingTask.cs.meta
+ª   ª       ª   ª   NoAdsReward.cs
+ª   ª       ª   ª   NoAdsReward.cs.meta
+ª   ª       ª   ª   Providers.meta
+ª   ª       ª   ª   UMPLoadingTask.cs
+ª   ª       ª   ª   UMPLoadingTask.cs.meta
+ª   ª       ª   ª   
+ª   ª       ª   +---Editor
+ª   ª       ª   ª       AdsPostBuild.cs
+ª   ª       ª   ª       AdsPostBuild.cs.meta
+ª   ª       ª   ª       AdsSettingsEditor.cs
+ª   ª       ª   ª       AdsSettingsEditor.cs.meta
+ª   ª       ª   ª       EditorAdsContainer.cs
+ª   ª       ª   ª       EditorAdsContainer.cs.meta
+ª   ª       ª   ª       
+ª   ª       ª   +---Providers
+ª   ª       ª       ª   AdMob.meta
+ª   ª       ª       ª   Dummy.meta
+ª   ª       ª       ª   LevelPlay.meta
+ª   ª       ª       ª   Unity Ads.meta
+ª   ª       ª       ª   
+ª   ª       ª       +---AdMob
+ª   ª       ª       ª   ª   AdMobContainer.cs
+ª   ª       ª       ª   ª   AdMobContainer.cs.meta
+ª   ª       ª       ª   ª   AdMobHandler.cs
+ª   ª       ª       ª   ª   AdMobHandler.cs.meta
+ª   ª       ª       ª   ª   Editor.meta
+ª   ª       ª       ª   ª   
+ª   ª       ª       ª   +---Editor
+ª   ª       ª       ª           AdmobBuildHandler.cs
+ª   ª       ª       ª           AdmobBuildHandler.cs.meta
+ª   ª       ª       ª           EditorAdMobContainer.cs
+ª   ª       ª       ª           EditorAdMobContainer.cs.meta
+ª   ª       ª       ª           
+ª   ª       ª       +---Dummy
+ª   ª       ª       ª   ª   AdDummyContainer.cs
+ª   ª       ª       ª   ª   AdDummyContainer.cs.meta
+ª   ª       ª       ª   ª   AdDummyController.cs
+ª   ª       ª       ª   ª   AdDummyController.cs.meta
+ª   ª       ª       ª   ª   AdDummyHandler.cs
+ª   ª       ª       ª   ª   AdDummyHandler.cs.meta
+ª   ª       ª       ª   ª   Editor.meta
+ª   ª       ª       ª   ª   
+ª   ª       ª       ª   +---Editor
+ª   ª       ª       ª           EditorDummyContainer.cs
+ª   ª       ª       ª           EditorDummyContainer.cs.meta
+ª   ª       ª       ª           
+ª   ª       ª       +---LevelPlay
+ª   ª       ª       ª   ª   Editor.meta
+ª   ª       ª       ª   ª   LevelPlayContainer.cs
+ª   ª       ª       ª   ª   LevelPlayContainer.cs.meta
+ª   ª       ª       ª   ª   LevelPlayHandler.cs
+ª   ª       ª       ª   ª   LevelPlayHandler.cs.meta
+ª   ª       ª       ª   ª   
+ª   ª       ª       ª   +---Editor
+ª   ª       ª       ª           EditorLevelPlayContainer.cs
+ª   ª       ª       ª           EditorLevelPlayContainer.cs.meta
+ª   ª       ª       ª           
+ª   ª       ª       +---Unity Ads
+ª   ª       ª           ª   Editor.meta
+ª   ª       ª           ª   UnityAdsLegacyContainer.cs
+ª   ª       ª           ª   UnityAdsLegacyContainer.cs.meta
+ª   ª       ª           ª   UnityAdsLegacyHandler.cs
+ª   ª       ª           ª   UnityAdsLegacyHandler.cs.meta
+ª   ª       ª           ª   
+ª   ª       ª           +---Editor
+ª   ª       ª                   EditorUnityAdsContainer.cs
+ª   ª       ª                   EditorUnityAdsContainer.cs.meta
+ª   ª       ª                   
+ª   ª       +---Editor
+ª   ª       ª       MonetizationInitModuleEditor.cs
+ª   ª       ª       MonetizationInitModuleEditor.cs.meta
+ª   ª       ª       MonetizationSettingsEditor.cs
+ª   ª       ª       MonetizationSettingsEditor.cs.meta
+ª   ª       ª       
+ª   ª       +---Purchasing
+ª   ª           ª   Editor.meta
+ª   ª           ª   IAPButton.cs
+ª   ª           ª   IAPButton.cs.meta
+ª   ª           ª   IAPItem.cs
+ª   ª           ª   IAPItem.cs.meta
+ª   ª           ª   IAPManager.cs
+ª   ª           ª   IAPManager.cs.meta
+ª   ª           ª   IAPRewardsHolder.cs
+ª   ª           ª   IAPRewardsHolder.cs.meta
+ª   ª           ª   IAPSettings.cs
+ª   ª           ª   IAPSettings.cs.meta
+ª   ª           ª   MD_ProductKeyType.cs
+ª   ª           ª   MD_ProductKeyType.cs.meta
+ª   ª           ª   ProductData.cs
+ª   ª           ª   ProductData.cs.meta
+ª   ª           ª   ProductType.cs
+ª   ª           ª   ProductType.cs.meta
+ª   ª           ª   PurchaseFailureReason.cs
+ª   ª           ª   PurchaseFailureReason.cs.meta
+ª   ª           ª   Wrappers.meta
+ª   ª           ª   
+ª   ª           +---Editor
+ª   ª           ª       IAPSettingsEditor.cs
+ª   ª           ª       IAPSettingsEditor.cs.meta
+ª   ª           ª       
+ª   ª           +---Wrappers
+ª   ª                   DummyIAPWrapper.cs
+ª   ª                   DummyIAPWrapper.cs.meta
+ª   ª                   IAPWrapper.cs
+ª   ª                   IAPWrapper.cs.meta
+ª   ª                   UnityIAPWrapper.cs
+ª   ª                   UnityIAPWrapper.cs.meta
+ª   ª                   
+ª   +---Pool
+ª   ª   ª   Scripts.meta
+ª   ª   ª   
+ª   ª   +---Scripts
+ª   ª       ª   Editor.meta
+ª   ª       ª   IPool.cs
+ª   ª       ª   IPool.cs.meta
+ª   ª       ª   Pool.cs
+ª   ª       ª   Pool.cs.meta
+ª   ª       ª   PoolExtensions.cs
+ª   ª       ª   PoolExtensions.cs.meta
+ª   ª       ª   PoolGeneric.cs
+ª   ª       ª   PoolGeneric.cs.meta
+ª   ª       ª   PoolManager.cs
+ª   ª       ª   PoolManager.cs.meta
+ª   ª       ª   PoolMultiple.cs
+ª   ª       ª   PoolMultiple.cs.meta
+ª   ª       ª   PoolSceneHolder.cs
+ª   ª       ª   PoolSceneHolder.cs.meta
+ª   ª       ª   
+ª   ª       +---Editor
+ª   ª               PoolManagerEditor.cs
+ª   ª               PoolManagerEditor.cs.meta
+ª   ª               PoolMultiplePropertyDrawer.cs
+ª   ª               PoolMultiplePropertyDrawer.cs.meta
+ª   ª               PoolPropertyDrawer.cs
+ª   ª               PoolPropertyDrawer.cs.meta
+ª   ª               
+ª   +---Reward
+ª   ª   ª   Scripts.meta
+ª   ª   ª   
+ª   ª   +---Scripts
+ª   ª       ª   Editor.meta
+ª   ª       ª   Reward.cs
+ª   ª       ª   Reward.cs.meta
+ª   ª       ª   RewardsHolder.cs
+ª   ª       ª   RewardsHolder.cs.meta
+ª   ª       ª   TimerRewardsHolder.cs
+ª   ª       ª   TimerRewardsHolder.cs.meta
+ª   ª       ª   
+ª   ª       +---Editor
+ª   ª               RewardsHolderEditor.cs
+ª   ª               RewardsHolderEditor.cs.meta
+ª   ª               
+ª   +---Save
+ª   ª   ª   Scripts.meta
+ª   ª   ª   
+ª   ª   +---Scripts
+ª   ª       ª   Editor.meta
+ª   ª       ª   GlobalSave.cs
+ª   ª       ª   GlobalSave.cs.meta
+ª   ª       ª   ISaveObject.cs
+ª   ª       ª   ISaveObject.cs.meta
+ª   ª       ª   Plugins.meta
+ª   ª       ª   Save Presets.meta
+ª   ª       ª   SaveController.cs
+ª   ª       ª   SaveController.cs.meta
+ª   ª       ª   SavedDataContainer.cs
+ª   ª       ª   SavedDataContainer.cs.meta
+ª   ª       ª   SaveInitModule.cs
+ª   ª       ª   SaveInitModule.cs.meta
+ª   ª       ª   Serializer.cs
+ª   ª       ª   Serializer.cs.meta
+ª   ª       ª   Simple Save.meta
+ª   ª       ª   Wrappers.meta
+ª   ª       ª   
+ª   ª       +---Editor
+ª   ª       ª       SaveActionsMenu.cs
+ª   ª       ª       SaveActionsMenu.cs.meta
+ª   ª       ª       SavePresetsWindow.cs
+ª   ª       ª       SavePresetsWindow.cs.meta
+ª   ª       ª       
+ª   ª       +---Plugins
+ª   ª       ª   ª   WebGL.meta
+ª   ª       ª   ª   
+ª   ª       ª   +---WebGL
+ª   ª       ª           webgLibrary.jslib
+ª   ª       ª           webgLibrary.jslib.meta
+ª   ª       ª           
+ª   ª       +---Save Presets
+ª   ª       ª       SavePresets.cs
+ª   ª       ª       SavePresets.cs.meta
+ª   ª       ª       
+ª   ª       +---Simple Save
+ª   ª       ª       SimpleBoolSave.cs
+ª   ª       ª       SimpleBoolSave.cs.meta
+ª   ª       ª       SimpleFloatSave.cs
+ª   ª       ª       SimpleFloatSave.cs.meta
+ª   ª       ª       SimpleIntSave.cs
+ª   ª       ª       SimpleIntSave.cs.meta
+ª   ª       ª       SimpleLongSave.cs
+ª   ª       ª       SimpleLongSave.cs.meta
+ª   ª       ª       SimpleStringSave.cs
+ª   ª       ª       SimpleStringSave.cs.meta
+ª   ª       ª       
+ª   ª       +---Wrappers
+ª   ª               BaseSaveWrapper.cs
+ª   ª               BaseSaveWrapper.cs.meta
+ª   ª               DefaultSaveWrapper.cs
+ª   ª               DefaultSaveWrapper.cs.meta
+ª   ª               WebGLSaveWrapper.cs
+ª   ª               WebGLSaveWrapper.cs.meta
+ª   ª               
+ª   +---Skins
+ª   ª   ª   AbstractSkinData.cs
+ª   ª   ª   AbstractSkinData.cs.meta
+ª   ª   ª   AbstractSkinDatabase.cs
+ª   ª   ª   AbstractSkinDatabase.cs.meta
+ª   ª   ª   Editor.meta
+ª   ª   ª   GenericSkinDatabase.cs
+ª   ª   ª   GenericSkinDatabase.cs.meta
+ª   ª   ª   ISkinData.cs
+ª   ª   ª   ISkinData.cs.meta
+ª   ª   ª   ISkinsProvider.cs
+ª   ª   ª   ISkinsProvider.cs.meta
+ª   ª   ª   SkinController.cs
+ª   ª   ª   SkinController.cs.meta
+ª   ª   ª   SkinGlobalSave.cs
+ª   ª   ª   SkinGlobalSave.cs.meta
+ª   ª   ª   SkinPickerAttribute.cs
+ª   ª   ª   SkinPickerAttribute.cs.meta
+ª   ª   ª   SkinPreviewAttribute.cs
+ª   ª   ª   SkinPreviewAttribute.cs.meta
+ª   ª   ª   SkinReward.cs
+ª   ª   ª   SkinReward.cs.meta
+ª   ª   ª   SkinSave.cs
+ª   ª   ª   SkinSave.cs.meta
+ª   ª   ª   SkinsHandler.cs
+ª   ª   ª   SkinsHandler.cs.meta
+ª   ª   ª   
+ª   ª   +---Editor
+ª   ª           AbstractSkinsProviderEditor.cs
+ª   ª           AbstractSkinsProviderEditor.cs.meta
+ª   ª           EditorSkinsProvider.cs
+ª   ª           EditorSkinsProvider.cs.meta
+ª   ª           SkinDataPropertyDrawer.cs
+ª   ª           SkinDataPropertyDrawer.cs.meta
+ª   ª           SkinPickerPropertyDrawer.cs
+ª   ª           SkinPickerPropertyDrawer.cs.meta
+ª   ª           SkinPickerWindow.cs
+ª   ª           SkinPickerWindow.cs.meta
+ª   ª           
+ª   +---Tween
+ª   ª   ª   Scripts.meta
+ª   ª   ª   
+ª   ª   +---Scripts
+ª   ª       ª   Animations.meta
+ª   ª       ª   Behaviors.meta
+ª   ª       ª   Cases.meta
+ª   ª       ª   Easing.meta
+ª   ª       ª   Editor.meta
+ª   ª       ª   Tween.cs
+ª   ª       ª   Tween.cs.meta
+ª   ª       ª   TweenCase.cs
+ª   ª       ª   TweenCase.cs.meta
+ª   ª       ª   TweenCaseCollection.cs
+ª   ª       ª   TweenCaseCollection.cs.meta
+ª   ª       ª   TweenCaseFunction.cs
+ª   ª       ª   TweenCaseFunction.cs.meta
+ª   ª       ª   TweenExtension.cs
+ª   ª       ª   TweenExtension.cs.meta
+ª   ª       ª   TweenInitModule.cs
+ª   ª       ª   TweenInitModule.cs.meta
+ª   ª       ª   TweensHolder.cs
+ª   ª       ª   TweensHolder.cs.meta
+ª   ª       ª   
+ª   ª       +---Animations
+ª   ª       ª       FracturedExplosion.cs
+ª   ª       ª       FracturedExplosion.cs.meta
+ª   ª       ª       JuicyBounce.cs
+ª   ª       ª       JuicyBounce.cs.meta
+ª   ª       ª       SimpleBounce.cs
+ª   ª       ª       SimpleBounce.cs.meta
+ª   ª       ª       
+ª   ª       +---Behaviors
+ª   ª       ª       AnchoredPositionTweenBehavior.cs
+ª   ª       ª       AnchoredPositionTweenBehavior.cs.meta
+ª   ª       ª       ColorTweenBehavior.cs
+ª   ª       ª       ColorTweenBehavior.cs.meta
+ª   ª       ª       FadeTweenBehavior.cs
+ª   ª       ª       FadeTweenBehavior.cs.meta
+ª   ª       ª       RotateTweenBehavior.cs
+ª   ª       ª       RotateTweenBehavior.cs.meta
+ª   ª       ª       ScaleTweenBehavior.cs
+ª   ª       ª       ScaleTweenBehavior.cs.meta
+ª   ª       ª       TweenBehavior.cs
+ª   ª       ª       TweenBehavior.cs.meta
+ª   ª       ª       
+ª   ª       +---Cases
+ª   ª       ª       AnimationTweenCases.cs
+ª   ª       ª       AnimationTweenCases.cs.meta
+ª   ª       ª       AudioTweenCases.cs
+ª   ª       ª       AudioTweenCases.cs.meta
+ª   ª       ª       CameraTweenCases.cs
+ª   ª       ª       CameraTweenCases.cs.meta
+ª   ª       ª       GraphicTweenCases.cs
+ª   ª       ª       GraphicTweenCases.cs.meta
+ª   ª       ª       ImageTweenCases.cs
+ª   ª       ª       ImageTweenCases.cs.meta
+ª   ª       ª       MaterialTweenCases.cs
+ª   ª       ª       MaterialTweenCases.cs.meta
+ª   ª       ª       ParticleTweenCases.cs
+ª   ª       ª       ParticleTweenCases.cs.meta
+ª   ª       ª       RectTransformTweenCases.cs
+ª   ª       ª       RectTransformTweenCases.cs.meta
+ª   ª       ª       RendererTweenCases.cs
+ª   ª       ª       RendererTweenCases.cs.meta
+ª   ª       ª       SpriteRendererTweenCases.cs
+ª   ª       ª       SpriteRendererTweenCases.cs.meta
+ª   ª       ª       SystemTweenCases.cs
+ª   ª       ª       SystemTweenCases.cs.meta
+ª   ª       ª       TextTweenCases.cs
+ª   ª       ª       TextTweenCases.cs.meta
+ª   ª       ª       TransformTweenCases.cs
+ª   ª       ª       TransformTweenCases.cs.meta
+ª   ª       ª       UITweenCases.cs
+ª   ª       ª       UITweenCases.cs.meta
+ª   ª       ª       
+ª   ª       +---Easing
+ª   ª       ª       AnimationCurveEasingFunction.cs
+ª   ª       ª       AnimationCurveEasingFunction.cs.meta
+ª   ª       ª       CustomEasingFunction.cs
+ª   ª       ª       CustomEasingFunction.cs.meta
+ª   ª       ª       Ease.cs
+ª   ª       ª       Ease.cs.meta
+ª   ª       ª       
+ª   ª       +---Editor
+ª   ª               TweenEditor.cs
+ª   ª               TweenEditor.cs.meta
+ª   ª               
+ª   +---UI
+ª       ª   Scripts.meta
+ª       ª   UIExtensions.cs
+ª       ª   UIExtensions.cs.meta
+ª       ª   
+ª       +---Scripts
+ª           ª   Components.meta
+ª           ª   Editor.meta
+ª           ª   FloatingCloud.cs
+ª           ª   FloatingCloud.cs.meta
+ª           ª   FloatingCloudSettings.cs
+ª           ª   FloatingCloudSettings.cs.meta
+ª           ª   Helpers.meta
+ª           ª   IPopupWindow.cs
+ª           ª   IPopupWindow.cs.meta
+ª           ª   NotchSafeArea.cs
+ª           ª   NotchSafeArea.cs.meta
+ª           ª   Overlay.meta
+ª           ª   UIController.cs
+ª           ª   UIController.cs.meta
+ª           ª   UIPage.cs
+ª           ª   UIPage.cs.meta
+ª           ª   UIUtils.cs
+ª           ª   UIUtils.cs.meta
+ª           ª   World Space UI.meta
+ª           ª   
+ª           +---Components
+ª           ª   ª   Editor.meta
+ª           ª   ª   UIFadeAnimation.cs
+ª           ª   ª   UIFadeAnimation.cs.meta
+ª           ª   ª   UIScaleAnimation.cs
+ª           ª   ª   UIScaleAnimation.cs.meta
+ª           ª   ª   
+ª           ª   +---Editor
+ª           ª           UIFadeAnimationPropertyDrawer.cs
+ª           ª           UIFadeAnimationPropertyDrawer.cs.meta
+ª           ª           UIScaleAnimationPropertyDrawer.cs
+ª           ª           UIScaleAnimationPropertyDrawer.cs.meta
+ª           ª           
+ª           +---Editor
+ª           ª       UIControllerEditor.cs
+ª           ª       UIControllerEditor.cs.meta
+ª           ª       
+ª           +---Helpers
+ª           ª       RaycastGraphics.cs
+ª           ª       RaycastGraphics.cs.meta
+ª           ª       
+ª           +---Overlay
+ª           ª       DummyOverlayPanel.cs
+ª           ª       DummyOverlayPanel.cs.meta
+ª           ª       FadeOverlayPanel.cs
+ª           ª       FadeOverlayPanel.cs.meta
+ª           ª       IOverlayPanel.cs
+ª           ª       IOverlayPanel.cs.meta
+ª           ª       Overlay.cs
+ª           ª       Overlay.cs.meta
+ª           ª       SwapOverlayPanel.cs
+ª           ª       SwapOverlayPanel.cs.meta
+ª           ª       
+ª           +---World Space UI
+ª                   WorldSpaceButton.cs
+ª                   WorldSpaceButton.cs.meta
+ª                   WorldSpaceRaycaster.cs
+ª                   WorldSpaceRaycaster.cs.meta
+ª                   
++---Scripts
+ª   ª   Core Settings.meta
+ª   ª   Core.cs
+ª   ª   Core.cs.meta
+ª   ª   Custom List.meta
+ª   ª   Duo Types.meta
+ª   ª   Editor.meta
+ª   ª   Floating Text.meta
+ª   ª   Particles.meta
+ª   ª   Scene Picker.meta
+ª   ª   Scene Saving Handler.meta
+ª   ª   ScreenSettings.cs
+ª   ª   ScreenSettings.cs.meta
+ª   ª   SimpleCallback.cs
+ª   ª   SimpleCallback.cs.meta
+ª   ª   Static Unloader.meta
+ª   ª   Toggle Types.meta
+ª   ª   Weighted List.meta
+ª   ª   
+ª   +---Core Settings
+ª   ª   ª   Editor.meta
+ª   ª   ª   Runtime.meta
+ª   ª   ª   
+ª   ª   +---Editor
+ª   ª   ª       Core.Settings.Editor.asmdef
+ª   ª   ª       Core.Settings.Editor.asmdef.meta
+ª   ª   ª       CoreEditor.cs
+ª   ª   ª       CoreEditor.cs.meta
+ª   ª   ª       CorePreferences.cs
+ª   ª   ª       CorePreferences.cs.meta
+ª   ª   ª       CoreSettingsEditor.cs
+ª   ª   ª       CoreSettingsEditor.cs.meta
+ª   ª   ª       
+ª   ª   +---Runtime
+ª   ª           Core.Settings.asmdef
+ª   ª           Core.Settings.asmdef.meta
+ª   ª           CoreSettings.cs
+ª   ª           CoreSettings.cs.meta
+ª   ª           
+ª   +---Custom List
+ª   ª   ª   Editor.meta
+ª   ª   ª   
+ª   ª   +---Editor
+ª   ª       ª   CustomList.cs
+ª   ª       ª   CustomList.cs.meta
+ª   ª       ª   Fields.cs
+ª   ª       ª   Fields.cs.meta
+ª   ª       ª   Style.meta
+ª   ª       ª   
+ª   ª       +---Style
+ª   ª               CustomListStyle.cs
+ª   ª               CustomListStyle.cs.meta
+ª   ª               ListStylesDatabase.cs
+ª   ª               ListStylesDatabase.cs.meta
+ª   ª               Styles Database.asset
+ª   ª               Styles Database.asset.meta
+ª   ª               
+ª   +---Duo Types
+ª   ª   ª   DuoColor.cs
+ª   ª   ª   DuoColor.cs.meta
+ª   ª   ª   DuoDouble.cs
+ª   ª   ª   DuoDouble.cs.meta
+ª   ª   ª   DuoFloat.cs
+ª   ª   ª   DuoFloat.cs.meta
+ª   ª   ª   DuoInt.cs
+ª   ª   ª   DuoInt.cs.meta
+ª   ª   ª   DuoTypesExtensions.cs
+ª   ª   ª   DuoTypesExtensions.cs.meta
+ª   ª   ª   DuoVector3.cs
+ª   ª   ª   DuoVector3.cs.meta
+ª   ª   ª   Editor.meta
+ª   ª   ª   
+ª   ª   +---Editor
+ª   ª           DuoTypesPropertyDrawer.cs
+ª   ª           DuoTypesPropertyDrawer.cs.meta
+ª   ª           
+ª   +---Editor
+ª   ª       AudioSmartImporter.cs
+ª   ª       AudioSmartImporter.cs.meta
+ª   ª       CorePreparationTool.cs
+ª   ª       CorePreparationTool.cs.meta
+ª   ª       EditorScenesToolbar.cs
+ª   ª       EditorScenesToolbar.cs.meta
+ª   ª       MD_SceneLoadingActionsMenu.cs
+ª   ª       MD_SceneLoadingActionsMenu.cs.meta
+ª   ª       SmartSelector.cs
+ª   ª       SmartSelector.cs.meta
+ª   ª       
+ª   +---Floating Text
+ª   ª   ª   Behaviours.meta
+ª   ª   ª   FloatingTextBaseBehavior.cs
+ª   ª   ª   FloatingTextBaseBehavior.cs.meta
+ª   ª   ª   FloatingTextCase.cs
+ª   ª   ª   FloatingTextCase.cs.meta
+ª   ª   ª   FloatingTextController.cs
+ª   ª   ª   FloatingTextController.cs.meta
+ª   ª   ª   
+ª   ª   +---Behaviours
+ª   ª           FloatingTextBehavior.cs
+ª   ª           FloatingTextBehavior.cs.meta
+ª   ª           FloatingTextHitBehavior.cs
+ª   ª           FloatingTextHitBehavior.cs.meta
+ª   ª           FloatingTextUpgradesBehavior.cs
+ª   ª           FloatingTextUpgradesBehavior.cs.meta
+ª   ª           FollowingTextBehavior.cs
+ª   ª           FollowingTextBehavior.cs.meta
+ª   ª           
+ª   +---Particles
+ª   ª   ª   Scripts.meta
+ª   ª   ª   
+ª   ª   +---Scripts
+ª   ª       ª   Editor.meta
+ª   ª       ª   Particle.cs
+ª   ª       ª   Particle.cs.meta
+ª   ª       ª   ParticleBehaviour.cs
+ª   ª       ª   ParticleBehaviour.cs.meta
+ª   ª       ª   ParticleCase.cs
+ª   ª       ª   ParticleCase.cs.meta
+ª   ª       ª   ParticlesController.cs
+ª   ª       ª   ParticlesController.cs.meta
+ª   ª       ª   ParticlesExtensions.cs
+ª   ª       ª   ParticlesExtensions.cs.meta
+ª   ª       ª   
+ª   ª       +---Editor
+ª   ª               ParticlesControllerEditor.cs
+ª   ª               ParticlesControllerEditor.cs.meta
+ª   ª               
+ª   +---Scene Picker
+ª   ª   ª   Scripts.meta
+ª   ª   ª   
+ª   ª   +---Scripts
+ª   ª       ª   Editor.meta
+ª   ª       ª   SceneObject.cs
+ª   ª       ª   SceneObject.cs.meta
+ª   ª       ª   
+ª   ª       +---Editor
+ª   ª               SceneObjectPropertyDrawer.cs
+ª   ª               SceneObjectPropertyDrawer.cs.meta
+ª   ª               
+ª   +---Scene Saving Handler
+ª   ª   ª   Editor.meta
+ª   ª   ª   ISceneSavingCallback.cs
+ª   ª   ª   ISceneSavingCallback.cs.meta
+ª   ª   ª   
+ª   ª   +---Editor
+ª   ª           SceneSavingHandler.cs
+ª   ª           SceneSavingHandler.cs.meta
+ª   ª           
+ª   +---Static Unloader
+ª   ª   ª   Editor.meta
+ª   ª   ª   StaticUnloadAttribute.cs
+ª   ª   ª   StaticUnloadAttribute.cs.meta
+ª   ª   ª   
+ª   ª   +---Editor
+ª   ª           StaticUnloader.cs
+ª   ª           StaticUnloader.cs.meta
+ª   ª           
+ª   +---Toggle Types
+ª   ª   ª   Editor.meta
+ª   ª   ª   ToggleTypes.cs
+ª   ª   ª   ToggleTypes.cs.meta
+ª   ª   ª   
+ª   ª   +---Editor
+ª   ª           ToggleTypesPropertyDrawer.cs
+ª   ª           ToggleTypesPropertyDrawer.cs.meta
+ª   ª           
+ª   +---Weighted List
+ª           PrefabsWeightedList.cs
+ª           PrefabsWeightedList.cs.meta
+ª           WeightedList.cs
+ª           WeightedList.cs.meta
+ª           
++---Utils & Extensions
+    ª   Editor.meta
+    ª   Runtime.meta
+    ª   
+    +---Editor
+    ª   ª   Core.UE.Editor.asmdef
+    ª   ª   Core.UE.Editor.asmdef.meta
+    ª   ª   Extensions.meta
+    ª   ª   Utils.meta
+    ª   ª   
+    ª   +---Extensions
+    ª   ª       EditorExtensions.cs
+    ª   ª       EditorExtensions.cs.meta
+    ª   ª       
+    ª   +---Utils
+    ª           EditorUtils.cs
+    ª           EditorUtils.cs.meta
+    ª           TMPUtils.cs
+    ª           TMPUtils.cs.meta
+    ª           
+    +---Runtime
+        ª   Core.UE.asmdef
+        ª   Core.UE.asmdef.meta
+        ª   Extensions.meta
+        ª   Utils.meta
+        ª   
+        +---Extensions
+        ª       CoreExtensions.cs
+        ª       CoreExtensions.cs.meta
+        ª       TextureExtensions.cs
+        ª       TextureExtensions.cs.meta
+        ª       
+        +---Utils
+                Bezier.cs
+                Bezier.cs.meta
+                EnumUtils.cs
+                EnumUtils.cs.meta
+                IOUtils.cs
+                IOUtils.cs.meta
+                RagdollUtils.cs
+                RagdollUtils.cs.meta
+                ReflectionUtils.cs
+                ReflectionUtils.cs.meta
+                RuntimeEditorUtils.cs
+                RuntimeEditorUtils.cs.meta
+                SceneUtils.cs
+                SceneUtils.cs.meta
+                TimeUtils.cs
+                TimeUtils.cs.meta
+                

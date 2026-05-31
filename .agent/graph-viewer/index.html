@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SwordIdle Context Graph</title>
+    <!-- vis-network CDN -->
+    <script src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+    <script src="https://unpkg.com/3d-force-graph"></script>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    
+    <!-- Load graph data trực tiếp thay vì dùng fetch để tránh lỗi CORS -->
+    <script src="../context_graph.js"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="header-left">
+            <h1>SwordIdle Context Graph</h1>
+        </div>
+        <div class="header-center">
+            <input type="text" id="searchInput" placeholder="Search node by name..." />
+            <button id="searchBtn">Search</button>
+        </div>
+        <div class="header-right">
+            <label style="margin-right: 15px; font-weight: bold; color: #4facf7;">
+                Role: 
+                <select id="roleSelect" style="padding: 5px; border-radius: 4px; background: #1e1e1e; color: white; border: 1px solid #4facf7;">
+                    <option value="developer">Developer</option>
+                    <option value="architect">Architect (High-level)</option>
+                </select>
+            </label>
+            <label style="margin-right: 15px; font-weight: bold; color: #e74c3c;">
+                Color By: 
+                <select id="colorBySelect" style="padding: 5px; border-radius: 4px; background: #1e1e1e; color: white; border: 1px solid #e74c3c;">
+                    <option value="heatmap" selected>🔥 Complexity Heatmap</option>
+                    <option value="feature">Feature (Group)</option>
+                </select>
+            </label>
+            <label style="margin-right: 15px; font-weight: bold;">
+                View: 
+                <select id="viewModeSelect" style="padding: 5px; border-radius: 4px; background: #1e1e1e; color: white; border: 1px solid #555;">
+                    <option value="2d-force">2D Network</option>
+                    <option value="2d-tree">2D Hierarchical</option>
+                    <option value="3d-force">3D Universe</option>
+                </select>
+            </label>
+            <button id="tourBtn" style="background-color: #8e44ad; color: white; border: none; padding: 7px 12px; border-radius: 4px; cursor: pointer; font-weight: bold; margin-right: 15px;">🎬 Start Tour</button>
+            <button id="refreshBtn">Reload Data</button>
+        </div>
+    </div>
+    
+    <div id="main">
+        <div id="left-sidebar">
+            <h2 style="margin-top:0; color: #4facf7;">Legend</h2>
+            <div id="legend-content"></div>
+        </div>
+        <div id="graph-container">
+            <!-- 2D View Container -->
+            <div id="mynetwork"></div>
+            <!-- 3D View Container -->
+            <div id="3d-graph" style="display: none;"></div>
+        </div>
+        <div id="sidebar">
+            <h2>Node Details</h2>
+            <div id="node-info">Click on a node to see its details.</div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

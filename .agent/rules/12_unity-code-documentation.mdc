@@ -1,0 +1,248 @@
+---
+id: "rule-unity-code-documentation"
+name: "Chuẩn hóa Comment & Tooltip trong Unity C#"
+description: "Mọi method/property phải có XML <summary>. Mọi [SerializeField] phải có [Tooltip] mô tả rõ ràng. Áp dụng khi viết mới hoặc refactor bất kỳ script nào."
+version: "1.0.0"
+alwaysApply: true
+enabled: true
+priority: 21
+tags: ["unity", "documentation", "xml-summary", "tooltip", "csharp"]
+globs: ["**/*.cs"]
+excludeGlobs: ["**/Plugins/**", "**/Editor/**", "**/Spine/**"]
+scope: "project"
+services: ["*"]
+appliesTo: ["code", "chat"]
+match: ""
+variables: {}
+rules: []
+examples: []
+references: []
+commands: []
+owners: ["devgo2003"]
+createdAt: "2026-04-15T00:00:00Z"
+updatedAt: "2026-04-15T00:00:00Z"
+notes: "Bắt buộc XML summary + Tooltip để code tự tài liệu hóa, giảm context cần giải thích."
+language: vi
+---
+
+# Chuẩn hóa Comment & Tooltip trong Unity C#
+
+## Khi áp dụng
+
+- Viết **class mới** hoặc **method mới** bất kỳ.
+- **Refactor** method/property có sẵn.
+- Mọi field có `[SerializeField]` hoặc `public` được expose lên Inspector.
+
+---
+
+## 1. XML `<summary>` cho Class
+
+Mọi class phải có XML doc mô tả trách nhiệm chính.
+
+```csharp
+// ✅ ĐÚNG
+/// <summary>
+/// Quản lý 32 ô vũ khí (8 main + 24 reserve).
+/// Điểm vào duy nhất cho summon, merge, swap và sync orbit.
+/// </summary>
+public class WeaponInventorySystem : MonoBehaviour { }
+
+// ❌ SAI — Không có summary
+public class WeaponInventorySystem : MonoBehaviour { }
+```
+
+---
+
+## 2. XML `<summary>` cho Method & Property
+
+### Quy tắc bắt buộc
+
+- **Public method/property**: bắt buộc `<summary>`, khuyến nghị `<param>` và `<returns>`.
+- **Private method quan trọng** (logic phức tạp, side-effect): bắt buộc `<summary>`.
+- **Private helper đơn giản** (1–2 dòng rõ nghĩa): `<summary>` khuyến nghị, không bắt buộc.
+
+```csharp
+// ✅ ĐÚNG — Public method có đủ summary + param + returns
+/// <summary>
+/// Triệu hồi vũ khí Lv1 vào ô trống đầu tiên trong 32 slot.
+/// Ưu tiên ô main (0–7), sau đó reserve (8–31).
+/// </summary>
+/// <returns>Index ô vừa được thêm vũ khí; -1 nếu tất cả 32 ô đều đầy.</returns>
+public int SummonWeapon()
+{
+    // ...
+}
+
+// ✅ ĐÚNG — Method có param
+/// <summary>
+/// Gộp vũ khí tại <paramref name="sourceSlot"/> vào <paramref name="targetSlot"/>.
+/// Hai vũ khí phải cùng cấp. Sau khi merge, sourceSlot trở thành trống.
+/// </summary>
+/// <param name="sourceSlot">Index ô nguồn (0–31).</param>
+/// <param name="targetSlot">Index ô đích (0–31).</param>
+/// <exception cref="ArgumentException">Ném nếu hai vũ khí khác cấp hoặc slot không hợp lệ.</exception>
+public void MergeWeapons(int sourceSlot, int targetSlot)
+{
+    // ...
+}
+
+// ✅ ĐÚNG — Private method phức tạp
+/// <summary>
+/// Đồng bộ weapon object trên orbit slot [0..7] sau khi inventory thay đổi.
+/// Chỉ xử lý main slot; reserve slot không gọi hàm này.
+/// </summary>
+private void SyncOrbitSlot(int mainSlotIndex, WeaponInstance weapon)
+{
+    // ...
+}
+
+// ❌ SAI — Public method không có summary
+public int SummonWeapon() { }
+
+// ❌ SAI — Summary mơ hồ, không nói gì cụ thể
+/// <summary>Xử lý vũ khí.</summary>
+public int SummonWeapon() { }
+```
+
+---
+
+## 3. `[Tooltip]` cho SerializeField & Public Field
+
+### Quy tắc bắt buộc
+
+- **Mọi `[SerializeField]`** phải có `[Tooltip("...")]` đặt ngay trên field.
+- `[Tooltip]` phải mô tả **ý nghĩa**, **đơn vị** (nếu là số), và **ảnh hưởng** khi thay đổi.
+- **Public field** (không khuyến khích dùng) nếu có cũng phải có `[Tooltip]`.
+
+```csharp
+// ✅ ĐÚNG
+[Header("Orbit Settings")]
+[Tooltip("Tốc độ quay của vòng vũ khí quanh player, đơn vị độ/giây. Tăng = quay nhanh hơn.")]
+[SerializeField] private float orbitSpeed = 90f;
+
+[Tooltip("Bán kính vòng quỹ đạo vũ khí tính từ tâm player, đơn vị Unity units.")]
+[SerializeField] private float orbitRadius = 2f;
+
+[Tooltip("ScriptableObject chứa chỉ số phòng thủ/sinh tồn của unit này (MaxHp, Defense).")]
+[SerializeField] private UnitCombatStatsSO combatStats;
+
+[Tooltip("Số lượng slot vũ khí chính được trang bị trực tiếp trên orbit. Không đổi trong gameplay.")]
+[SerializeField, Min(1)] private int mainSlotCount = 8;
+
+// ❌ SAI — Không có Tooltip
+[SerializeField] private float orbitSpeed = 90f;
+
+// ❌ SAI — Tooltip không có thông tin hữu ích
+[Tooltip("Speed")]
+[SerializeField] private float orbitSpeed = 90f;
+```
+
+---
+
+## 4. Checklist khi viết / review code
+
+- [ ] Class có `<summary>` mô tả trách nhiệm chính.
+- [ ] Mọi **public method/property** có `<summary>`.
+- [ ] Mọi **private method phức tạp** có `<summary>`.
+- [ ] `<param>` và `<returns>` có mặt khi method có tham số hoặc giá trị trả về không tự rõ nghĩa.
+- [ ] `<exception>` có trong doc nếu method có thể throw.
+- [ ] Mọi `[SerializeField]` / public field có `[Tooltip("...")]` với mô tả rõ ràng, kèm đơn vị nếu là số.
+- [ ] Tooltip **không được** là chuỗi rỗng hoặc chỉ lặp lại tên biến.
+
+---
+
+## 5. Ví dụ class đầy đủ chuẩn
+
+```csharp
+using UnityEngine;
+
+namespace SwordIdle.Game.Combat
+{
+    /// <summary>
+    /// Quản lý hệ thống orbit vũ khí xoay xung quanh PlayerUnit.
+    /// Chứa 8 WeaponOrbitSlot, quay liên tục theo <see cref="orbitSpeed"/>.
+    /// </summary>
+    public class WeaponOrbitSystem : MonoBehaviour, ITickable
+    {
+        #region Fields
+
+        [Header("Orbit Configuration")]
+        [Tooltip("Tốc độ quay của toàn bộ vòng vũ khí, đơn vị độ/giây. Giá trị dương = quay thuận chiều kim đồng hồ.")]
+        [SerializeField] private float orbitSpeed = 90f;
+
+        [Tooltip("Bán kính đường tròn quỹ đạo vũ khí tính từ tâm transform cha, đơn vị Unity units.")]
+        [SerializeField] private float orbitRadius = 2f;
+
+        [Tooltip("Danh sách 8 slot vũ khí trên orbit. Gán đủ 8 phần tử trong Inspector.")]
+        [SerializeField] private WeaponOrbitSlot[] orbitSlots;
+
+        private float m_currentAngle;
+
+        #endregion
+
+        #region Public Methods
+
+        /// <summary>
+        /// Gán hoặc cập nhật vũ khí tại slot có <paramref name="slotIndex"/> cho khớp với
+        /// <paramref name="weapon"/>. Truyền <c>null</c> để xóa vũ khí khỏi slot đó.
+        /// </summary>
+        /// <param name="slotIndex">Index slot trong khoảng [0, 7].</param>
+        /// <param name="weapon">WeaponInstance cần gán; null = xóa.</param>
+        /// <exception cref="ArgumentOutOfRangeException">Ném nếu slotIndex ngoài [0, 7].</exception>
+        public void SetWeaponAtSlot(int slotIndex, WeaponInstance weapon)
+        {
+            if (slotIndex < 0 || slotIndex >= orbitSlots.Length)
+                throw new System.ArgumentOutOfRangeException(nameof(slotIndex),
+                    $"slotIndex phải trong [0, {orbitSlots.Length - 1}], nhận: {slotIndex}");
+
+            orbitSlots[slotIndex].SetWeapon(weapon);
+        }
+
+        #endregion
+
+        #region ITickable
+
+        /// <summary>
+        /// Cập nhật góc quay của vòng orbit mỗi frame thông qua TickManager.
+        /// Gọi từ <see cref="TickManager"/> — không gọi trực tiếp.
+        /// </summary>
+        /// <param name="dt">Delta time từ TickManager (giây).</param>
+        public void Tick(float dt)
+        {
+            m_currentAngle += orbitSpeed * dt;
+            transform.rotation = Quaternion.Euler(0f, 0f, m_currentAngle);
+        }
+
+        #endregion
+
+        #region Private Methods
+
+        /// <summary>
+        /// Tính toán và gán vị trí ban đầu của từng slot đều nhau trên đường tròn.
+        /// Gọi một lần trong Awake sau khi orbitSlots được validate.
+        /// </summary>
+        private void DistributeSlotsEvenlyOnCircle()
+        {
+            float angleStep = 360f / orbitSlots.Length;
+            for (int i = 0; i < orbitSlots.Length; i++)
+            {
+                float angle = angleStep * i * Mathf.Deg2Rad;
+                orbitSlots[i].SetLocalOffset(new Vector2(
+                    Mathf.Cos(angle) * orbitRadius,
+                    Mathf.Sin(angle) * orbitRadius));
+            }
+        }
+
+        #endregion
+    }
+}
+```
+
+---
+
+## 6. Quy tắc ngôn ngữ trong doc
+
+- **Tiếng Việt** cho `<summary>`, `<param>`, `[Tooltip]` — nhất quán với commit message convention.
+- Tên class/method/param giữ nguyên tiếng Anh (code).
+- Dùng `<see cref="ClassName.MemberName"/>` khi muốn reference sang thành phần khác.
+- `<paramref name="x"/>` khi nhắc tới tham số trong body của summary.

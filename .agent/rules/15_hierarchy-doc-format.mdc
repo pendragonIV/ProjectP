@@ -1,0 +1,135 @@
+---
+id: "rule-hierarchy-doc-format"
+name: "Chuẩn hóa Format Sơ đồ Hierarchy trong Markdown"
+description: "Quy tắc viết sơ đồ Hierarchy GameObject trong file .md để Tool SceneSetupTool có thể nhận diện và parse tự động"
+version: "1.1.0"
+alwaysApply: true
+enabled: true
+priority: 15
+tags: ["docs", "hierarchy", "scene-setup", "tool"]
+globs: ["Assets/Docs/**/*.md"]
+scope: "project"
+appliesTo: ["code", "chat"]
+createdAt: "2026-04-18T00:00:00Z"
+updatedAt: "2026-04-18T00:00:00Z"
+language: vi
+---
+
+# Chuẩn hóa Format Sơ đồ Hierarchy trong Markdown
+
+## Mục đích
+
+Đảm bảo bất kỳ sơ đồ cây GameObject nào được viết trong tài liệu Markdown đều có thể được **SceneSetupTool** (`Assets/Editor/SceneSetupTool.cs`) tự động nhận diện và sinh cây Hierarchy trong Unity Editor.
+
+## Quy tắc bắt buộc
+
+### 1. Bọc sơ đồ trong code fence chuẩn
+
+Sơ đồ Hierarchy PHẢI nằm trong block ` ```hierarchy ` (không phải ` ``` ` thông thường):
+
+```
+ ```hierarchy
+Scene
+├── [Bootstrap]         ← GameCompositionRoot + TickManager
+├── [Player]            ← PlayerUnit
+└── [UI]
+    └── Canvas
+        └── WeaponPanel ← WeaponInventoryPanel
+ ```
+```
+
+> [!CAUTION]
+> Sử dụng ` ```hierarchy ` (có từ khóa định danh) để Tool phân biệt sơ đồ GameObject với các block code/ sơ đồ kiến trúc script khác. **KHÔNG** dùng ` ``` ` hoặc ` ```text ` cho sơ đồ Hierarchy.
+
+### 2. Ký hiệu `←` là BẮT BUỘC để gán Components
+
+Mỗi dòng khai báo Component PHẢI dùng `←` (ký tự mũi tên trái Unicode U+2190):
+- Đúng: `├── [Bootstrap]         ← GameCompositionRoot + TickManager`
+- Sai:  `├── [Bootstrap]  # GameCompositionRoot + TickManager`
+- Sai:  `├── [Bootstrap]  --> GameCompositionRoot + TickManager`
+
+### 3. Nhiều Components cùng 1 GameObject gộp bằng `+`
+
+```
+├── [Bootstrap]   ← GameCompositionRoot + TickManager
+```
+
+### 4. Canvas Node: Khai báo Sort Order trong ngoặc đơn
+
+```
+└── DragCanvas    ← Canvas (Order=999)
+```
+Không có `GraphicRaycaster` thì annotate:
+```
+└── DragCanvas    ← Canvas (Order=999, NoRaycaster)
+```
+
+### 5. Node trống (không có Component) không cần dùng `←`
+
+```
+├── [Camera]
+├── [Enemies]
+│   └── Enemy_01  ← EnemyUnit
+```
+
+## Ví dụ hoàn chỉnh
+
+```hierarchy
+Scene
+├── [Bootstrap]              ← GameCompositionRoot + TickManager {tickManager→Bootstrap}
+├── [Camera]
+├── [Player]                 ← PlayerUnit + Rigidbody2D + CircleCollider2D
+│   └── WeaponOrbitSystem    ← WeaponOrbitSystem {orbitSlots=[Slot_0,Slot_1,Slot_2,Slot_3,Slot_4,Slot_5,Slot_6,Slot_7]}
+│       ├── Slot_0           ← WeaponOrbitSlot
+│       ├── Slot_1           ← WeaponOrbitSlot
+│       ├── Slot_2           ← WeaponOrbitSlot
+│       ├── Slot_3           ← WeaponOrbitSlot
+│       ├── Slot_4           ← WeaponOrbitSlot
+│       ├── Slot_5           ← WeaponOrbitSlot
+│       ├── Slot_6           ← WeaponOrbitSlot
+│       └── Slot_7           ← WeaponOrbitSlot
+├── [Enemies]
+│   └── Enemy_01             ← EnemyUnit + Rigidbody2D + CircleCollider2D
+└── [UI]
+    └── Canvas
+        ├── WeaponPanel      ← WeaponInventoryPanel {mainSlotsContainer→MainSlots, reserveSlotsContainer→ReserveSlots}
+        │   ├── MainSlots
+        │   └── ReserveSlots
+        ├── SummonBtn        ← WeaponSummonButton
+        └── [Systems]
+            ├── WeaponInventorySystem ← WeaponInventorySystem
+            └── WeaponInventoryPresenter ← WeaponInventoryPresenter {inventoryPanel→WeaponPanel, summonButton→SummonBtn, inventorySystem→WeaponInventorySystem}
+    └── DragCanvas           ← Canvas (Order=999, NoRaycaster)
+        └── WeaponDragMergePresenter ← WeaponDragMergePresenter {inventorySystem→WeaponInventorySystem}
+```
+
+---
+
+## Cú pháp Reference Wiring (Tool auto-wire)
+
+Dùng `{...}` sau phần Component để mô tả việc gán references trong Inspector.
+
+### Các dạng wiring
+
+| Dạng | Ví dụ | Ý nghĩa |
+|------|-------|---------|
+| **Component Ref** | `{field→GoName}` | Lấy Component từ `GoName` gán vào `field` |
+| **Asset Ref** | `{field=@AssetName}` | Tìm asset tên `AssetName` trong Project rồi gán |
+| **Array Ref** | `{field=[Go1,Go2,Go3]}` | Gán array theo thứ tự khai báo |
+| **Kết hợp** | `{field1→GoA, field2=@Asset}` | Nhiều field, phân tách bằng `,` |
+
+> [!CAUTION]
+> - `GoName` phải khớp **chính xác** tên GameObject trong scene (không có dấu `[]`).
+> - `AssetName` không cần extension. Nếu trùng tên Asset, Tool lấy cái đầu và LogWarning.
+> - Array phải khai báo **đúng thứ tự** vì Tool gán theo index.
+
+## Checklist khi viết Doc có Hierarchy
+
+- [ ] Sử dụng ` ```hierarchy ` làm opening fence
+- [ ] Component gán đúng với `←` (Unicode, không dùng `<-` hay `-->`)
+- [ ] Nhiều Component cách nhau bằng ` + `
+- [ ] Canvas Node có ghi rõ `Order=xxx`
+- [ ] Node không có component thì không cần `←`
+- [ ] Reference wiring dùng `{field→GoName}` (tên GO không có `[]`)
+- [ ] Asset wiring dùng `{field=@AssetName}`
+- [ ] Array wiring dùng `{field=[Go1,Go2,...]}` theo đúng thứ tự

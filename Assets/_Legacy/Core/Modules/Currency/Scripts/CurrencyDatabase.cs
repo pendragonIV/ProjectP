@@ -1,0 +1,11 @@
+using UnityEngine;
+
+namespace Things
+{
+    [CreateAssetMenu(fileName = "Currency Database", menuName = "Data/Core/Currency Database")]
+    public class CurrencyDatabase : ScriptableObject
+    {
+        [SerializeField] Currency[] currencies;
+        public Currency[] Currencies => currencies;
+    }
+}

@@ -1,0 +1,2525 @@
+﻿Folder PATH listing
+Volume serial number is 0CE3-A046
+C:\DEV\PROJECTP\ASSETS\GAME
+ª   Animations.meta
+ª   Audio.meta
+ª   Fonts.meta
+ª   Images.meta
+ª   Materials.meta
+ª   Models.meta
+ª   Prefabs.meta
+ª   Scenes.meta
+ª   Scripts.meta
+ª   Shaders.meta
+ª   Textures.meta
+ª   
++---Animations
+ª   ª   Chest.meta
+ª   ª   Control.meta
+ª   ª   Enemy.meta
+ª   ª   Helper.meta
+ª   ª   Player.meta
+ª   ª   Raft.meta
+ª   ª   Res Drop Rotation.anim
+ª   ª   Res Drop Rotation.anim.meta
+ª   ª   Stairs Jump Anim.anim
+ª   ª   Stairs Jump Anim.anim.meta
+ª   ª   Stickman.controller
+ª   ª   Stickman.controller.meta
+ª   ª   Tools.meta
+ª   ª   Tutorial.meta
+ª   ª   UI.meta
+ª   ª   
+ª   +---Chest
+ª   ª       A_Chest_Open.fbx
+ª   ª       A_Chest_Open.fbx.meta
+ª   ª       A_Chest_Shaking.fbx
+ª   ª       A_Chest_Shaking.fbx.meta
+ª   ª       Chest Animator Controller.controller
+ª   ª       Chest Animator Controller.controller.meta
+ª   ª       Chest Idle.anim
+ª   ª       Chest Idle.anim.meta
+ª   ª       Chest Spawn.anim
+ª   ª       Chest Spawn.anim.meta
+ª   ª       Chest_Open.anim
+ª   ª       Chest_Open.anim.meta
+ª   ª       Chest_Shaking.anim
+ª   ª       Chest_Shaking.anim.meta
+ª   ª       RV Chest Button Animator.controller
+ª   ª       RV Chest Button Animator.controller.meta
+ª   ª       RV Chest Button Hide.anim
+ª   ª       RV Chest Button Hide.anim.meta
+ª   ª       RV Chest Button Show.anim
+ª   ª       RV Chest Button Show.anim.meta
+ª   ª       
+ª   +---Control
+ª   ª       Floating Joystick.controller
+ª   ª       Floating Joystick.controller.meta
+ª   ª       Tutorial.anim
+ª   ª       Tutorial.anim.meta
+ª   ª       
+ª   +---Enemy
+ª   ª       Enemy_death.fbx
+ª   ª       Enemy_death.fbx.meta
+ª   ª       Enemy_emerging.fbx
+ª   ª       Enemy_emerging.fbx.meta
+ª   ª       Enemy_idle.fbx
+ª   ª       Enemy_idle.fbx.meta
+ª   ª       Enemy_run.fbx
+ª   ª       Enemy_run.fbx.meta
+ª   ª       Enemy_slash.fbx
+ª   ª       Enemy_slash.fbx.meta
+ª   ª       Skeleton Animator.controller
+ª   ª       Skeleton Animator.controller.meta
+ª   ª       
+ª   +---Helper
+ª   ª       Crying.fbx
+ª   ª       Crying.fbx.meta
+ª   ª       Helper Animator Controller.controller
+ª   ª       Helper Animator Controller.controller.meta
+ª   ª       Sitting Anim.fbx
+ª   ª       Sitting Anim.fbx.meta
+ª   ª       Sitting Idle Anim.fbx
+ª   ª       Sitting Idle Anim.fbx.meta
+ª   ª       
+ª   +---Player
+ª   ª   ª   Actions.meta
+ª   ª   ª   Base.meta
+ª   ª   ª   Falling.meta
+ª   ª   ª   Player Animator.controller
+ª   ª   ª   Player Animator.controller.meta
+ª   ª   ª   Tools Mask.mask
+ª   ª   ª   Tools Mask.mask.meta
+ª   ª   ª   
+ª   ª   +---Actions
+ª   ª   ª       Clearing Anim.fbx
+ª   ª   ª       Clearing Anim.fbx.meta
+ª   ª   ª       Digging.fbx
+ª   ª   ª       Digging.fbx.meta
+ª   ª   ª       Fishing Anim.fbx
+ª   ª   ª       Fishing Anim.fbx.meta
+ª   ª   ª       Hammer Hit Anim.fbx
+ª   ª   ª       Hammer Hit Anim.fbx.meta
+ª   ª   ª       Harvesting Pull Animation.fbx
+ª   ª   ª       Harvesting Pull Animation.fbx.meta
+ª   ª   ª       Interaction Anim.fbx
+ª   ª   ª       Interaction Anim.fbx.meta
+ª   ª   ª       Interaction.anim
+ª   ª   ª       Interaction.anim.meta
+ª   ª   ª       Slashing.fbx
+ª   ª   ª       Slashing.fbx.meta
+ª   ª   ª       Tree Shake Anim.fbx
+ª   ª   ª       Tree Shake Anim.fbx.meta
+ª   ª   ª       
+ª   ª   +---Base
+ª   ª   ª       Death.fbx
+ª   ª   ª       Death.fbx.meta
+ª   ª   ª       Drowming.fbx
+ª   ª   ª       Drowming.fbx.meta
+ª   ª   ª       Idle.fbx
+ª   ª   ª       Idle.fbx.meta
+ª   ª   ª       Running.fbx
+ª   ª   ª       Running.fbx.meta
+ª   ª   ª       Swimming.fbx
+ª   ª   ª       Swimming.fbx.meta
+ª   ª   ª       Tired Walking.fbx
+ª   ª   ª       Tired Walking.fbx.meta
+ª   ª   ª       Treading Water.fbx
+ª   ª   ª       Treading Water.fbx.meta
+ª   ª   ª       Waking Up.fbx
+ª   ª   ª       Waking Up.fbx.meta
+ª   ª   ª       Walking.fbx
+ª   ª   ª       Walking.fbx.meta
+ª   ª   ª       
+ª   ª   +---Falling
+ª   ª           Falling Pose Anim.fbx
+ª   ª           Falling Pose Anim.fbx.meta
+ª   ª           Landing Anim.fbx
+ª   ª           Landing Anim.fbx.meta
+ª   ª           Water Landing Anim.fbx
+ª   ª           Water Landing Anim.fbx.meta
+ª   ª           
+ª   +---Raft
+ª   ª       Idle.anim
+ª   ª       Idle.anim.meta
+ª   ª       Move.anim
+ª   ª       Move.anim.meta
+ª   ª       Raft Behavior.controller
+ª   ª       Raft Behavior.controller.meta
+ª   ª       
+ª   +---Tools
+ª   ª       Fishing Float Idle.anim
+ª   ª       Fishing Float Idle.anim.meta
+ª   ª       
+ª   +---Tutorial
+ª   ª   ª   Arrow.meta
+ª   ª   ª   Label Idle.anim
+ª   ª   ª   Label Idle.anim.meta
+ª   ª   ª   Pointer.meta
+ª   ª   ª   
+ª   ª   +---Arrow
+ª   ª   ª       Arrow Idle.anim
+ª   ª   ª       Arrow Idle.anim.meta
+ª   ª   ª       UI Arrow Idle.anim
+ª   ª   ª       UI Arrow Idle.anim.meta
+ª   ª   ª       Upgrade Arrow Idle.anim
+ª   ª   ª       Upgrade Arrow Idle.anim.meta
+ª   ª   ª       
+ª   ª   +---Pointer
+ª   ª           Arrow.controller
+ª   ª           Arrow.controller.meta
+ª   ª           Click.anim
+ª   ª           Click.anim.meta
+ª   ª           Pointer Animator Controller.controller
+ª   ª           Pointer Animator Controller.controller.meta
+ª   ª           Pointer Idle.anim
+ª   ª           Pointer Idle.anim.meta
+ª   ª           Pointer Top Down.anim
+ª   ª           Pointer Top Down.anim.meta
+ª   ª           
+ª   +---UI
+ª       ª   Healthbar.meta
+ª       ª   
+ª       +---Healthbar
+ª               Bounce.anim
+ª               Bounce.anim.meta
+ª               Healthbar Animator Controller.controller
+ª               Healthbar Animator Controller.controller.meta
+ª               Idle.anim
+ª               Idle.anim.meta
+ª               
++---Audio
+ª   ª   Music.meta
+ª   ª   Sounds.meta
+ª   ª   
+ª   +---Music
+ª   ª       survival island cave.wav
+ª   ª       survival island cave.wav.meta
+ª   ª       survival island menu.wav
+ª   ª       survival island menu.wav.meta
+ª   ª       survival island theme.wav
+ª   ª       survival island theme.wav.meta
+ª   ª       
+ª   +---Sounds
+ª           appear.wav
+ª           appear.wav.meta
+ª           boost.wav
+ª           boost.wav.meta
+ª           bush.wav
+ª           bush.wav.meta
+ª           coin_appear.wav
+ª           coin_appear.wav.meta
+ª           coin_pickup.wav
+ª           coin_pickup.wav.meta
+ª           debris.wav
+ª           debris.wav.meta
+ª           digging.wav
+ª           digging.wav.meta
+ª           drop.wav
+ª           drop.wav.meta
+ª           grass.wav
+ª           grass.wav.meta
+ª           harvest.wav
+ª           harvest.wav.meta
+ª           hummer hit.wav
+ª           hummer hit.wav.meta
+ª           impact.wav
+ª           impact.wav.meta
+ª           lose_01.wav
+ª           lose_01.wav.meta
+ª           mining.wav
+ª           mining.wav.meta
+ª           pick.wav
+ª           pick.wav.meta
+ª           punch.wav
+ª           punch.wav.meta
+ª           reward.wav
+ª           reward.wav.meta
+ª           splash.wav
+ª           splash.wav.meta
+ª           step 1.wav
+ª           step 1.wav.meta
+ª           step 2.wav
+ª           step 2.wav.meta
+ª           step 3.wav
+ª           step 3.wav.meta
+ª           ui_button_1.wav
+ª           ui_button_1.wav.meta
+ª           water.wav
+ª           water.wav.meta
+ª           whoosh.wav
+ª           whoosh.wav.meta
+ª           wood_chop_02.wav
+ª           wood_chop_02.wav.meta
+ª           
++---Fonts
+ª   ª   FredokaOne.meta
+ª   ª   
+ª   +---FredokaOne
+ª       ª   Fredoka One 120.meta
+ª       ª   FredokaOne 50.meta
+ª       ª   FredokaOne.ttf
+ª       ª   FredokaOne.ttf.meta
+ª       ª   LICENSE.txt
+ª       ª   LICENSE.txt.meta
+ª       ª   
+ª       +---Fredoka One 120
+ª       ª       FredokaOne 120 Outline Texture.png
+ª       ª       FredokaOne 120 Outline Texture.png.meta
+ª       ª       FredokaOne 120 Outline.asset
+ª       ª       FredokaOne 120 Outline.asset.meta
+ª       ª       FredokaOne 120 Shadow Texture.png
+ª       ª       FredokaOne 120 Shadow Texture.png.meta
+ª       ª       FredokaOne 120 Shadow.asset
+ª       ª       FredokaOne 120 Shadow.asset.meta
+ª       ª       FredokaOne 120 Texture Source.psd
+ª       ª       FredokaOne 120 Texture Source.psd.meta
+ª       ª       FredokaOne 120.asset
+ª       ª       FredokaOne 120.asset.meta
+ª       ª       
+ª       +---FredokaOne 50
+ª               FredokaOne 50 Dark Outlined Texture.png
+ª               FredokaOne 50 Dark Outlined Texture.png.meta
+ª               FredokaOne 50 Dark Outlined.asset
+ª               FredokaOne 50 Dark Outlined.asset.meta
+ª               FredokaOne 50 Outline Texture.png
+ª               FredokaOne 50 Outline Texture.png.meta
+ª               FredokaOne 50 Outline.asset
+ª               FredokaOne 50 Outline.asset.meta
+ª               FredokaOne 50 Shadow Texture.png
+ª               FredokaOne 50 Shadow Texture.png.meta
+ª               FredokaOne 50 Shadow.asset
+ª               FredokaOne 50 Shadow.asset.meta
+ª               FredokaOne 50 Texture Source.psd
+ª               FredokaOne 50 Texture Source.psd.meta
+ª               FredokaOne 50.asset
+ª               FredokaOne 50.asset.meta
+ª               
++---Images
+ª   ª   Base.meta
+ª   ª   Control.meta
+ª   ª   Icon.meta
+ª   ª   Missions.meta
+ª   ª   Other.meta
+ª   ª   Particles.meta
+ª   ª   Resources.meta
+ª   ª   Tools.meta
+ª   ª   Upgrades.meta
+ª   ª   
+ª   +---Base
+ª   ª   ª   Currency.meta
+ª   ª   ª   Misc.meta
+ª   ª   ª   Settings.meta
+ª   ª   ª   Store.meta
+ª   ª   ª   Tutorial.meta
+ª   ª   ª   UI Flat.meta
+ª   ª   ª   UI Rich.meta
+ª   ª   ª   
+ª   ª   +---Currency
+ª   ª   ª       money.png
+ª   ª   ª       money.png.meta
+ª   ª   ª       
+ª   ª   +---Misc
+ª   ª   ª       arrow.png
+ª   ª   ª       arrow.png.meta
+ª   ª   ª       close_icon.png
+ª   ª   ª       close_icon.png.meta
+ª   ª   ª       gradient.png
+ª   ª   ª       gradient.png.meta
+ª   ª   ª       hp_back.png
+ª   ª   ª       hp_back.png.meta
+ª   ª   ª       hp_fill.png
+ª   ª   ª       hp_fill.png.meta
+ª   ª   ª       universal_shadow.png
+ª   ª   ª       universal_shadow.png.meta
+ª   ª   ª       watch_video.png
+ª   ª   ª       watch_video.png.meta
+ª   ª   ª       
+ª   ª   +---Settings
+ª   ª   ª       ui_icon_revert.png
+ª   ª   ª       ui_icon_revert.png.meta
+ª   ª   ª       ui_icon_settings.png
+ª   ª   ª       ui_icon_settings.png.meta
+ª   ª   ª       ui_icon_sound_off.png
+ª   ª   ª       ui_icon_sound_off.png.meta
+ª   ª   ª       ui_icon_sound_on.png
+ª   ª   ª       ui_icon_sound_on.png.meta
+ª   ª   ª       ui_icon_vibro_off.png
+ª   ª   ª       ui_icon_vibro_off.png.meta
+ª   ª   ª       ui_icon_vibro_on.png
+ª   ª   ª       ui_icon_vibro_on.png.meta
+ª   ª   ª       
+ª   ª   +---Store
+ª   ª   ª       background_gradient_store.png
+ª   ª   ª       background_gradient_store.png.meta
+ª   ª   ª       background_gradient_store_alt.png
+ª   ª   ª       background_gradient_store_alt.png.meta
+ª   ª   ª       badge_orange.png
+ª   ª   ª       badge_orange.png.meta
+ª   ª   ª       blinder.png
+ª   ª   ª       blinder.png.meta
+ª   ª   ª       comingsoon.png
+ª   ª   ª       comingsoon.png.meta
+ª   ª   ª       header_orange.png
+ª   ª   ª       header_orange.png.meta
+ª   ª   ª       ic_coins_pack_1.png
+ª   ª   ª       ic_coins_pack_1.png.meta
+ª   ª   ª       ic_coins_pack_2.png
+ª   ª   ª       ic_coins_pack_2.png.meta
+ª   ª   ª       ic_coins_pack_3.png
+ª   ª   ª       ic_coins_pack_3.png.meta
+ª   ª   ª       ic_infinity.png
+ª   ª   ª       ic_infinity.png.meta
+ª   ª   ª       ic_noads_small.png
+ª   ª   ª       ic_noads_small.png.meta
+ª   ª   ª       ic_pirate_skin.png
+ª   ª   ª       ic_pirate_skin.png.meta
+ª   ª   ª       item_background.png
+ª   ª   ª       item_background.png.meta
+ª   ª   ª       item_frame.png
+ª   ª   ª       item_frame.png.meta
+ª   ª   ª       panel_blue_store.png
+ª   ª   ª       panel_blue_store.png.meta
+ª   ª   ª       panel_blue_store_small.png
+ª   ª   ª       panel_blue_store_small.png.meta
+ª   ª   ª       panel_purple_store.png
+ª   ª   ª       panel_purple_store.png.meta
+ª   ª   ª       panel_red_white.png
+ª   ª   ª       panel_red_white.png.meta
+ª   ª   ª       panel_yellow_white.png
+ª   ª   ª       panel_yellow_white.png.meta
+ª   ª   ª       questionmark.png
+ª   ª   ª       questionmark.png.meta
+ª   ª   ª       
+ª   ª   +---Tutorial
+ª   ª   ª       ui_pointer.png
+ª   ª   ª       ui_pointer.png.meta
+ª   ª   ª       ui_pointer_click.png
+ª   ª   ª       ui_pointer_click.png.meta
+ª   ª   ª       
+ª   ª   +---UI Flat
+ª   ª   ª       arrow 1.png
+ª   ª   ª       arrow 1.png.meta
+ª   ª   ª       arrow 2.png
+ª   ª   ª       arrow 2.png.meta
+ª   ª   ª       btn_close_flat.png
+ª   ª   ª       btn_close_flat.png.meta
+ª   ª   ª       btn_close_flat_alt.png
+ª   ª   ª       btn_close_flat_alt.png.meta
+ª   ª   ª       btn_gray_flat.png
+ª   ª   ª       btn_gray_flat.png.meta
+ª   ª   ª       btn_green_flat.png
+ª   ª   ª       btn_green_flat.png.meta
+ª   ª   ª       btn_light_blue.png
+ª   ª   ª       btn_light_blue.png.meta
+ª   ª   ª       btn_orange_flat.png
+ª   ª   ª       btn_orange_flat.png.meta
+ª   ª   ª       btn_purple_flat.png
+ª   ª   ª       btn_purple_flat.png.meta
+ª   ª   ª       btn_white_flat.png
+ª   ª   ª       btn_white_flat.png.meta
+ª   ª   ª       btn_yellow_flat.png
+ª   ª   ª       btn_yellow_flat.png.meta
+ª   ª   ª       ic_arrow_shadow.png
+ª   ª   ª       ic_arrow_shadow.png.meta
+ª   ª   ª       ic_arrow_thick.png
+ª   ª   ª       ic_arrow_thick.png.meta
+ª   ª   ª       ic_coin_flat.png
+ª   ª   ª       ic_coin_flat.png.meta
+ª   ª   ª       ic_hunger.png
+ª   ª   ª       ic_hunger.png.meta
+ª   ª   ª       ic_inventory.png
+ª   ª   ª       ic_inventory.png.meta
+ª   ª   ª       ic_rest.png
+ª   ª   ª       ic_rest.png.meta
+ª   ª   ª       ic_settings.png
+ª   ª   ª       ic_settings.png.meta
+ª   ª   ª       ic_store.png
+ª   ª   ª       ic_store.png.meta
+ª   ª   ª       ic_upgrades.png
+ª   ª   ª       ic_upgrades.png.meta
+ª   ª   ª       ic_video_flat.png
+ª   ª   ª       ic_video_flat.png.meta
+ª   ª   ª       ic_zoom.png
+ª   ª   ª       ic_zoom.png.meta
+ª   ª   ª       pb_rect_rounded.png
+ª   ª   ª       pb_rect_rounded.png.meta
+ª   ª   ª       tgl_off.png
+ª   ª   ª       tgl_off.png.meta
+ª   ª   ª       tgl_on.png
+ª   ª   ª       tgl_on.png.meta
+ª   ª   ª       
+ª   ª   +---UI Rich
+ª   ª           btn_close.png
+ª   ª           btn_close.png.meta
+ª   ª           btn_gray.png
+ª   ª           btn_gray.png.meta
+ª   ª           btn_green.png
+ª   ª           btn_green.png.meta
+ª   ª           btn_orange.png
+ª   ª           btn_orange.png.meta
+ª   ª           btn_purple.png
+ª   ª           btn_purple.png.meta
+ª   ª           checkmark.png
+ª   ª           checkmark.png.meta
+ª   ª           circle_frame_medium.png
+ª   ª           circle_frame_medium.png.meta
+ª   ª           cross.png
+ª   ª           cross.png.meta
+ª   ª           grad_shine_round.png
+ª   ª           grad_shine_round.png.meta
+ª   ª           grad_shine_square.png
+ª   ª           grad_shine_square.png.meta
+ª   ª           heart.png
+ª   ª           heart.png.meta
+ª   ª           heart_broken.png
+ª   ª           heart_broken.png.meta
+ª   ª           heart_small.png
+ª   ª           heart_small.png.meta
+ª   ª           ic_indicator.png
+ª   ª           ic_indicator.png.meta
+ª   ª           ic_plus.png
+ª   ª           ic_plus.png.meta
+ª   ª           ic_skins.png
+ª   ª           ic_skins.png.meta
+ª   ª           ic_star_small.png
+ª   ª           ic_star_small.png.meta
+ª   ª           ic_store.png
+ª   ª           ic_store.png.meta
+ª   ª           ic_video.png
+ª   ª           ic_video.png.meta
+ª   ª           no_ads.png
+ª   ª           no_ads.png.meta
+ª   ª           panel.png
+ª   ª           panel.png.meta
+ª   ª           panel_alpha_grad.png
+ª   ª           panel_alpha_grad.png.meta
+ª   ª           panel_blue.png
+ª   ª           panel_blue.png.meta
+ª   ª           panel_dark.png
+ª   ª           panel_dark.png.meta
+ª   ª           panel_gradient.png
+ª   ª           panel_gradient.png.meta
+ª   ª           panel_outlined_dark.png
+ª   ª           panel_outlined_dark.png.meta
+ª   ª           panel_red.png
+ª   ª           panel_red.png.meta
+ª   ª           
+ª   +---Control
+ª   ª   ª   A.png
+ª   ª   ª   A.png.meta
+ª   ª   ª   B.png
+ª   ª   ª   B.png.meta
+ª   ª   ª   DPad_Down.png
+ª   ª   ª   DPad_Down.png.meta
+ª   ª   ª   DPad_Left.png
+ª   ª   ª   DPad_Left.png.meta
+ª   ª   ª   DPad_Right.png
+ª   ª   ª   DPad_Right.png.meta
+ª   ª   ª   DPad_UP.png
+ª   ª   ª   DPad_UP.png.meta
+ª   ª   ª   Joystick.meta
+ª   ª   ª   L3.png
+ª   ª   ª   L3.png.meta
+ª   ª   ª   LB.png
+ª   ª   ª   LB.png.meta
+ª   ª   ª   LT.png
+ª   ª   ª   LT.png.meta
+ª   ª   ª   R3.png
+ª   ª   ª   R3.png.meta
+ª   ª   ª   RB.png
+ª   ª   ª   RB.png.meta
+ª   ª   ª   RT.png
+ª   ª   ª   RT.png.meta
+ª   ª   ª   Select.png
+ª   ª   ª   Select.png.meta
+ª   ª   ª   Start.png
+ª   ª   ª   Start.png.meta
+ª   ª   ª   X.png
+ª   ª   ª   X.png.meta
+ª   ª   ª   Y.png
+ª   ª   ª   Y.png.meta
+ª   ª   ª   
+ª   ª   +---Joystick
+ª   ª           joystick_handle.png
+ª   ª           joystick_handle.png.meta
+ª   ª           joystick_Outline.png
+ª   ª           joystick_Outline.png.meta
+ª   ª           joystick_pointer.png
+ª   ª           joystick_pointer.png.meta
+ª   ª           
+ª   +---Icon
+ª   ª       icon.png
+ª   ª       icon.png.meta
+ª   ª       
+ª   +---Missions
+ª   ª       img_bridge.png
+ª   ª       img_bridge.png.meta
+ª   ª       img_cooking_place.png
+ª   ª       img_cooking_place.png.meta
+ª   ª       img_craft_table.png
+ª   ª       img_craft_table.png.meta
+ª   ª       img_leave.png
+ª   ª       img_leave.png.meta
+ª   ª       img_planks_craft_table.png
+ª   ª       img_planks_craft_table.png.meta
+ª   ª       img_raft.png
+ª   ª       img_raft.png.meta
+ª   ª       img_rod.png
+ª   ª       img_rod.png.meta
+ª   ª       img_rope_craft_table.png
+ª   ª       img_rope_craft_table.png.meta
+ª   ª       img_sickle.png
+ª   ª       img_sickle.png.meta
+ª   ª       img_storage_building.png
+ª   ª       img_storage_building.png.meta
+ª   ª       img_tent.png
+ª   ª       img_tent.png.meta
+ª   ª       img_wood_generator.png
+ª   ª       img_wood_generator.png.meta
+ª   ª       
+ª   +---Other
+ª   ª       helper_emote_dialog.png
+ª   ª       helper_emote_dialog.png.meta
+ª   ª       pointer.png
+ª   ª       pointer.png.meta
+ª   ª       
+ª   +---Particles
+ª   ª       circle_gradient.png
+ª   ª       circle_gradient.png.meta
+ª   ª       circle_grad_slow.png
+ª   ª       circle_grad_slow.png.meta
+ª   ª       circle_solid.png
+ª   ª       circle_solid.png.meta
+ª   ª       debris.png
+ª   ª       debris.png.meta
+ª   ª       fire.png
+ª   ª       fire.png.meta
+ª   ª       fog.png
+ª   ª       fog.png.meta
+ª   ª       gradient_horizontal.png
+ª   ª       gradient_horizontal.png.meta
+ª   ª       gradient_horizontal_flipped.png
+ª   ª       gradient_horizontal_flipped.png.meta
+ª   ª       gradient_vertical.png
+ª   ª       gradient_vertical.png.meta
+ª   ª       leaf.png
+ª   ª       leaf.png.meta
+ª   ª       pill.png
+ª   ª       pill.png.meta
+ª   ª       ring.png
+ª   ª       ring.png.meta
+ª   ª       Ring_warped.png
+ª   ª       Ring_warped.png.meta
+ª   ª       smoke_cloud.png
+ª   ª       smoke_cloud.png.meta
+ª   ª       Splash_1.png
+ª   ª       Splash_1.png.meta
+ª   ª       water_ring.png
+ª   ª       water_ring.png.meta
+ª   ª       
+ª   +---Resources
+ª   ª       GeneratedAtlas.asset
+ª   ª       GeneratedAtlas.asset.meta
+ª   ª       GeneratedAtlas.spriteatlasv2
+ª   ª       GeneratedAtlas.spriteatlasv2.meta
+ª   ª       ic_berry.png
+ª   ª       ic_berry.png.meta
+ª   ª       ic_big_jam.png
+ª   ª       ic_big_jam.png.meta
+ª   ª       ic_brick.png
+ª   ª       ic_brick.png.meta
+ª   ª       ic_coconut.png
+ª   ª       ic_coconut.png.meta
+ª   ª       ic_coin.png
+ª   ª       ic_coin.png.meta
+ª   ª       ic_cooked_fish.png
+ª   ª       ic_cooked_fish.png.meta
+ª   ª       ic_fish.png
+ª   ª       ic_fish.png.meta
+ª   ª       ic_jam.png
+ª   ª       ic_jam.png.meta
+ª   ª       ic_leaf.png
+ª   ª       ic_leaf.png.meta
+ª   ª       ic_plank.png
+ª   ª       ic_plank.png.meta
+ª   ª       ic_pumpkin.png
+ª   ª       ic_pumpkin.png.meta
+ª   ª       ic_rope.png
+ª   ª       ic_rope.png.meta
+ª   ª       ic_scissors.png
+ª   ª       ic_scissors.png.meta
+ª   ª       ic_soup.png
+ª   ª       ic_soup.png.meta
+ª   ª       ic_stone.png
+ª   ª       ic_stone.png.meta
+ª   ª       ic_storage.png
+ª   ª       ic_storage.png.meta
+ª   ª       ic_wood.png
+ª   ª       ic_wood.png.meta
+ª   ª       
+ª   +---Tools
+ª   ª       Ic_fishing_rod.png
+ª   ª       Ic_fishing_rod.png.meta
+ª   ª       ic_hammer.png
+ª   ª       ic_hammer.png.meta
+ª   ª       ic_hand.png
+ª   ª       ic_hand.png.meta
+ª   ª       ic_sickle.png
+ª   ª       ic_sickle.png.meta
+ª   ª       
+ª   +---Upgrades
+ª           ic_big_jam_recipe.png
+ª           ic_big_jam_recipe.png.meta
+ª           ic_carry.png
+ª           ic_carry.png.meta
+ª           ic_harvest.png
+ª           ic_harvest.png.meta
+ª           ic_mining.png
+ª           ic_mining.png.meta
+ª           ic_ropes_craft_cap.png
+ª           ic_ropes_craft_cap.png.meta
+ª           ic_ropes_craft_spd.png
+ª           ic_ropes_craft_spd.png.meta
+ª           ic_scissors_craft_cap.png
+ª           ic_scissors_craft_cap.png.meta
+ª           ic_scissors_craft_spd.png
+ª           ic_scissors_craft_spd.png.meta
+ª           ic_speed.png
+ª           ic_speed.png.meta
+ª           ic_stone_gen_cap.png
+ª           ic_stone_gen_cap.png.meta
+ª           ic_storage_cap.png
+ª           ic_storage_cap.png.meta
+ª           ic_swim.png
+ª           ic_swim.png.meta
+ª           ic_wood_gen_cap.png
+ª           ic_wood_gen_cap.png.meta
+ª           
++---Materials
+ª   ª   Buildings Foliage.mat
+ª   ª   Buildings Foliage.mat.meta
+ª   ª   Buildings.mat
+ª   ª   Buildings.mat.meta
+ª   ª   Characters.mat
+ª   ª   Characters.mat.meta
+ª   ª   Clouds Material.mat
+ª   ª   Clouds Material.mat.meta
+ª   ª   Clouds Render Texture.asset
+ª   ª   Clouds Render Texture.asset.meta
+ª   ª   Clouds.mat
+ª   ª   Clouds.mat.meta
+ª   ª   Curve UI.mat
+ª   ª   Curve UI.mat.meta
+ª   ª   Invisible.mat
+ª   ª   Invisible.mat.meta
+ª   ª   Navigation Arrow.mat
+ª   ª   Navigation Arrow.mat.meta
+ª   ª   Particles.meta
+ª   ª   Resources Foliage.mat
+ª   ª   Resources Foliage.mat.meta
+ª   ª   Resources Grass.mat
+ª   ª   Resources Grass.mat.meta
+ª   ª   Resources.mat
+ª   ª   Resources.mat.meta
+ª   ª   Terrain Foliage.mat
+ª   ª   Terrain Foliage.mat.meta
+ª   ª   Terrain.mat
+ª   ª   Terrain.mat.meta
+ª   ª   Transparent For Navigation.mat
+ª   ª   Transparent For Navigation.mat.meta
+ª   ª   Water Cave.mat
+ª   ª   Water Cave.mat.meta
+ª   ª   Water.mat
+ª   ª   Water.mat.meta
+ª   ª   
+ª   +---Particles
+ª           Arrow.mat
+ª           Arrow.mat.meta
+ª           CartoonWhite.mat
+ª           CartoonWhite.mat.meta
+ª           Circle_blurry.mat
+ª           Circle_blurry.mat.meta
+ª           Circle_solid.mat
+ª           Circle_solid.mat.meta
+ª           Debris_solid.mat
+ª           Debris_solid.mat.meta
+ª           Fire.mat
+ª           Fire.mat.meta
+ª           Fog.mat
+ª           Fog.mat.meta
+ª           Gradient Ring.mat
+ª           Gradient Ring.mat.meta
+ª           Gradient_horizontal.mat
+ª           Gradient_horizontal.mat.meta
+ª           Gradient_vertical.mat
+ª           Gradient_vertical.mat.meta
+ª           Leaf.mat
+ª           Leaf.mat.meta
+ª           Pill_solid.mat
+ª           Pill_solid.mat.meta
+ª           Smoke.mat
+ª           Smoke.mat.meta
+ª           Spike.mat
+ª           Spike.mat.meta
+ª           Square.mat
+ª           Square.mat.meta
+ª           Water Ring Thick.mat
+ª           Water Ring Thick.mat.meta
+ª           Water Ring.mat
+ª           Water Ring.mat.meta
+ª           
++---Models
+ª   ª   Arrow.fbx
+ª   ª   Arrow.fbx.meta
+ª   ª   Buildings.meta
+ª   ª   Characters.meta
+ª   ª   Particles.meta
+ª   ª   Pickable.meta
+ª   ª   Resources.meta
+ª   ª   Terrain.meta
+ª   ª   Tools.meta
+ª   ª   
+ª   +---Buildings
+ª   ª       Book.fbx
+ª   ª       Book.fbx.meta
+ª   ª       Bridge_chunk.fbx
+ª   ª       Bridge_chunk.fbx.meta
+ª   ª       Bridge_edge.fbx
+ª   ª       Bridge_edge.fbx.meta
+ª   ª       Construction_zone.fbx
+ª   ª       Construction_zone.fbx.meta
+ª   ª       Entrance_frame.fbx
+ª   ª       Entrance_frame.fbx.meta
+ª   ª       Fireplace.fbx
+ª   ª       Fireplace.fbx.meta
+ª   ª       Raft.fbx
+ª   ª       Raft.fbx.meta
+ª   ª       Ramp.fbx
+ª   ª       Ramp.fbx.meta
+ª   ª       Stone_generator.fbx
+ª   ª       Stone_generator.fbx.meta
+ª   ª       Storage.fbx
+ª   ª       Storage.fbx.meta
+ª   ª       Storage_box.fbx
+ª   ª       Storage_box.fbx.meta
+ª   ª       Table.fbx
+ª   ª       Table.fbx.meta
+ª   ª       Table_2.fbx
+ª   ª       Table_2.fbx.meta
+ª   ª       Tent.fbx
+ª   ª       Tent.fbx.meta
+ª   ª       Tent_interior.fbx
+ª   ª       Tent_interior.fbx.meta
+ª   ª       Tombstone.fbx
+ª   ª       Tombstone.fbx.meta
+ª   ª       Wood_generator.fbx
+ª   ª       Wood_generator.fbx.meta
+ª   ª       
+ª   +---Characters
+ª   ª       Helper_1.fbx
+ª   ª       Helper_1.fbx.meta
+ª   ª       Helper_2.fbx
+ª   ª       Helper_2.fbx.meta
+ª   ª       Pirate_skin.fbx
+ª   ª       Pirate_skin.fbx.meta
+ª   ª       Player.fbx
+ª   ª       Player.fbx.meta
+ª   ª       Skeleton_1.fbx
+ª   ª       Skeleton_1.fbx.meta
+ª   ª       Stickman.fbx
+ª   ª       Stickman.fbx.meta
+ª   ª       
+ª   +---Particles
+ª   ª       Dirt_debris.fbx
+ª   ª       Dirt_debris.fbx.meta
+ª   ª       SmokeMeshLowPoly.fbx
+ª   ª       SmokeMeshLowPoly.fbx.meta
+ª   ª       Square_glow.fbx
+ª   ª       Square_glow.fbx.meta
+ª   ª       Stone_debris.fbx
+ª   ª       Stone_debris.fbx.meta
+ª   ª       
+ª   +---Pickable
+ª   ª       Berry.fbx
+ª   ª       Berry.fbx.meta
+ª   ª       Big Jam.fbx
+ª   ª       Big Jam.fbx.meta
+ª   ª       Brick.fbx
+ª   ª       Brick.fbx.meta
+ª   ª       Coconut.fbx
+ª   ª       Coconut.fbx.meta
+ª   ª       Coin.fbx
+ª   ª       Coin.fbx.meta
+ª   ª       Cooked Fish.fbx
+ª   ª       Cooked Fish.fbx.meta
+ª   ª       Fish.fbx
+ª   ª       Fish.fbx.meta
+ª   ª       Jam.fbx
+ª   ª       Jam.fbx.meta
+ª   ª       Leaf.fbx
+ª   ª       Leaf.fbx.meta
+ª   ª       Plank.fbx
+ª   ª       Plank.fbx.meta
+ª   ª       Pumpkin.fbx
+ª   ª       Pumpkin.fbx.meta
+ª   ª       Rope.fbx
+ª   ª       Rope.fbx.meta
+ª   ª       Scissors.fbx
+ª   ª       Scissors.fbx.meta
+ª   ª       Soup.fbx
+ª   ª       Soup.fbx.meta
+ª   ª       Stone.fbx
+ª   ª       Stone.fbx.meta
+ª   ª       Wood.fbx
+ª   ª       Wood.fbx.meta
+ª   ª       
+ª   +---Resources
+ª   ª       Bush.fbx
+ª   ª       Bush.fbx.meta
+ª   ª       Chest.fbx
+ª   ª       Chest.fbx.meta
+ª   ª       Digging_spot.fbx
+ª   ª       Digging_spot.fbx.meta
+ª   ª       Garden_bed.fbx
+ª   ª       Garden_bed.fbx.meta
+ª   ª       Grass.fbx
+ª   ª       Grass.fbx.meta
+ª   ª       Palm_tree_1.fbx
+ª   ª       Palm_tree_1.fbx.meta
+ª   ª       Palm_tree_2.fbx
+ª   ª       Palm_tree_2.fbx.meta
+ª   ª       Rock.fbx
+ª   ª       Rock.fbx.meta
+ª   ª       X_mark.fbx
+ª   ª       X_mark.fbx.meta
+ª   ª       
+ª   +---Terrain
+ª   ª   ª   Cave.meta
+ª   ª   ª   Irregular Chunks.meta
+ª   ª   ª   Prop & Obstacles.meta
+ª   ª   ª   Square Chunks.meta
+ª   ª   ª   Water.meta
+ª   ª   ª   
+ª   ª   +---Cave
+ª   ª   ª       Cave_entrance.fbx
+ª   ª   ª       Cave_entrance.fbx.meta
+ª   ª   ª       Cave_plant_1.fbx
+ª   ª   ª       Cave_plant_1.fbx.meta
+ª   ª   ª       Cave_plant_2.fbx
+ª   ª   ª       Cave_plant_2.fbx.meta
+ª   ª   ª       Cave_platform.fbx
+ª   ª   ª       Cave_platform.fbx.meta
+ª   ª   ª       Cave_ramp_1.fbx
+ª   ª   ª       Cave_ramp_1.fbx.meta
+ª   ª   ª       Cave_ramp_2.fbx
+ª   ª   ª       Cave_ramp_2.fbx.meta
+ª   ª   ª       Cave_stone.fbx
+ª   ª   ª       Cave_stone.fbx.meta
+ª   ª   ª       Ray.fbx
+ª   ª   ª       Ray.fbx.meta
+ª   ª   ª       Stalactite_big.fbx
+ª   ª   ª       Stalactite_big.fbx.meta
+ª   ª   ª       Stalactite_small.fbx
+ª   ª   ª       Stalactite_small.fbx.meta
+ª   ª   ª       
+ª   ª   +---Irregular Chunks
+ª   ª   ª       Land_chunk_small.fbx
+ª   ª   ª       Land_chunk_small.fbx.meta
+ª   ª   ª       Land_chunk_small_2.fbx
+ª   ª   ª       Land_chunk_small_2.fbx.meta
+ª   ª   ª       Land_chunk_tall.fbx
+ª   ª   ª       Land_chunk_tall.fbx.meta
+ª   ª   ª       Sand_chunk_small.fbx
+ª   ª   ª       Sand_chunk_small.fbx.meta
+ª   ª   ª       Stone_chunk_small.fbx
+ª   ª   ª       Stone_chunk_small.fbx.meta
+ª   ª   ª       
+ª   ª   +---Prop & Obstacles
+ª   ª   ª       Plants_obstacle.fbx
+ª   ª   ª       Plants_obstacle.fbx.meta
+ª   ª   ª       Plant_obstacle.fbx
+ª   ª   ª       Plant_obstacle.fbx.meta
+ª   ª   ª       
+ª   ª   +---Square Chunks
+ª   ª   ª       Land_chunk_1.fbx
+ª   ª   ª       Land_chunk_1.fbx.meta
+ª   ª   ª       
+ª   ª   +---Water
+ª   ª           Water Plane 40.fbx
+ª   ª           Water Plane 40.fbx.meta
+ª   ª           
+ª   +---Tools
+ª           Axe.fbx
+ª           Axe.fbx.meta
+ª           Bobber.fbx
+ª           Bobber.fbx.meta
+ª           Hammer.fbx
+ª           Hammer.fbx.meta
+ª           Pickaxe.fbx
+ª           Pickaxe.fbx.meta
+ª           Rod.fbx
+ª           Rod.fbx.meta
+ª           Shovel.fbx
+ª           Shovel.fbx.meta
+ª           Sickle.fbx
+ª           Sickle.fbx.meta
+ª           Sword.fbx
+ª           Sword.fbx.meta
+ª           
++---Prefabs
+ª   ª   Buildings.meta
+ª   ª   Control.meta
+ª   ª   Enemies.meta
+ª   ª   Floating Text.meta
+ª   ª   Ground.meta
+ª   ª   Helper.meta
+ª   ª   Initializer.prefab
+ª   ª   Initializer.prefab.meta
+ª   ª   Level.meta
+ª   ª   Navigation Helpers.meta
+ª   ª   Obstacles.meta
+ª   ª   Particles.meta
+ª   ª   Player.meta
+ª   ª   Post Processing.meta
+ª   ª   Projectiles.meta
+ª   ª   Resources.meta
+ª   ª   Special Objects.meta
+ª   ª   Storage.meta
+ª   ª   Tools.meta
+ª   ª   UI Store.meta
+ª   ª   UI.meta
+ª   ª   
+ª   +---Buildings
+ª   ª   ª   Bricks Craft Table.prefab
+ª   ª   ª   Bricks Craft Table.prefab.meta
+ª   ª   ª   Bridge Building.prefab
+ª   ª   ª   Bridge Building.prefab.meta
+ª   ª   ª   Cooking Place.prefab
+ª   ª   ª   Cooking Place.prefab.meta
+ª   ª   ª   Planks Craft Table.prefab
+ª   ª   ª   Planks Craft Table.prefab.meta
+ª   ª   ª   Raft Building.prefab
+ª   ª   ª   Raft Building.prefab.meta
+ª   ª   ª   Ramp Building.prefab
+ª   ª   ª   Ramp Building.prefab.meta
+ª   ª   ª   Ropes Craft Table.prefab
+ª   ª   ª   Ropes Craft Table.prefab.meta
+ª   ª   ª   Scissors Craft Table.prefab
+ª   ª   ª   Scissors Craft Table.prefab.meta
+ª   ª   ª   Simple Resource Storage.prefab
+ª   ª   ª   Simple Resource Storage.prefab.meta
+ª   ª   ª   Stages.meta
+ª   ª   ª   Stone Generator.prefab
+ª   ª   ª   Stone Generator.prefab.meta
+ª   ª   ª   Storage Building Complex.prefab
+ª   ª   ª   Storage Building Complex.prefab.meta
+ª   ª   ª   Tent Building.prefab
+ª   ª   ª   Tent Building.prefab.meta
+ª   ª   ª   Upgrades Building.prefab
+ª   ª   ª   Upgrades Building.prefab.meta
+ª   ª   ª   Useful.meta
+ª   ª   ª   Wood Generator.prefab
+ª   ª   ª   Wood Generator.prefab.meta
+ª   ª   ª   
+ª   ª   +---Stages
+ª   ª   ª       Construction Point.prefab
+ª   ª   ª       Construction Point.prefab.meta
+ª   ª   ª       Purchase Point.prefab
+ª   ª   ª       Purchase Point.prefab.meta
+ª   ª   ª       
+ª   ª   +---Useful
+ª   ª           Button Upgrades Trigger.prefab
+ª   ª           Button Upgrades Trigger.prefab.meta
+ª   ª           Generic Construction Visuals.prefab
+ª   ª           Generic Construction Visuals.prefab.meta
+ª   ª           Physical Upgrades Trigger.prefab
+ª   ª           Physical Upgrades Trigger.prefab.meta
+ª   ª           Storage Pile Visualisation.prefab
+ª   ª           Storage Pile Visualisation.prefab.meta
+ª   ª           
+ª   +---Control
+ª   ª       Floating Joystick.prefab
+ª   ª       Floating Joystick.prefab.meta
+ª   ª       
+ª   +---Enemies
+ª   ª       Enemy Spawn Point.prefab
+ª   ª       Enemy Spawn Point.prefab.meta
+ª   ª       Skeleton Enemy.prefab
+ª   ª       Skeleton Enemy.prefab.meta
+ª   ª       
+ª   +---Floating Text
+ª   ª       Floating Text.prefab
+ª   ª       Floating Text.prefab.meta
+ª   ª       Following Text.prefab
+ª   ª       Following Text.prefab.meta
+ª   ª       Unlockable Tool Floating Text.prefab
+ª   ª       Unlockable Tool Floating Text.prefab.meta
+ª   ª       
+ª   +---Ground
+ª   ª   ª   Ground Purchase Demo.meta
+ª   ª   ª   Main Tiles.meta
+ª   ª   ª   Useful.meta
+ª   ª   ª   
+ª   ª   +---Ground Purchase Demo
+ª   ª   ª       Square Land Tile.prefab
+ª   ª   ª       Square Land Tile.prefab.meta
+ª   ª   ª       Square Sand Tile.prefab
+ª   ª   ª       Square Sand Tile.prefab.meta
+ª   ª   ª       
+ª   ª   +---Main Tiles
+ª   ª   ª       Cliff Tile.prefab
+ª   ª   ª       Cliff Tile.prefab.meta
+ª   ª   ª       Land Tile Alt With Obstacle.prefab
+ª   ª   ª       Land Tile Alt With Obstacle.prefab.meta
+ª   ª   ª       Land Tile Alt.prefab
+ª   ª   ª       Land Tile Alt.prefab.meta
+ª   ª   ª       Land Tile Tall With Obstacle.prefab
+ª   ª   ª       Land Tile Tall With Obstacle.prefab.meta
+ª   ª   ª       Land Tile Tall.prefab
+ª   ª   ª       Land Tile Tall.prefab.meta
+ª   ª   ª       Land Tile With Obstacle.prefab
+ª   ª   ª       Land Tile With Obstacle.prefab.meta
+ª   ª   ª       Land Tile.prefab
+ª   ª   ª       Land Tile.prefab.meta
+ª   ª   ª       Sand Tile With Obstacle.prefab
+ª   ª   ª       Sand Tile With Obstacle.prefab.meta
+ª   ª   ª       Sand Tile.prefab
+ª   ª   ª       Sand Tile.prefab.meta
+ª   ª   ª       
+ª   ª   +---Useful
+ª   ª           Plants Obstacle Visuals.prefab
+ª   ª           Plants Obstacle Visuals.prefab.meta
+ª   ª           
+ª   +---Helper
+ª   ª   ª   Graphics.meta
+ª   ª   ª   Helper.prefab
+ª   ª   ª   Helper.prefab.meta
+ª   ª   ª   
+ª   ª   +---Graphics
+ª   ª           Helper Graphics 1.prefab
+ª   ª           Helper Graphics 1.prefab.meta
+ª   ª           Helper Graphics 2.prefab
+ª   ª           Helper Graphics 2.prefab.meta
+ª   ª           
+ª   +---Level
+ª   ª       Light.prefab
+ª   ª       Light.prefab.meta
+ª   ª       Raft Behavior.prefab
+ª   ª       Raft Behavior.prefab.meta
+ª   ª       Subworld Entrance.prefab
+ª   ª       Subworld Entrance.prefab.meta
+ª   ª       Subworld Exit.prefab
+ª   ª       Subworld Exit.prefab.meta
+ª   ª       World Change Zone.prefab
+ª   ª       World Change Zone.prefab.meta
+ª   ª       [Subworld Placeholder].prefab
+ª   ª       [Subworld Placeholder].prefab.meta
+ª   ª       
+ª   +---Navigation Helpers
+ª   ª       Arrow Direction Pointer.prefab
+ª   ª       Arrow Direction Pointer.prefab.meta
+ª   ª       Arrow Line Direction Pointer.prefab
+ª   ª       Arrow Line Direction Pointer.prefab.meta
+ª   ª       Position Pointer Arrow.prefab
+ª   ª       Position Pointer Arrow.prefab.meta
+ª   ª       
+ª   +---Obstacles
+ª   ª       Cliff Obstacle.prefab
+ª   ª       Cliff Obstacle.prefab.meta
+ª   ª       
+ª   +---Particles
+ª   ª   ª   Buildings.meta
+ª   ª   ª   Characters.meta
+ª   ª   ª   Resources.meta
+ª   ª   ª   Weather.meta
+ª   ª   ª   
+ª   ª   +---Buildings
+ª   ª   ª       Fireplace.prefab
+ª   ª   ª       Fireplace.prefab.meta
+ª   ª   ª       
+ª   ª   +---Characters
+ª   ª   ª       Death Poof.prefab
+ª   ª   ª       Death Poof.prefab.meta
+ª   ª   ª       Dust Trail.prefab
+ª   ª   ª       Dust Trail.prefab.meta
+ª   ª   ª       Hammer Hit.prefab
+ª   ª   ª       Hammer Hit.prefab.meta
+ª   ª   ª       Poof.prefab
+ª   ª   ª       Poof.prefab.meta
+ª   ª   ª       Skeleton Hit.prefab
+ª   ª   ª       Skeleton Hit.prefab.meta
+ª   ª   ª       Water Splash.prefab
+ª   ª   ª       Water Splash.prefab.meta
+ª   ª   ª       Water Trail.prefab
+ª   ª   ª       Water Trail.prefab.meta
+ª   ª   ª       
+ª   ª   +---Resources
+ª   ª   ª       Bush Hit.prefab
+ª   ª   ª       Bush Hit.prefab.meta
+ª   ª   ª       Chest_ray.prefab
+ª   ª   ª       Chest_ray.prefab.meta
+ª   ª   ª       Dirt_burst.prefab
+ª   ª   ª       Dirt_burst.prefab.meta
+ª   ª   ª       Fishing Splash.prefab
+ª   ª   ª       Fishing Splash.prefab.meta
+ª   ª   ª       Fishing Spot.prefab
+ª   ª   ª       Fishing Spot.prefab.meta
+ª   ª   ª       Grass Hit 1.prefab
+ª   ª   ª       Grass Hit 1.prefab.meta
+ª   ª   ª       Palm Hit.prefab
+ª   ª   ª       Palm Hit.prefab.meta
+ª   ª   ª       Palm Shake.prefab
+ª   ª   ª       Palm Shake.prefab.meta
+ª   ª   ª       Pumpkin Hit.prefab
+ª   ª   ª       Pumpkin Hit.prefab.meta
+ª   ª   ª       Stone Hit.prefab
+ª   ª   ª       Stone Hit.prefab.meta
+ª   ª   ª       WoodHit.prefab
+ª   ª   ª       WoodHit.prefab.meta
+ª   ª   ª       
+ª   ª   +---Weather
+ª   ª           Cave.prefab
+ª   ª           Cave.prefab.meta
+ª   ª           Floating Dust.prefab
+ª   ª           Floating Dust.prefab.meta
+ª   ª           Foggy.prefab
+ª   ª           Foggy.prefab.meta
+ª   ª           Fog_base.prefab
+ª   ª           Fog_base.prefab.meta
+ª   ª           Small Rain.prefab
+ª   ª           Small Rain.prefab.meta
+ª   ª           Snow.prefab
+ª   ª           Snow.prefab.meta
+ª   ª           Storm.prefab
+ª   ª           Storm.prefab.meta
+ª   ª           
+ª   +---Player
+ª   ª   ª   Graphics.meta
+ª   ª   ª   Player.prefab
+ª   ª   ª   Player.prefab.meta
+ª   ª   ª   
+ª   ª   +---Graphics
+ª   ª           Pirate Graphics.prefab
+ª   ª           Pirate Graphics.prefab.meta
+ª   ª           Player Graphics.prefab
+ª   ª           Player Graphics.prefab.meta
+ª   ª           [GRAPHICS TEMPLATE].prefab
+ª   ª           [GRAPHICS TEMPLATE].prefab.meta
+ª   ª           
+ª   +---Post Processing
+ª   ª       Global Volume.prefab
+ª   ª       Global Volume.prefab.meta
+ª   ª       
+ª   +---Projectiles
+ª   ª       Angel Projectile.prefab
+ª   ª       Angel Projectile.prefab.meta
+ª   ª       
+ª   +---Resources
+ª   ª   ª   Berry Resource Source.prefab
+ª   ª   ª   Berry Resource Source.prefab.meta
+ª   ª   ª   Coconut Resource Source.prefab
+ª   ª   ª   Coconut Resource Source.prefab.meta
+ª   ª   ª   Fish Resource Source.prefab
+ª   ª   ª   Fish Resource Source.prefab.meta
+ª   ª   ª   Flying Resources.meta
+ª   ª   ª   Grass Resource Source.prefab
+ª   ª   ª   Grass Resource Source.prefab.meta
+ª   ª   ª   Pickable Resources.meta
+ª   ª   ª   Pumpkin Resource Source.prefab
+ª   ª   ª   Pumpkin Resource Source.prefab.meta
+ª   ª   ª   Stone Resource Source.prefab
+ª   ª   ª   Stone Resource Source.prefab.meta
+ª   ª   ª   Tree Resource Source.prefab
+ª   ª   ª   Tree Resource Source.prefab.meta
+ª   ª   ª   
+ª   ª   +---Flying Resources
+ª   ª   ª       Berry Fly Resource.prefab
+ª   ª   ª       Berry Fly Resource.prefab.meta
+ª   ª   ª       Big Jam Fly Resourse.prefab
+ª   ª   ª       Big Jam Fly Resourse.prefab.meta
+ª   ª   ª       Brick Fly Resource.prefab
+ª   ª   ª       Brick Fly Resource.prefab.meta
+ª   ª   ª       Coconut Fly Resource.prefab
+ª   ª   ª       Coconut Fly Resource.prefab.meta
+ª   ª   ª       Coin Fly Resource.prefab
+ª   ª   ª       Coin Fly Resource.prefab.meta
+ª   ª   ª       Cooked Fish Fly Resource.prefab
+ª   ª   ª       Cooked Fish Fly Resource.prefab.meta
+ª   ª   ª       Fiber Fly Resourse.prefab
+ª   ª   ª       Fiber Fly Resourse.prefab.meta
+ª   ª   ª       Fish Fly Resource.prefab
+ª   ª   ª       Fish Fly Resource.prefab.meta
+ª   ª   ª       Jam Fly Resourse.prefab
+ª   ª   ª       Jam Fly Resourse.prefab.meta
+ª   ª   ª       Plank Fly Resource.prefab
+ª   ª   ª       Plank Fly Resource.prefab.meta
+ª   ª   ª       Pumpkin Fly Resourse.prefab
+ª   ª   ª       Pumpkin Fly Resourse.prefab.meta
+ª   ª   ª       Rope Fly Resource.prefab
+ª   ª   ª       Rope Fly Resource.prefab.meta
+ª   ª   ª       Scissors Fly Resourse.prefab
+ª   ª   ª       Scissors Fly Resourse.prefab.meta
+ª   ª   ª       Soup Fly Resource.prefab
+ª   ª   ª       Soup Fly Resource.prefab.meta
+ª   ª   ª       Stone Fly Resourse.prefab
+ª   ª   ª       Stone Fly Resourse.prefab.meta
+ª   ª   ª       Wood Fly Resourse.prefab
+ª   ª   ª       Wood Fly Resourse.prefab.meta
+ª   ª   ª       
+ª   ª   +---Pickable Resources
+ª   ª           Berry Drop Resource.prefab
+ª   ª           Berry Drop Resource.prefab.meta
+ª   ª           Big Jam Drop Resource.prefab
+ª   ª           Big Jam Drop Resource.prefab.meta
+ª   ª           Brick Drop Resource.prefab
+ª   ª           Brick Drop Resource.prefab.meta
+ª   ª           Coconut Drop Resource.prefab
+ª   ª           Coconut Drop Resource.prefab.meta
+ª   ª           Coin Drop Resource.prefab
+ª   ª           Coin Drop Resource.prefab.meta
+ª   ª           Cooked Fish Drop Resource.prefab
+ª   ª           Cooked Fish Drop Resource.prefab.meta
+ª   ª           Fiber Drop Resource.prefab
+ª   ª           Fiber Drop Resource.prefab.meta
+ª   ª           Fish Drop Resource.prefab
+ª   ª           Fish Drop Resource.prefab.meta
+ª   ª           Jam Drop Resource.prefab
+ª   ª           Jam Drop Resource.prefab.meta
+ª   ª           Plank Drop Resource.prefab
+ª   ª           Plank Drop Resource.prefab.meta
+ª   ª           Pumpkin Drop Resource.prefab
+ª   ª           Pumpkin Drop Resource.prefab.meta
+ª   ª           Rope Drop Resource.prefab
+ª   ª           Rope Drop Resource.prefab.meta
+ª   ª           Scissors Drop Resource.prefab
+ª   ª           Scissors Drop Resource.prefab.meta
+ª   ª           Soup Drop Resource.prefab
+ª   ª           Soup Drop Resource.prefab.meta
+ª   ª           Stone Drop Resource.prefab
+ª   ª           Stone Drop Resource.prefab.meta
+ª   ª           Wood Drop Resource.prefab
+ª   ª           Wood Drop Resource.prefab.meta
+ª   ª           
+ª   +---Special Objects
+ª   ª       Chest Spawner.prefab
+ª   ª       Chest Spawner.prefab.meta
+ª   ª       Chest.prefab
+ª   ª       Chest.prefab.meta
+ª   ª       Digging Spawn Point.prefab
+ª   ª       Digging Spawn Point.prefab.meta
+ª   ª       Digging Spot Special.prefab
+ª   ª       Digging Spot Special.prefab.meta
+ª   ª       Digging Spot.prefab
+ª   ª       Digging Spot.prefab.meta
+ª   ª       
+ª   +---Storage
+ª   ª       Simple Resource Storage.prefab
+ª   ª       Simple Resource Storage.prefab.meta
+ª   ª       
+ª   +---Tools
+ª   ª       Tool Axe.prefab
+ª   ª       Tool Axe.prefab.meta
+ª   ª       Tool Fishrod.prefab
+ª   ª       Tool Fishrod.prefab.meta
+ª   ª       Tool Hammer.prefab
+ª   ª       Tool Hammer.prefab.meta
+ª   ª       Tool Pickaxe.prefab
+ª   ª       Tool Pickaxe.prefab.meta
+ª   ª       Tool Shovel.prefab
+ª   ª       Tool Shovel.prefab.meta
+ª   ª       Tool Sickle.prefab
+ª   ª       Tool Sickle.prefab.meta
+ª   ª       
+ª   +---UI
+ª   ª   ª   Canvas.meta
+ª   ª   ª   Converter Resource Canvas.prefab
+ª   ª   ª   Converter Resource Canvas.prefab.meta
+ª   ª   ª   Converter Resource UI.prefab
+ª   ª   ª   Converter Resource UI.prefab.meta
+ª   ª   ª   Currency.meta
+ª   ª   ª   Energy Panel UI.prefab
+ª   ª   ª   Energy Panel UI.prefab.meta
+ª   ª   ª   Healthbar.meta
+ª   ª   ª   Inventory.meta
+ª   ª   ª   Missions.meta
+ª   ª   ª   Offers.meta
+ª   ª   ª   Resource UI.prefab
+ª   ª   ª   Resource UI.prefab.meta
+ª   ª   ª   Resource.meta
+ª   ª   ª   Resources Canvas.prefab
+ª   ª   ª   Resources Canvas.prefab.meta
+ª   ª   ª   Tutorial Canvas.prefab
+ª   ª   ª   Tutorial Canvas.prefab.meta
+ª   ª   ª   Tutorial Pointer.prefab
+ª   ª   ª   Tutorial Pointer.prefab.meta
+ª   ª   ª   UIResource.prefab
+ª   ª   ª   UIResource.prefab.meta
+ª   ª   ª   Upgrades.meta
+ª   ª   ª   
+ª   ª   +---Canvas
+ª   ª   ª       UI Game.prefab
+ª   ª   ª       UI Game.prefab.meta
+ª   ª   ª       UI IAP Store.prefab
+ª   ª   ª       UI IAP Store.prefab.meta
+ª   ª   ª       UI Main Menu.prefab
+ª   ª   ª       UI Main Menu.prefab.meta
+ª   ª   ª       UI Pause.prefab
+ª   ª   ª       UI Pause.prefab.meta
+ª   ª   ª       
+ª   ª   +---Currency
+ª   ª   ª       Currencies UI Controller.prefab
+ª   ª   ª       Currencies UI Controller.prefab.meta
+ª   ª   ª       Currency Button.prefab
+ª   ª   ª       Currency Button.prefab.meta
+ª   ª   ª       Currency Panel Simple.prefab
+ª   ª   ª       Currency Panel Simple.prefab.meta
+ª   ª   ª       Currency Panel.prefab
+ª   ª   ª       Currency Panel.prefab.meta
+ª   ª   ª       
+ª   ª   +---Healthbar
+ª   ª   ª       Player Health Bar.prefab
+ª   ª   ª       Player Health Bar.prefab.meta
+ª   ª   ª       
+ª   ª   +---Inventory
+ª   ª   ª       Inventory Currency Item.prefab
+ª   ª   ª       Inventory Currency Item.prefab.meta
+ª   ª   ª       UI Inventory.prefab
+ª   ª   ª       UI Inventory.prefab.meta
+ª   ª   ª       
+ª   ª   +---Missions
+ª   ª   ª       Mission Panel.prefab
+ª   ª   ª       Mission Panel.prefab.meta
+ª   ª   ª       Required Resource.prefab
+ª   ª   ª       Required Resource.prefab.meta
+ª   ª   ª       
+ª   ª   +---Offers
+ª   ª   ª       Ads Money.prefab
+ª   ª   ª       Ads Money.prefab.meta
+ª   ª   ª       Offer Money Big.prefab
+ª   ª   ª       Offer Money Big.prefab.meta
+ª   ª   ª       Offer Money Medium.prefab
+ª   ª   ª       Offer Money Medium.prefab.meta
+ª   ª   ª       Offer Money Small.prefab
+ª   ª   ª       Offer Money Small.prefab.meta
+ª   ª   ª       Offer No Ads.prefab
+ª   ª   ª       Offer No Ads.prefab.meta
+ª   ª   ª       Offer PU Pack.prefab
+ª   ª   ª       Offer PU Pack.prefab.meta
+ª   ª   ª       Offer Starter Pack.prefab
+ª   ª   ª       Offer Starter Pack.prefab.meta
+ª   ª   ª       Timer Money.prefab
+ª   ª   ª       Timer Money.prefab.meta
+ª   ª   ª       
+ª   ª   +---Resource
+ª   ª   ª       Horizontal Storage Canvas.prefab
+ª   ª   ª       Horizontal Storage Canvas.prefab.meta
+ª   ª   ª       Simple Resource Indicator.prefab
+ª   ª   ª       Simple Resource Indicator.prefab.meta
+ª   ª   ª       
+ª   ª   +---Upgrades
+ª   ª           UI Upgrades.prefab
+ª   ª           UI Upgrades.prefab.meta
+ª   ª           Upgrade UI Panel.prefab
+ª   ª           Upgrade UI Panel.prefab.meta
+ª   ª           
+ª   +---UI Store
+ª       ª   Offers.meta
+ª       ª   UI Store.prefab
+ª       ª   UI Store.prefab.meta
+ª       ª   
+ª       +---Offers
+ª               Ads Offer Money.prefab
+ª               Ads Offer Money.prefab.meta
+ª               IAP Offer Money Big Pack.prefab
+ª               IAP Offer Money Big Pack.prefab.meta
+ª               IAP Offer Money Medium Pack.prefab
+ª               IAP Offer Money Medium Pack.prefab.meta
+ª               IAP Offer Money Small Pack.prefab
+ª               IAP Offer Money Small Pack.prefab.meta
+ª               IAP Offer No Ads.prefab
+ª               IAP Offer No Ads.prefab.meta
+ª               IAP Offer Skin.prefab
+ª               IAP Offer Skin.prefab.meta
+ª               IAP Offer Starter Pack.prefab
+ª               IAP Offer Starter Pack.prefab.meta
+ª               Timer Offer Money.prefab
+ª               Timer Offer Money.prefab.meta
+ª               
++---Scenes
+ª   ª   Game.meta
+ª   ª   Game.unity
+ª   ª   Game.unity.meta
+ª   ª   Init.unity
+ª   ª   Init.unity.meta
+ª   ª   Worlds.meta
+ª   ª   
+ª   +---Game
+ª   ª       Global Volume Profile.asset
+ª   ª       Global Volume Profile.asset.meta
+ª   ª       
+ª   +---Worlds
+ª       ª   World 1 [Full Demo].meta
+ª       ª   World 1 [Full Demo].unity
+ª       ª   World 1 [Full Demo].unity.meta
+ª       ª   World 2 [Alt Demo].meta
+ª       ª   World 2 [Alt Demo].unity
+ª       ª   World 2 [Alt Demo].unity.meta
+ª       ª   [Empty World Placeholder].unity
+ª       ª   [Empty World Placeholder].unity.meta
+ª       ª   [Preview Scene].unity
+ª       ª   [Preview Scene].unity.meta
+ª       ª   
+ª       +---World 1 [Full Demo]
+ª       ª       NavMesh-Cave Subworld.asset
+ª       ª       NavMesh-Cave Subworld.asset.meta
+ª       ª       NavMesh-Tent Subworld.asset
+ª       ª       NavMesh-Tent Subworld.asset.meta
+ª       ª       NavMesh-World.asset
+ª       ª       NavMesh-World.asset.meta
+ª       ª       
+ª       +---World 2 [Alt Demo]
+ª               NavMesh-World.asset
+ª               NavMesh-World.asset.meta
+ª               
++---Scripts
+ª   ª   AI.meta
+ª   ª   Buildings.meta
+ª   ª   Chest.meta
+ª   ª   Cinemachine Camera.meta
+ª   ª   Control.meta
+ª   ª   Controllers.meta
+ª   ª   Curve.meta
+ª   ª   Digging.meta
+ª   ª   Editor.meta
+ª   ª   Enemies.meta
+ª   ª   Energy System.meta
+ª   ª   Environment.meta
+ª   ª   Fishing System.meta
+ª   ª   Foliage.meta
+ª   ª   Ground.meta
+ª   ª   Interaction.meta
+ª   ª   Level System.meta
+ª   ª   MD_PhysicsHelper.cs
+ª   ª   MD_PhysicsHelper.cs.meta
+ª   ª   Missions.meta
+ª   ª   Navigation.meta
+ª   ª   NavMesh.meta
+ª   ª   Other.meta
+ª   ª   Player.meta
+ª   ª   Resources Forder.meta
+ª   ª   Scene Overlay.meta
+ª   ª   State System.meta
+ª   ª   Tutorial.meta
+ª   ª   UI.meta
+ª   ª   Unlockable Tools.meta
+ª   ª   Upgrades.meta
+ª   ª   
+ª   +---AI
+ª   ª   ª   Bot.meta
+ª   ª   ª   
+ª   ª   +---Bot
+ª   ª       ª   BaseTask.cs
+ª   ª       ª   BaseTask.cs.meta
+ª   ª       ª   CharacterGraphicsHolder.cs
+ª   ª       ª   CharacterGraphicsHolder.cs.meta
+ª   ª       ª   Editor.meta
+ª   ª       ª   FishingTask.cs
+ª   ª       ª   FishingTask.cs.meta
+ª   ª       ª   GatheringTask.cs
+ª   ª       ª   GatheringTask.cs.meta
+ª   ª       ª   HelperBehavior.cs
+ª   ª       ª   HelperBehavior.cs.meta
+ª   ª       ª   HelperGraphics.cs
+ª   ª       ª   HelperGraphics.cs.meta
+ª   ª       ª   HelperInventory.cs
+ª   ª       ª   HelperInventory.cs.meta
+ª   ª       ª   HelperSave.cs
+ª   ª       ª   HelperSave.cs.meta
+ª   ª       ª   HelperStateBehavior.cs
+ª   ª       ª   HelperStateBehavior.cs.meta
+ª   ª       ª   HelperStateMachine.cs
+ª   ª       ª   HelperStateMachine.cs.meta
+ª   ª       ª   HelperTaskType.cs
+ª   ª       ª   HelperTaskType.cs.meta
+ª   ª       ª   ICharacterGraphics.cs
+ª   ª       ª   ICharacterGraphics.cs.meta
+ª   ª       ª   INavMeshAgent.cs
+ª   ª       ª   INavMeshAgent.cs.meta
+ª   ª       ª   NavMeshAgentBehaviour.cs
+ª   ª       ª   NavMeshAgentBehaviour.cs.meta
+ª   ª       ª   SimpleEmoteBehavior.cs
+ª   ª       ª   SimpleEmoteBehavior.cs.meta
+ª   ª       ª   TaskHandler.cs
+ª   ª       ª   TaskHandler.cs.meta
+ª   ª       ª   
+ª   ª       +---Editor
+ª   ª               HelperCreator.cs
+ª   ª               HelperCreator.cs.meta
+ª   ª               
+ª   +---Buildings
+ª   ª   ª   AbstractHitableBehavior.cs
+ª   ª   ª   AbstractHitableBehavior.cs.meta
+ª   ª   ª   BridgeBuildingBehavior.cs
+ª   ª   ª   BridgeBuildingBehavior.cs.meta
+ª   ª   ª   Buildings.meta
+ª   ª   ª   ButtonUpgradesTrigger.cs
+ª   ª   ª   ButtonUpgradesTrigger.cs.meta
+ª   ª   ª   ConstructingPointSave.cs
+ª   ª   ª   ConstructingPointSave.cs.meta
+ª   ª   ª   ConstructionPointBehavior.cs
+ª   ª   ª   ConstructionPointBehavior.cs.meta
+ª   ª   ª   ConstructionTask.cs
+ª   ª   ª   ConstructionTask.cs.meta
+ª   ª   ª   ConverterStoringTask.cs
+ª   ª   ª   ConverterStoringTask.cs.meta
+ª   ª   ª   IHitable.cs
+ª   ª   ª   IHitable.cs.meta
+ª   ª   ª   InstantConstructionActionMenu.cs
+ª   ª   ª   InstantConstructionActionMenu.cs.meta
+ª   ª   ª   PhysicalUpgradesTrigger.cs
+ª   ª   ª   PhysicalUpgradesTrigger.cs.meta
+ª   ª   ª   RampBuildingBehavior.cs
+ª   ª   ª   RampBuildingBehavior.cs.meta
+ª   ª   ª   Resource.cs
+ª   ª   ª   Resource.cs.meta
+ª   ª   ª   ResourcePileBehaviour.cs
+ª   ª   ª   ResourcePileBehaviour.cs.meta
+ª   ª   ª   ResourceStorageBuildingBehavior.cs
+ª   ª   ª   ResourceStorageBuildingBehavior.cs.meta
+ª   ª   ª   Storage.meta
+ª   ª   ª   StorageResourcePileBehavior.cs
+ª   ª   ª   StorageResourcePileBehavior.cs.meta
+ª   ª   ª   StoreResourcesTask.cs
+ª   ª   ª   StoreResourcesTask.cs.meta
+ª   ª   ª   UI.meta
+ª   ª   ª   UpgradesTrigger.cs
+ª   ª   ª   UpgradesTrigger.cs.meta
+ª   ª   ª   
+ª   ª   +---Buildings
+ª   ª   ª   ª   AbstractComplexBehavior.cs
+ª   ª   ª   ª   AbstractComplexBehavior.cs.meta
+ª   ª   ª   ª   AnimationForUnlockable.cs
+ª   ª   ª   ª   AnimationForUnlockable.cs.meta
+ª   ª   ª   ª   BuildingBehavior.cs
+ª   ª   ª   ª   BuildingBehavior.cs.meta
+ª   ª   ª   ª   BuildingComplexBehavior.cs
+ª   ª   ª   ª   BuildingComplexBehavior.cs.meta
+ª   ª   ª   ª   BuildingUpgradeContainer.cs
+ª   ª   ª   ª   BuildingUpgradeContainer.cs.meta
+ª   ª   ª   ª   Converter.meta
+ª   ª   ª   ª   IUnlockable.cs
+ª   ª   ª   ª   IUnlockable.cs.meta
+ª   ª   ª   ª   IUnlockableComplex.cs
+ª   ª   ª   ª   IUnlockableComplex.cs.meta
+ª   ª   ª   ª   ResGeneratorSplitAnimation.cs
+ª   ª   ª   ª   ResGeneratorSplitAnimation.cs.meta
+ª   ª   ª   ª   ResourceGeneratorBuildingBehavior.cs
+ª   ª   ª   ª   ResourceGeneratorBuildingBehavior.cs.meta
+ª   ª   ª   ª   RowboatBuilding.cs
+ª   ª   ª   ª   RowboatBuilding.cs.meta
+ª   ª   ª   ª   ScaleAnimationForUnlockable.cs
+ª   ª   ª   ª   ScaleAnimationForUnlockable.cs.meta
+ª   ª   ª   ª   TentBuilding.cs
+ª   ª   ª   ª   TentBuilding.cs.meta
+ª   ª   ª   ª   UpgradesBuilding.cs
+ª   ª   ª   ª   UpgradesBuilding.cs.meta
+ª   ª   ª   ª   
+ª   ª   ª   +---Converter
+ª   ª   ª       ª   ConverterCapacityUpgrade.cs
+ª   ª   ª       ª   ConverterCapacityUpgrade.cs.meta
+ª   ª   ª       ª   ConverterRecipeUpgrade.cs
+ª   ª   ª       ª   ConverterRecipeUpgrade.cs.meta
+ª   ª   ª       ª   FoodConverterAnimation.cs
+ª   ª   ª       ª   FoodConverterAnimation.cs.meta
+ª   ª   ª       ª   Recipe.cs
+ª   ª   ª       ª   Recipe.cs.meta
+ª   ª   ª       ª   ResourceConverterBuildingBehavior.cs
+ª   ª   ª       ª   ResourceConverterBuildingBehavior.cs.meta
+ª   ª   ª       ª   SimpleFloatUpgrade.cs
+ª   ª   ª       ª   SimpleFloatUpgrade.cs.meta
+ª   ª   ª       ª   SimpleIntUpgrade.cs
+ª   ª   ª       ª   SimpleIntUpgrade.cs.meta
+ª   ª   ª       ª   Upgrades.meta
+ª   ª   ª       ª   
+ª   ª   ª       +---Upgrades
+ª   ª   ª               BuildingUpgradeType.cs
+ª   ª   ª               BuildingUpgradeType.cs.meta
+ª   ª   ª               UpgradeType.cs
+ª   ª   ª               UpgradeType.cs.meta
+ª   ª   ª               
+ª   ª   +---Storage
+ª   ª   ª       ComplexResourceStorageBehavior.cs
+ª   ª   ª       ComplexResourceStorageBehavior.cs.meta
+ª   ª   ª       HorizontalStorageCanvas.cs
+ª   ª   ª       HorizontalStorageCanvas.cs.meta
+ª   ª   ª       ResourceStorageBehavior.cs
+ª   ª   ª       ResourceStorageBehavior.cs.meta
+ª   ª   ª       SimpleResourceIndicator.cs
+ª   ª   ª       SimpleResourceIndicator.cs.meta
+ª   ª   ª       SimpleResourceStorageBehavior.cs
+ª   ª   ª       SimpleResourceStorageBehavior.cs.meta
+ª   ª   ª       WorldSpaceCanvas.cs
+ª   ª   ª       WorldSpaceCanvas.cs.meta
+ª   ª   ª       
+ª   ª   +---UI
+ª   ª           PriceItemUI.cs
+ª   ª           PriceItemUI.cs.meta
+ª   ª           ResourcesCanvas.cs
+ª   ª           ResourcesCanvas.cs.meta
+ª   ª           UnlockCanvas.cs
+ª   ª           UnlockCanvas.cs.meta
+ª   ª           
+ª   +---Chest
+ª   ª       AnimatorEventListener.cs
+ª   ª       AnimatorEventListener.cs.meta
+ª   ª       ChestBehavior.cs
+ª   ª       ChestBehavior.cs.meta
+ª   ª       ChestSave.cs
+ª   ª       ChestSave.cs.meta
+ª   ª       ChestSpawner.cs
+ª   ª       ChestSpawner.cs.meta
+ª   ª       ChestUIBehavior.cs
+ª   ª       ChestUIBehavior.cs.meta
+ª   ª       
+ª   +---Cinemachine Camera
+ª   ª       CinemachineCameraController.cs
+ª   ª       CinemachineCameraController.cs.meta
+ª   ª       MD_CameraType.cs
+ª   ª       MD_CameraType.cs.meta
+ª   ª       PreviewCamera.cs
+ª   ª       PreviewCamera.cs.meta
+ª   ª       VirtualCameraCase.cs
+ª   ª       VirtualCameraCase.cs.meta
+ª   ª       
+ª   +---Control
+ª   ª   ª   Control.cs
+ª   ª   ª   Control.cs.meta
+ª   ª   ª   ControlInitModule.cs
+ª   ª   ª   ControlInitModule.cs.meta
+ª   ª   ª   ControlUtils.cs
+ª   ª   ª   ControlUtils.cs.meta
+ª   ª   ª   Editor.meta
+ª   ª   ª   Gamepad.meta
+ª   ª   ª   IControlBehavior.cs
+ª   ª   ª   IControlBehavior.cs.meta
+ª   ª   ª   InputType.cs
+ª   ª   ª   InputType.cs.meta
+ª   ª   ª   Joystick.meta
+ª   ª   ª   Keyboard.meta
+ª   ª   ª   
+ª   ª   +---Editor
+ª   ª   ª       ControlInitModuleEditor.cs
+ª   ª   ª       ControlInitModuleEditor.cs.meta
+ª   ª   ª       
+ª   ª   +---Gamepad
+ª   ª   ª       GamepadButtonType.cs
+ª   ª   ª       GamepadButtonType.cs.meta
+ª   ª   ª       GamepadControl.cs
+ª   ª   ª       GamepadControl.cs.meta
+ª   ª   ª       GamepadData.cs
+ª   ª   ª       GamepadData.cs.meta
+ª   ª   ª       MD_UIGamepadButtonTag.cs
+ª   ª   ª       MD_UIGamepadButtonTag.cs.meta
+ª   ª   ª       UIGamepadButton.cs
+ª   ª   ª       UIGamepadButton.cs.meta
+ª   ª   ª       
+ª   ª   +---Joystick
+ª   ª   ª       Joystick.cs
+ª   ª   ª       Joystick.cs.meta
+ª   ª   ª       
+ª   ª   +---Keyboard
+ª   ª           KeyboardControl.cs
+ª   ª           KeyboardControl.cs.meta
+ª   ª           
+ª   +---Controllers
+ª   ª       DefaultMusicController.cs
+ª   ª       DefaultMusicController.cs.meta
+ª   ª       GameController.cs
+ª   ª       GameController.cs.meta
+ª   ª       
+ª   +---Curve
+ª   ª       CurvatureActionsMenu.cs
+ª   ª       CurvatureActionsMenu.cs.meta
+ª   ª       CurvatureManager.cs
+ª   ª       CurvatureManager.cs.meta
+ª   ª       CurvatureSceneOverride.cs
+ª   ª       CurvatureSceneOverride.cs.meta
+ª   ª       CurveData.cs
+ª   ª       CurveData.cs.meta
+ª   ª       
+ª   +---Digging
+ª   ª   ª   DiggingController.cs
+ª   ª   ª   DiggingController.cs.meta
+ª   ª   ª   DiggingPointSave.cs
+ª   ª   ª   DiggingPointSave.cs.meta
+ª   ª   ª   DiggingSpawnPoint.cs
+ª   ª   ª   DiggingSpawnPoint.cs.meta
+ª   ª   ª   DiggingSpawnSettings.cs
+ª   ª   ª   DiggingSpawnSettings.cs.meta
+ª   ª   ª   DiggingSpotBehavior.cs
+ª   ª   ª   DiggingSpotBehavior.cs.meta
+ª   ª   ª   Editor.meta
+ª   ª   ª   
+ª   ª   +---Editor
+ª   ª           WeightedListItemPropertyDrawer.cs
+ª   ª           WeightedListItemPropertyDrawer.cs.meta
+ª   ª           WeightedListPropertyDrawer.cs
+ª   ª           WeightedListPropertyDrawer.cs.meta
+ª   ª           
+ª   +---Editor
+ª   ª       BuildingBehaviourEditor.cs
+ª   ª       BuildingBehaviourEditor.cs.meta
+ª   ª       CustomActionsMenu.cs
+ª   ª       CustomActionsMenu.cs.meta
+ª   ª       GroundTileComplexBehaviourEditor.cs
+ª   ª       GroundTileComplexBehaviourEditor.cs.meta
+ª   ª       IOSBuildPostProcessor.cs
+ª   ª       IOSBuildPostProcessor.cs.meta
+ª   ª       RecipePropertyDrawer.cs
+ª   ª       RecipePropertyDrawer.cs.meta
+ª   ª       ResourcePropertyDrawer.cs
+ª   ª       ResourcePropertyDrawer.cs.meta
+ª   ª       
+ª   +---Enemies
+ª   ª       BaseEnemyBehavior.cs
+ª   ª       BaseEnemyBehavior.cs.meta
+ª   ª       EnemiesDatabase.cs
+ª   ª       EnemiesDatabase.cs.meta
+ª   ª       EnemyAnimationHandler.cs
+ª   ª       EnemyAnimationHandler.cs.meta
+ª   ª       EnemyData.cs
+ª   ª       EnemyData.cs.meta
+ª   ª       EnemySpawnPoint.cs
+ª   ª       EnemySpawnPoint.cs.meta
+ª   ª       EnemyType.cs
+ª   ª       EnemyType.cs.meta
+ª   ª       SkeletonEnemyBehavior.cs
+ª   ª       SkeletonEnemyBehavior.cs.meta
+ª   ª       SkeletonStateMachine.cs
+ª   ª       SkeletonStateMachine.cs.meta
+ª   ª       SkeletonStates.cs
+ª   ª       SkeletonStates.cs.meta
+ª   ª       
+ª   +---Energy System
+ª   ª       EnergyActionMenu.cs
+ª   ª       EnergyActionMenu.cs.meta
+ª   ª       EnergyController.cs
+ª   ª       EnergyController.cs.meta
+ª   ª       EnergySystemDatabase.cs
+ª   ª       EnergySystemDatabase.cs.meta
+ª   ª       EnergyUIPanel.cs
+ª   ª       EnergyUIPanel.cs.meta
+ª   ª       
+ª   +---Environment
+ª   ª       EnvironmentController.cs
+ª   ª       EnvironmentController.cs.meta
+ª   ª       EnvironmentPreset.cs
+ª   ª       EnvironmentPreset.cs.meta
+ª   ª       EnvironmentPresetsDatabase.cs
+ª   ª       EnvironmentPresetsDatabase.cs.meta
+ª   ª       EnvironmentPresetType.cs
+ª   ª       EnvironmentPresetType.cs.meta
+ª   ª       EnvironmentSkyModule.cs
+ª   ª       EnvironmentSkyModule.cs.meta
+ª   ª       EnvironmentWeatherModule.cs
+ª   ª       EnvironmentWeatherModule.cs.meta
+ª   ª       EnvironmentWeatherPreset.cs
+ª   ª       EnvironmentWeatherPreset.cs.meta
+ª   ª       
+ª   +---Fishing System
+ª   ª       FishingController.cs
+ª   ª       FishingController.cs.meta
+ª   ª       FishingPlaceBehavior.cs
+ª   ª       FishingPlaceBehavior.cs.meta
+ª   ª       FishingRodToolBehavior.cs
+ª   ª       FishingRodToolBehavior.cs.meta
+ª   ª       
+ª   +---Foliage
+ª   ª       FoliageController.cs
+ª   ª       FoliageController.cs.meta
+ª   ª       
+ª   +---Ground
+ª   ª       AbstractLocalUpgrade.cs
+ª   ª       AbstractLocalUpgrade.cs.meta
+ª   ª       ConverterResourceCanvas.cs
+ª   ª       ConverterResourceCanvas.cs.meta
+ª   ª       ConverterResourceUI.cs
+ª   ª       ConverterResourceUI.cs.meta
+ª   ª       GroundTileBehavior.cs
+ª   ª       GroundTileBehavior.cs.meta
+ª   ª       GroundTileComplexBehavior.cs
+ª   ª       GroundTileComplexBehavior.cs.meta
+ª   ª       IGroundOpenable.cs
+ª   ª       IGroundOpenable.cs.meta
+ª   ª       IPurchaser.cs
+ª   ª       IPurchaser.cs.meta
+ª   ª       IResourceGiver.cs
+ª   ª       IResourceGiver.cs.meta
+ª   ª       IResourceTaker.cs
+ª   ª       IResourceTaker.cs.meta
+ª   ª       LocalUpgrade.cs
+ª   ª       LocalUpgrade.cs.meta
+ª   ª       PurchasePoint.cs
+ª   ª       PurchasePoint.cs.meta
+ª   ª       PurchasePointSave.cs
+ª   ª       PurchasePointSave.cs.meta
+ª   ª       ResourceCanvas.cs
+ª   ª       ResourceCanvas.cs.meta
+ª   ª       ResourceGivingPointBehavior.cs
+ª   ª       ResourceGivingPointBehavior.cs.meta
+ª   ª       ResourcePointBehavior.cs
+ª   ª       ResourcePointBehavior.cs.meta
+ª   ª       ResourceTaker.cs
+ª   ª       ResourceTaker.cs.meta
+ª   ª       ResourceTakingPointBehavior.cs
+ª   ª       ResourceTakingPointBehavior.cs.meta
+ª   ª       ResourceUI.cs
+ª   ª       ResourceUI.cs.meta
+ª   ª       UIOpenerPointBehavior.cs
+ª   ª       UIOpenerPointBehavior.cs.meta
+ª   ª       
+ª   +---Interaction
+ª   ª   ª   Interaction.cs
+ª   ª   ª   Interaction.cs.meta
+ª   ª   ª   InteractionAnimationData.cs
+ª   ª   ª   InteractionAnimationData.cs.meta
+ª   ª   ª   InteractionAnimationType.cs
+ª   ª   ª   InteractionAnimationType.cs.meta
+ª   ª   ª   InteractionData.cs
+ª   ª   ª   InteractionData.cs.meta
+ª   ª   ª   Tools.meta
+ª   ª   ª   
+ª   ª   +---Tools
+ª   ª           HammerToolBehavior.cs
+ª   ª           HammerToolBehavior.cs.meta
+ª   ª           ToolBehavior.cs
+ª   ª           ToolBehavior.cs.meta
+ª   ª           ToolsPlacementHelper.cs
+ª   ª           ToolsPlacementHelper.cs.meta
+ª   ª           
+ª   +---Level System
+ª   ª   ª   ActiveWorld.cs
+ª   ª   ª   ActiveWorld.cs.meta
+ª   ª   ª   BaseWorldBehavior.cs
+ª   ª   ª   BaseWorldBehavior.cs.meta
+ª   ª   ª   DistanceToggle.cs
+ª   ª   ª   DistanceToggle.cs.meta
+ª   ª   ª   Editor.meta
+ª   ª   ª   IDistanceToggle.cs
+ª   ª   ª   IDistanceToggle.cs.meta
+ª   ª   ª   ISubworldEntrance.cs
+ª   ª   ª   ISubworldEntrance.cs.meta
+ª   ª   ª   Item Collector.meta
+ª   ª   ª   IWorldElement.cs
+ª   ª   ª   IWorldElement.cs.meta
+ª   ª   ª   IWorldObjectBehavior.cs
+ª   ª   ª   IWorldObjectBehavior.cs.meta
+ª   ª   ª   SubworldBehavior.cs
+ª   ª   ª   SubworldBehavior.cs.meta
+ª   ª   ª   SubworldEntrance.cs
+ª   ª   ª   SubworldEntrance.cs.meta
+ª   ª   ª   SubworldEntranceData.cs
+ª   ª   ª   SubworldEntranceData.cs.meta
+ª   ª   ª   SubworldExit.cs
+ª   ª   ª   SubworldExit.cs.meta
+ª   ª   ª   SubworldHandler.cs
+ª   ª   ª   SubworldHandler.cs.meta
+ª   ª   ª   UIWorldChangePopUp.cs
+ª   ª   ª   UIWorldChangePopUp.cs.meta
+ª   ª   ª   WorldBehavior.cs
+ª   ª   ª   WorldBehavior.cs.meta
+ª   ª   ª   WorldChangeRaftBehavior.cs
+ª   ª   ª   WorldChangeRaftBehavior.cs.meta
+ª   ª   ª   WorldChangeSpecialBehavior.cs
+ª   ª   ª   WorldChangeSpecialBehavior.cs.meta
+ª   ª   ª   WorldChangeZoneBehavior.cs
+ª   ª   ª   WorldChangeZoneBehavior.cs.meta
+ª   ª   ª   WorldController.cs
+ª   ª   ª   WorldController.cs.meta
+ª   ª   ª   WorldGlobalSave.cs
+ª   ª   ª   WorldGlobalSave.cs.meta
+ª   ª   ª   WorldObjectAttribute.cs
+ª   ª   ª   WorldObjectAttribute.cs.meta
+ª   ª   ª   WorldPickerAttribute.cs
+ª   ª   ª   WorldPickerAttribute.cs.meta
+ª   ª   ª   WorldSave.cs
+ª   ª   ª   WorldSave.cs.meta
+ª   ª   ª   WorldsDatabase.cs
+ª   ª   ª   WorldsDatabase.cs.meta
+ª   ª   ª   
+ª   ª   +---Editor
+ª   ª   ª       LevelEditorBase.cs
+ª   ª   ª       LevelEditorBase.cs.meta
+ª   ª   ª       LevelsHandler.cs
+ª   ª   ª       LevelsHandler.cs.meta
+ª   ª   ª       SceneAutoLoaded.cs
+ª   ª   ª       SceneAutoLoaded.cs.meta
+ª   ª   ª       TabHandler.cs
+ª   ª   ª       TabHandler.cs.meta
+ª   ª   ª       WindowConfiguration.cs
+ª   ª   ª       WindowConfiguration.cs.meta
+ª   ª   ª       WorldPickedPropertyDrawer.cs
+ª   ª   ª       WorldPickedPropertyDrawer.cs.meta
+ª   ª   ª       WorldsDatabaseEditor.cs
+ª   ª   ª       WorldsDatabaseEditor.cs.meta
+ª   ª   ª       
+ª   ª   +---Item Collector
+ª   ª           IWorldItemCollector.cs
+ª   ª           IWorldItemCollector.cs.meta
+ª   ª           WorldItemCollector.cs
+ª   ª           WorldItemCollector.cs.meta
+ª   ª           WorldItemCollectorCase.cs
+ª   ª           WorldItemCollectorCase.cs.meta
+ª   ª           
+ª   +---Missions
+ª   ª   ª   BuildingMission.cs
+ª   ª   ª   BuildingMission.cs.meta
+ª   ª   ª   CollectMission.cs
+ª   ª   ª   CollectMission.cs.meta
+ª   ª   ª   Editor.meta
+ª   ª   ª   GroundUnlockMission.cs
+ª   ª   ª   GroundUnlockMission.cs.meta
+ª   ª   ª   HelperMission.cs
+ª   ª   ª   HelperMission.cs.meta
+ª   ª   ª   IUnlockingMission.cs
+ª   ª   ª   IUnlockingMission.cs.meta
+ª   ª   ª   Mission.cs
+ª   ª   ª   Mission.cs.meta
+ª   ª   ª   MissionBuildRequiredResource.cs
+ª   ª   ª   MissionBuildRequiredResource.cs.meta
+ª   ª   ª   MissionPickerAttribute.cs
+ª   ª   ª   MissionPickerAttribute.cs.meta
+ª   ª   ª   MissionRewardType.cs
+ª   ª   ª   MissionRewardType.cs.meta
+ª   ª   ª   MissionsActionMenu.cs
+ª   ª   ª   MissionsActionMenu.cs.meta
+ª   ª   ª   MissionsController.cs
+ª   ª   ª   MissionsController.cs.meta
+ª   ª   ª   MissionsHolder.cs
+ª   ª   ª   MissionsHolder.cs.meta
+ª   ª   ª   MissionUIPanel.cs
+ª   ª   ª   MissionUIPanel.cs.meta
+ª   ª   ª   ObjectEnablerByMission.cs
+ª   ª   ª   ObjectEnablerByMission.cs.meta
+ª   ª   ª   SubworldEnterMission.cs
+ª   ª   ª   SubworldEnterMission.cs.meta
+ª   ª   ª   UIMissionRewardPopUp.cs
+ª   ª   ª   UIMissionRewardPopUp.cs.meta
+ª   ª   ª   UpgradeMission.cs
+ª   ª   ª   UpgradeMission.cs.meta
+ª   ª   ª   WorldChangeMission.cs
+ª   ª   ª   WorldChangeMission.cs.meta
+ª   ª   ª   
+ª   ª   +---Editor
+ª   ª           MissionEditor.cs
+ª   ª           MissionEditor.cs.meta
+ª   ª           MissionPickerPropertyDrawer.cs
+ª   ª           MissionPickerPropertyDrawer.cs.meta
+ª   ª           
+ª   +---Navigation
+ª   ª       NavigationArrowController.cs
+ª   ª       NavigationArrowController.cs.meta
+ª   ª       NavigationHelper.cs
+ª   ª       NavigationHelper.cs.meta
+ª   ª       TutorialArrowBehaviour.cs
+ª   ª       TutorialArrowBehaviour.cs.meta
+ª   ª       TutorialArrowCase.cs
+ª   ª       TutorialArrowCase.cs.meta
+ª   ª       TutorialBaseSave.cs
+ª   ª       TutorialBaseSave.cs.meta
+ª   ª       
+ª   +---NavMesh
+ª   ª       NavMeshController.cs
+ª   ª       NavMeshController.cs.meta
+ª   ª       NavMeshSurfaceTweenCase.cs
+ª   ª       NavMeshSurfaceTweenCase.cs.meta
+ª   ª       
+ª   +---Other
+ª   ª       ControllOverlayTilesDimensionSettings.cs
+ª   ª       ControllOverlayTilesDimensionSettings.cs.meta
+ª   ª       FirstAnimationEnabler.cs
+ª   ª       FirstAnimationEnabler.cs.meta
+ª   ª       GameData.cs
+ª   ª       GameData.cs.meta
+ª   ª       ProjectExtensions.cs
+ª   ª       ProjectExtensions.cs.meta
+ª   ª       WeatherDisabler.cs
+ª   ª       WeatherDisabler.cs.meta
+ª   ª       WorldData.cs
+ª   ª       WorldData.cs.meta
+ª   ª       
+ª   +---Player
+ª   ª   ª   CharacterGraphics.cs
+ª   ª   ª   CharacterGraphics.cs.meta
+ª   ª   ª   DamageSource.cs
+ª   ª   ª   DamageSource.cs.meta
+ª   ª   ª   Editor.meta
+ª   ª   ª   HealthbarBehaviour.cs
+ª   ª   ª   HealthbarBehaviour.cs.meta
+ª   ª   ª   HealthBehavior.cs
+ª   ª   ª   HealthBehavior.cs.meta
+ª   ª   ª   ICharacter.cs
+ª   ª   ª   ICharacter.cs.meta
+ª   ª   ª   InventoryActionMenu.cs
+ª   ª   ª   InventoryActionMenu.cs.meta
+ª   ª   ª   InventoryUIPanel.cs
+ª   ª   ª   InventoryUIPanel.cs.meta
+ª   ª   ª   PlayerAnimationHandler.cs
+ª   ª   ª   PlayerAnimationHandler.cs.meta
+ª   ª   ª   PlayerBehavior.cs
+ª   ª   ª   PlayerBehavior.cs.meta
+ª   ª   ª   PlayerGraphics.cs
+ª   ª   ª   PlayerGraphics.cs.meta
+ª   ª   ª   PlayerHittableTrigger.cs
+ª   ª   ª   PlayerHittableTrigger.cs.meta
+ª   ª   ª   PlayerInventory.cs
+ª   ª   ª   PlayerInventory.cs.meta
+ª   ª   ª   PlayerResourcesTrigger.cs
+ª   ª   ª   PlayerResourcesTrigger.cs.meta
+ª   ª   ª   PlayerWaterDetector.cs
+ª   ª   ª   PlayerWaterDetector.cs.meta
+ª   ª   ª   Projectile.meta
+ª   ª   ª   Skins.meta
+ª   ª   ª   
+ª   ª   +---Editor
+ª   ª   ª       CharacterCreator.cs
+ª   ª   ª       CharacterCreator.cs.meta
+ª   ª   ª       
+ª   ª   +---Projectile
+ª   ª   ª       BaseProjectileBehaviour.cs
+ª   ª   ª       BaseProjectileBehaviour.cs.meta
+ª   ª   ª       SimpleProjectileBehaviour.cs
+ª   ª   ª       SimpleProjectileBehaviour.cs.meta
+ª   ª   ª       
+ª   ª   +---Skins
+ª   ª           PlayerSkinData.cs
+ª   ª           PlayerSkinData.cs.meta
+ª   ª           PlayerSkinsDatabase.cs
+ª   ª           PlayerSkinsDatabase.cs.meta
+ª   ª           
+ª   +---Resources Forder
+ª   ª   ª   DropAnimation.cs
+ª   ª   ª   DropAnimation.cs.meta
+ª   ª   ª   Editor.meta
+ª   ª   ª   FlyingResourceAnimation.cs
+ª   ª   ª   FlyingResourceAnimation.cs.meta
+ª   ª   ª   FlyingResourceBehavior.cs
+ª   ª   ª   FlyingResourceBehavior.cs.meta
+ª   ª   ª   FlyingResourceBezierAnimation.cs
+ª   ª   ª   FlyingResourceBezierAnimation.cs.meta
+ª   ª   ª   IHitter.cs
+ª   ª   ª   IHitter.cs.meta
+ª   ª   ª   IResourcePicker.cs
+ª   ª   ª   IResourcePicker.cs.meta
+ª   ª   ª   PlacementHelper.cs
+ª   ª   ª   PlacementHelper.cs.meta
+ª   ª   ª   ResourceDropBehavior.cs
+ª   ª   ª   ResourceDropBehavior.cs.meta
+ª   ª   ª   ResourceHarvestStageData.cs
+ª   ª   ª   ResourceHarvestStageData.cs.meta
+ª   ª   ª   ResourceSourceBehavior.cs
+ª   ª   ª   ResourceSourceBehavior.cs.meta
+ª   ª   ª   ResourceVisualStage.cs
+ª   ª   ª   ResourceVisualStage.cs.meta
+ª   ª   ª   
+ª   ª   +---Editor
+ª   ª           DropAnimationEditor.cs
+ª   ª           DropAnimationEditor.cs.meta
+ª   ª           
+ª   +---Scene Overlay
+ª   ª   ª   CustomOverlayElementAttribute.cs
+ª   ª   ª   CustomOverlayElementAttribute.cs.meta
+ª   ª   ª   Editor.meta
+ª   ª   ª   SceneOverlayCustomControl.cs
+ª   ª   ª   SceneOverlayCustomControl.cs.meta
+ª   ª   ª   SceneOverlayDatabase.cs
+ª   ª   ª   SceneOverlayDatabase.cs.meta
+ª   ª   ª   
+ª   ª   +---Editor
+ª   ª           SceneOverlay.cs
+ª   ª           SceneOverlay.cs.meta
+ª   ª           
+ª   +---State System
+ª   ª       AbstractStateMachine.cs
+ª   ª       AbstractStateMachine.cs.meta
+ª   ª       StateBehavior.cs
+ª   ª       StateBehavior.cs.meta
+ª   ª       
+ª   +---Tutorial
+ª   ª       TutorialCanvasController.cs
+ª   ª       TutorialCanvasController.cs.meta
+ª   ª       
+ª   +---UI
+ª   ª   ª   GamepadIndicatorUI.cs
+ª   ª   ª   GamepadIndicatorUI.cs.meta
+ª   ª   ª   Inventory.meta
+ª   ª   ª   Pause.meta
+ª   ª   ª   UIGame.cs
+ª   ª   ª   UIGame.cs.meta
+ª   ª   ª   UIMainMenu.cs
+ª   ª   ª   UIMainMenu.cs.meta
+ª   ª   ª   UIMainMenuButton.cs
+ª   ª   ª   UIMainMenuButton.cs.meta
+ª   ª   ª   UINoAdsPopUp.cs
+ª   ª   ª   UINoAdsPopUp.cs.meta
+ª   ª   ª   UIStore.cs
+ª   ª   ª   UIStore.cs.meta
+ª   ª   ª   
+ª   ª   +---Inventory
+ª   ª   ª       InventoryUIItem.cs
+ª   ª   ª       InventoryUIItem.cs.meta
+ª   ª   ª       InventoryUIPage.cs
+ª   ª   ª       InventoryUIPage.cs.meta
+ª   ª   ª       
+ª   ª   +---Pause
+ª   ª           PauseExitItem.cs
+ª   ª           PauseExitItem.cs.meta
+ª   ª           PauseItem.cs
+ª   ª           PauseItem.cs.meta
+ª   ª           PauseMusicItem.cs
+ª   ª           PauseMusicItem.cs.meta
+ª   ª           PauseQuitItem.cs
+ª   ª           PauseQuitItem.cs.meta
+ª   ª           PauseRestorePurchasesItem.cs
+ª   ª           PauseRestorePurchasesItem.cs.meta
+ª   ª           PauseSoundItem.cs
+ª   ª           PauseSoundItem.cs.meta
+ª   ª           PauseVibrationItem.cs
+ª   ª           PauseVibrationItem.cs.meta
+ª   ª           UIPause.cs
+ª   ª           UIPause.cs.meta
+ª   ª           
+ª   +---Unlockable Tools
+ª   ª   ª   Editor.meta
+ª   ª   ª   UnlockableTool.cs
+ª   ª   ª   UnlockableTool.cs.meta
+ª   ª   ª   UnlockableToolFloatingText.cs
+ª   ª   ª   UnlockableToolFloatingText.cs.meta
+ª   ª   ª   UnlockableToolSave.cs
+ª   ª   ª   UnlockableToolSave.cs.meta
+ª   ª   ª   UnlockableToolsController.cs
+ª   ª   ª   UnlockableToolsController.cs.meta
+ª   ª   ª   UnlockableToolsDatabase.cs
+ª   ª   ª   UnlockableToolsDatabase.cs.meta
+ª   ª   ª   
+ª   ª   +---Editor
+ª   ª           UnlockableToolsControllerEditor.cs
+ª   ª           UnlockableToolsControllerEditor.cs.meta
+ª   ª           
+ª   +---Upgrades
+ª       ª   AbstactGlobalUpgrade.cs
+ª       ª   AbstactGlobalUpgrade.cs.meta
+ª       ª   CapacityUpgrade.cs
+ª       ª   CapacityUpgrade.cs.meta
+ª       ª   Examples.meta
+ª       ª   GatheringUpgrade.cs
+ª       ª   GatheringUpgrade.cs.meta
+ª       ª   GlobalUpgrade.cs
+ª       ª   GlobalUpgrade.cs.meta
+ª       ª   GlobalUpgradesController.cs
+ª       ª   GlobalUpgradesController.cs.meta
+ª       ª   GlobalUpgradesDatabase.cs
+ª       ª   GlobalUpgradesDatabase.cs.meta
+ª       ª   GlobalUpgradesEventsHandler.cs
+ª       ª   GlobalUpgradesEventsHandler.cs.meta
+ª       ª   GlobalUpgradeStage.cs
+ª       ª   GlobalUpgradeStage.cs.meta
+ª       ª   IUpgrade.cs
+ª       ª   IUpgrade.cs.meta
+ª       ª   MD_GlobalUpgradeType.cs
+ª       ª   MD_GlobalUpgradeType.cs.meta
+ª       ª   MovementSpeedUpgrade.cs
+ª       ª   MovementSpeedUpgrade.cs.meta
+ª       ª   Saves.meta
+ª       ª   StrengthUpgrade.cs
+ª       ª   StrengthUpgrade.cs.meta
+ª       ª   SwimmingDurationUpgrade.cs
+ª       ª   SwimmingDurationUpgrade.cs.meta
+ª       ª   UI.meta
+ª       ª   
+ª       +---Examples
+ª       ª       ExampleUpgrade.cs
+ª       ª       ExampleUpgrade.cs.meta
+ª       ª       
+ª       +---Saves
+ª       ª       UpgradeSavableObject.cs
+ª       ª       UpgradeSavableObject.cs.meta
+ª       ª       
+ª       +---UI
+ª               IUpgradePanel.cs
+ª               IUpgradePanel.cs.meta
+ª               UIUpgrades.cs
+ª               UIUpgrades.cs.meta
+ª               UpgradePanelHelper.cs
+ª               UpgradePanelHelper.cs.meta
+ª               UpgradeUIPanel.cs
+ª               UpgradeUIPanel.cs.meta
+ª               
++---Shaders
+ª   ª   Tiled Navigation Arrow Shader.shadergraph
+ª   ª   Tiled Navigation Arrow Shader.shadergraph.meta
+ª   ª   Watermelon Shader.meta
+ª   ª   
+ª   +---Watermelon Shader
+ª       ª   Clouds.shader
+ª       ª   Clouds.shader.meta
+ª       ª   CurvedUIShader.shadergraph
+ª       ª   CurvedUIShader.shadergraph.meta
+ª       ª   Editor.meta
+ª       ª   Images.meta
+ª       ª   Includes.meta
+ª       ª   Opaque.meta
+ª       ª   Particles.shader
+ª       ª   Particles.shader.meta
+ª       ª   Rim.meta
+ª       ª   Scripts.meta
+ª       ª   Subshaders.meta
+ª       ª   Toon.meta
+ª       ª   Transparent.meta
+ª       ª   Universal.shader
+ª       ª   Universal.shader.meta
+ª       ª   Water Shader.shader
+ª       ª   Water Shader.shader.meta
+ª       ª   
+ª       +---Editor
+ª       ª       ParticlesGUI.cs
+ª       ª       ParticlesGUI.cs.meta
+ª       ª       RampLitGUI.cs
+ª       ª       RampLitGUI.cs.meta
+ª       ª       RampLitTransparentGUI.cs
+ª       ª       RampLitTransparentGUI.cs.meta
+ª       ª       ToonLitGUI.cs
+ª       ª       ToonLitGUI.cs.meta
+ª       ª       ToonLitTransparentGUI.cs
+ª       ª       ToonLitTransparentGUI.cs.meta
+ª       ª       ToonUnlitGUI.cs
+ª       ª       ToonUnlitGUI.cs.meta
+ª       ª       ToonUnlitTransparentGUI.cs
+ª       ª       ToonUnlitTransparentGUI.cs.meta
+ª       ª       UniversalGUI.cs
+ª       ª       UniversalGUI.cs.meta
+ª       ª       WaterGUI.cs
+ª       ª       WaterGUI.cs.meta
+ª       ª       
+ª       +---Images
+ª       ª       Ramp.png
+ª       ª       Ramp.png.meta
+ª       ª       
+ª       +---Includes
+ª       ª   ª   Curve.hlsl
+ª       ª   ª   Curve.hlsl.meta
+ª       ª   ª   Curve.shadersubgraph
+ª       ª   ª   Curve.shadersubgraph.meta
+ª       ª   ª   Emission.hlsl
+ª       ª   ª   Emission.hlsl.meta
+ª       ª   ª   Fog.hlsl
+ª       ª   ª   Fog.hlsl.meta
+ª       ª   ª   Foliage.hlsl
+ª       ª   ª   Foliage.hlsl.meta
+ª       ª   ª   Light Color.meta
+ª       ª   ª   Light Dir.meta
+ª       ª   ª   LightColor.hlsl
+ª       ª   ª   LightColor.hlsl.meta
+ª       ª   ª   Lighting.hlsl
+ª       ª   ª   Lighting.hlsl.meta
+ª       ª   ª   Normals.hlsl
+ª       ª   ª   Normals.hlsl.meta
+ª       ª   ª   Position.hlsl
+ª       ª   ª   Position.hlsl.meta
+ª       ª   ª   Rim.hlsl
+ª       ª   ª   Rim.hlsl.meta
+ª       ª   ª   RimLighting.hlsl
+ª       ª   ª   RimLighting.hlsl.meta
+ª       ª   ª   Shadow Atten.meta
+ª       ª   ª   Shadows.hlsl
+ª       ª   ª   Shadows.hlsl.meta
+ª       ª   ª   Specular.hlsl
+ª       ª   ª   Specular.hlsl.meta
+ª       ª   ª   Toon.hlsl
+ª       ª   ª   Toon.hlsl.meta
+ª       ª   ª   Universal.meta
+ª       ª   ª   Utils.hlsl
+ª       ª   ª   Utils.hlsl.meta
+ª       ª   ª   Water.meta
+ª       ª   ª   
+ª       ª   +---Light Color
+ª       ª   ª       Light Color Float.shadersubgraph
+ª       ª   ª       Light Color Float.shadersubgraph.meta
+ª       ª   ª       Light Color Half.shadersubgraph
+ª       ª   ª       Light Color Half.shadersubgraph.meta
+ª       ª   ª       Light Color.hlsl
+ª       ª   ª       Light Color.hlsl.meta
+ª       ª   ª       
+ª       ª   +---Light Dir
+ª       ª   ª       Light Dir.hlsl
+ª       ª   ª       Light Dir.hlsl.meta
+ª       ª   ª       Light Direction Float.shadersubgraph
+ª       ª   ª       Light Direction Float.shadersubgraph.meta
+ª       ª   ª       Light Direction Half.shadersubgraph
+ª       ª   ª       Light Direction Half.shadersubgraph.meta
+ª       ª   ª       
+ª       ª   +---Shadow Atten
+ª       ª   ª       Shadow Atten.hlsl
+ª       ª   ª       Shadow Atten.hlsl.meta
+ª       ª   ª       Shadow Attenuation Float.shadersubgraph
+ª       ª   ª       Shadow Attenuation Float.shadersubgraph.meta
+ª       ª   ª       Shadow Attenuation Half.shadersubgraph
+ª       ª   ª       Shadow Attenuation Half.shadersubgraph.meta
+ª       ª   ª       
+ª       ª   +---Universal
+ª       ª   ª       UniversalDepthInit.hlsl
+ª       ª   ª       UniversalDepthInit.hlsl.meta
+ª       ª   ª       UniversalDepthNormalsInit.hlsl
+ª       ª   ª       UniversalDepthNormalsInit.hlsl.meta
+ª       ª   ª       UniversalDepthNormalsPass.hlsl
+ª       ª   ª       UniversalDepthNormalsPass.hlsl.meta
+ª       ª   ª       UniversalDepthPass.hlsl
+ª       ª   ª       UniversalDepthPass.hlsl.meta
+ª       ª   ª       UniversalLitInit.hlsl
+ª       ª   ª       UniversalLitInit.hlsl.meta
+ª       ª   ª       UniversalLitPass.hlsl
+ª       ª   ª       UniversalLitPass.hlsl.meta
+ª       ª   ª       UniversalOutlineInit.hlsl
+ª       ª   ª       UniversalOutlineInit.hlsl.meta
+ª       ª   ª       UniversalOutlinePass.hlsl
+ª       ª   ª       UniversalOutlinePass.hlsl.meta
+ª       ª   ª       UniversalParams.hlsl
+ª       ª   ª       UniversalParams.hlsl.meta
+ª       ª   ª       UniversalShadowsInit.hlsl
+ª       ª   ª       UniversalShadowsInit.hlsl.meta
+ª       ª   ª       UniversalShadowsPass.hlsl
+ª       ª   ª       UniversalShadowsPass.hlsl.meta
+ª       ª   ª       
+ª       ª   +---Water
+ª       ª           WaterParams.hlsl
+ª       ª           WaterParams.hlsl.meta
+ª       ª           
+ª       +---Opaque
+ª       ª       Lit_Float (Legacy).shadergraph
+ª       ª       Lit_Float (Legacy).shadergraph.meta
+ª       ª       Lit_Half (Legacy).shadergraph
+ª       ª       Lit_Half (Legacy).shadergraph.meta
+ª       ª       Unlit_Float (Legacy).shadergraph
+ª       ª       Unlit_Float (Legacy).shadergraph.meta
+ª       ª       Unlit_Half (Legacy).shadergraph
+ª       ª       Unlit_Half (Legacy).shadergraph.meta
+ª       ª       
+ª       +---Rim
+ª       ª       Rim Lighting Float (Legacy).shadergraph
+ª       ª       Rim Lighting Float (Legacy).shadergraph.meta
+ª       ª       Rim Lighting Half (Legacy).shadergraph
+ª       ª       Rim Lighting Half (Legacy).shadergraph.meta
+ª       ª       Rim Lighting Moving Half (Legacy).shadergraph
+ª       ª       Rim Lighting Moving Half (Legacy).shadergraph.meta
+ª       ª       Rim Lighting Transparent Float (Legacy).shadergraph
+ª       ª       Rim Lighting Transparent Float (Legacy).shadergraph.meta
+ª       ª       Rim Lighting Transparent Half (Legacy).shadergraph
+ª       ª       Rim Lighting Transparent Half (Legacy).shadergraph.meta
+ª       ª       Rim Lighting Transparent Half Zombie (Legacy).shadergraph
+ª       ª       Rim Lighting Transparent Half Zombie (Legacy).shadergraph.meta
+ª       ª       
+ª       +---Scripts
+ª       ª       ShaderHelper.cs
+ª       ª       ShaderHelper.cs.meta
+ª       ª       
+ª       +---Subshaders
+ª       ª   ª   Rim.meta
+ª       ª   ª   Shadow_Float_subshader.shadersubgraph
+ª       ª   ª   Shadow_Float_subshader.shadersubgraph.meta
+ª       ª   ª   Shadow_Half_subshader.shadersubgraph
+ª       ª   ª   Shadow_Half_subshader.shadersubgraph.meta
+ª       ª   ª   Toon Lighting.meta
+ª       ª   ª   Toon_Float_subshader.shadersubgraph
+ª       ª   ª   Toon_Float_subshader.shadersubgraph.meta
+ª       ª   ª   Toon_Half_subshader.shadersubgraph
+ª       ª   ª   Toon_Half_subshader.shadersubgraph.meta
+ª       ª   ª   
+ª       ª   +---Rim
+ª       ª   ª       Rim Float.shadersubgraph
+ª       ª   ª       Rim Float.shadersubgraph.meta
+ª       ª   ª       Rim Half.shadersubgraph
+ª       ª   ª       Rim Half.shadersubgraph.meta
+ª       ª   ª       
+ª       ª   +---Toon Lighting
+ª       ª           Toon Lighting Float.shadersubgraph
+ª       ª           Toon Lighting Float.shadersubgraph.meta
+ª       ª           Toon Lighting Half.shadersubgraph
+ª       ª           Toon Lighting Half.shadersubgraph.meta
+ª       ª           
+ª       +---Toon
+ª       ª   ª   Lit.meta
+ª       ª   ª   Unlit.meta
+ª       ª   ª   
+ª       ª   +---Lit
+ª       ª   ª       Toon Lit Float (Legacy).shadergraph
+ª       ª   ª       Toon Lit Float (Legacy).shadergraph.meta
+ª       ª   ª       Toon Lit Half (Legacy).shadergraph
+ª       ª   ª       Toon Lit Half (Legacy).shadergraph.meta
+ª       ª   ª       Toon Lit Transparent Float (Legacy).shadergraph
+ª       ª   ª       Toon Lit Transparent Float (Legacy).shadergraph.meta
+ª       ª   ª       Toon Lit Transparent Half (Legacy).shadergraph
+ª       ª   ª       Toon Lit Transparent Half (Legacy).shadergraph.meta
+ª       ª   ª       
+ª       ª   +---Unlit
+ª       ª           Toon Unlit Float (Legacy).shadergraph
+ª       ª           Toon Unlit Float (Legacy).shadergraph.meta
+ª       ª           Toon Unlit Half (Legacy).shadergraph
+ª       ª           Toon Unlit Half (Legacy).shadergraph.meta
+ª       ª           Toon Unlit Transparent Float (Legacy).shadergraph
+ª       ª           Toon Unlit Transparent Float (Legacy).shadergraph.meta
+ª       ª           Toon Unlit Transparent Half (Legacy).shadergraph
+ª       ª           Toon Unlit Transparent Half (Legacy).shadergraph.meta
+ª       ª           
+ª       +---Transparent
+ª               Lit_Transparent_Float (Legacy).shadergraph
+ª               Lit_Transparent_Float (Legacy).shadergraph.meta
+ª               Lit_Transparent_Half (Legacy).shadergraph
+ª               Lit_Transparent_Half (Legacy).shadergraph.meta
+ª               Unlit_Transparent_Float (Legacy).shadergraph
+ª               Unlit_Transparent_Float (Legacy).shadergraph.meta
+ª               Unlit_Transparent_Half (Legacy).shadergraph
+ª               Unlit_Transparent_Half (Legacy).shadergraph.meta
+ª               
++---Textures
+        buildings_foliage.png
+        buildings_foliage.png.meta
+        buildings_norm.png
+        buildings_norm.png.meta
+        buildings_spec.png
+        buildings_spec.png.meta
+        buildings_tex.png
+        buildings_tex.png.meta
+        Characters_specular.png
+        Characters_specular.png.meta
+        Characters_tex.png
+        Characters_tex.png.meta
+        Clouds.png
+        Clouds.png.meta
+        noise.png
+        noise.png.meta
+        noise_blocky.png
+        noise_blocky.png.meta
+        res_foliage.png
+        res_foliage.png.meta
+        res_normal.png
+        res_normal.png.meta
+        res_tex.png
+        res_tex.png.meta
+        terrain_bump_COLOR.png
+        terrain_bump_COLOR.png.meta
+        terrain_foliage.png
+        terrain_foliage.png.meta
+        terrain_normal.png
+        terrain_normal.png.meta
+        terrain_tex.png
+        terrain_tex.png.meta
+        water_norm.png
+        water_norm.png.meta
+        water_tex.png
+        water_tex.png.meta
+        water_tex_blurry.png
+        water_tex_blurry.png.meta
+        water_tex_pattern.png
+        water_tex_pattern.png.meta
+        

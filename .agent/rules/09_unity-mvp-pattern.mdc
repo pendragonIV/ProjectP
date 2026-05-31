@@ -1,0 +1,138 @@
+---
+id: "rule-unity-hybrid-architecture"
+name: "Hybrid Architecture — MVP (UI) + Service + State Machine (Gameplay)"
+description: "Kiến trúc Hybrid cho SwordIdle: UI dùng MVP (Passive View + Presenter), Gameplay dùng Service + State Machine (enum + TransitionTo). Áp dụng khi thiết kế hoặc refactor popup, HUD, game loop, hoặc khi user nhắc MVP / kiến trúc / state machine / service."
+version: "2.0.0"
+alwaysApply: true
+enabled: true
+priority: 22
+tags: ["unity", "mvp", "ui", "architecture", "presentation", "state-machine", "service"]
+globs: ["**/*.cs"]
+excludeGlobs: ["**/Plugins/**", "**/Editor/**"]
+scope: "project"
+services: ["*"]
+appliesTo: ["code", "chat"]
+match: ""
+variables: {}
+rules: []
+examples: []
+references: []
+commands: []
+owners: ["devgo2003"]
+createdAt: "2026-04-04T00:00:00Z"
+updatedAt: "2026-05-20T00:00:00Z"
+notes: "Nâng cấp từ MVP thuần sang Hybrid Architecture (v2.0)."
+language: vi
+---
+
+# Hybrid Architecture cho Unity SwordIdle
+
+## Tổng quan
+
+SwordIdle dùng kiến trúc **Hybrid** — chọn pattern đúng cho từng layer:
+
+| Layer | Pattern | Khi nào dùng |
+|---|---|---|
+| **UI** | **MVP (Passive View)** | Popup, HUD, Panel, bất kỳ UI nào |
+| **Gameplay** | **Service + State Machine** | Stage loop, Dungeon loop, combat flow |
+| **Data** | **POCO Model** | HP formula, config data, save data |
+| **Infrastructure** | **Event-Driven + DI** | Liên module communication |
+
+## UI Layer — MVP (Passive View)
+
+### Khi áp dụng
+- Luồng **UI mới** (popup, panel, HUD) hoặc tính năng cần tách input / hiển thị khỏi nghiệp vụ.
+- Refactor `MonoBehaviour` phình to (layout + business rules trộn lẫn).
+
+### Vai trò
+
+| Lớp | Trách nhiệm | Gợi ý Unity |
+|-----|-------------|-------------|
+| **Model** | Dữ liệu + quy tắc; không phụ thuộc layout nút cụ thể. | Class thuần, `ScriptableObject`, service. |
+| **View** | Passive: chỉ expose public methods. **KHÔNG** subscribe EventBus, **KHÔNG** resolve DI. | `MonoBehaviour` chỉ reference + expose `UpdateLabel()`, `Refresh()`. |
+| **Presenter** | Subscribe EventBus (OnEnable/OnDisable); resolve DI (Awake); gọi View.Method(data). | MonoBehaviour gắn cạnh View. |
+
+### Quy tắc
+1. **View không chứa nghiệp vụ** — không subscribe event, không gọi Service.
+2. **Presenter** điều phối — subscribe event, gọi View method với data đã xử lý.
+3. **Subscribe/Unsubscribe** trong `OnEnable`/`OnDisable` (không dùng `Awake`/`OnDestroy`).
+
+### Anti-pattern
+- ❌ View gọi thẳng `GameServicesHost.Instance` hoặc subscribe `EventBus`.
+- ❌ View chứa logic tính toán, format data, hoặc if/else nghiệp vụ.
+
+## Gameplay Layer — Service + State Machine
+
+### Khi áp dụng
+- Game loop phức tạp (Stage, Dungeon, Boss encounter...).
+- Nhiều trạng thái phụ thuộc lẫn nhau (spawning → fighting → clearing → done).
+- Logic cần dùng chung giữa nhiều system.
+
+### Vai trò
+
+| Lớp | Trách nhiệm | Gợi ý Unity |
+|-----|-------------|-------------|
+| **State Machine** | Enum state + `TransitionTo()`. Delegate logic cho Service. | MonoBehaviour, chứa enum + switch. |
+| **Service** | Logic nghiệp vụ dùng chung. POCO, inject qua constructor. | `SpawnWaveService`, `LootDropService`. |
+| **Model** | Data + pure functions. Không phụ thuộc Unity. | `StageModel`, `DungeonModel`. |
+
+### Quy tắc
+1. **KHÔNG** dùng boolean flags (`m_isMovingToEnd`, `m_isPaused`). Dùng **enum State**.
+2. **TransitionTo(state)** là entry point duy nhất — log transition, switch vào Enter method.
+3. **Service (POCO)** dễ test — inject `IPoolManager`/`IEventBus` qua constructor.
+4. Khi cần thêm state mới (Boss, Rest, Shop) → thêm enum value + Enter method.
+
+### Anti-pattern
+- ❌ Manager chứa cả spawn logic, HP calculation, target selection, movement control.
+- ❌ Copy-paste logic giữa Stage và Dungeon.
+
+## Ví dụ
+
+### MVP (UI)
+```csharp
+// Presenter
+public sealed class GoldHUDPresenter : MonoBehaviour
+{
+    [SerializeField] private GoldHUDView goldView;
+    private IEventBus m_eventBus;
+
+    void OnEnable() => m_eventBus.Subscribe<GoldChangedEvent>(OnGoldChanged);
+    void OnDisable() => m_eventBus.Unsubscribe<GoldChangedEvent>(OnGoldChanged);
+    void OnGoldChanged(GoldChangedEvent e) => goldView.UpdateLabel(e.CurrentAmount);
+}
+
+// View (Passive)
+public sealed class GoldHUDView : MonoBehaviour
+{
+    [SerializeField] private TMP_Text goldLabel;
+    public void UpdateLabel(int amount) => goldLabel.text = amount.ToString();
+}
+```
+
+### State Machine (Gameplay)
+```csharp
+public sealed class LevelProgressionManager : MonoBehaviour
+{
+    private StageState m_state;
+    private SpawnWaveService m_spawner;
+    private StageModel m_model;
+
+    private void TransitionTo(StageState newState)
+    {
+        m_state = newState;
+        switch (newState)
+        {
+            case StageState.Spawning: EnterSpawning(); break;
+            case StageState.Fighting: EnterFighting(); break;
+            case StageState.Clearing: EnterClearing(); break;
+            // ...
+        }
+    }
+}
+```
+
+## Tài liệu tham chiếu
+
+- Cấu trúc tổng: `.agent/architecture.md`
+- Conventions: `.agent/conventions.md`
+- Knowledge: `.agent/knowledge.md`
